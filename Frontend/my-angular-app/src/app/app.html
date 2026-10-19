@@ -1,0 +1,22 @@
+<div class="page" [style.background-image]="'url(' + backgrounds[selected()] + ')'">
+  <header>Anurag University</header>
+
+  <div class="dropdown">
+    <button class="trigger" (click)="toggle()" [attr.aria-expanded]="open()">
+      <span>{{ selected() }}</span>
+      <span class="chev" [class.up]="open()">▾</span>
+    </button>
+
+    @if (open()) {
+      <ul class="menu">
+        @for (d of departments; track d; let i = $index) {
+          <li>
+            <button class="item" [style.animation-delay]="i * 30 + 'ms'" (click)="choose(d)">
+              {{ d }}
+            </button>
+          </li>
+        }
+      </ul>
+    }
+  </div>
+</div>
