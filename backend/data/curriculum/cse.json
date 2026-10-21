@@ -1,0 +1,946 @@
+{
+ "department": "Computer Science and Engineering",
+ "regulation": "R25 (Years 1-2), JNTUH R22 (Years 3-4)",
+ "years": [
+  {
+   "year": 1,
+   "semesters": [
+    {
+     "semester": 1,
+     "subjects": [
+      {
+       "code": "2599101",
+       "name": "Matrices and Calculus",
+       "l": 3,
+       "t": 1,
+       "p": 0,
+       "credits": 4,
+       "syllabus": "Course Objectives:\nTo learn\n• Applying basic operations on matrices and their properties.\n• Concept of a rank of the matrix and applying this concept to solve the system of linear equations.\n• Concept of eigenvalues and eigen vectors, and to reduce the quadratic form to canonical form\n• Concept of the mean value theorem and its application to mathematical problems\n• Finding maxima and minima of functions of three variables.\n• Evaluation of multiple integrals and their applications.\n\nUNIT-I: Matrices 8 Hrs\n\nRank of a matrix by Echelon form and Normal form — Inverse of Non-singular matrices by Gauss-Jordan\nmethod.\n\nSystem of Linear Equations: Solving a System of Non-Homogeneous Equations by the Gauss\nElimination Method and the Gauss-Seidel Iteration Method.\n\nUNIT-II: Eigen values and Eigen vectors 10 Hrs\n\nLinear Transformation and Orthogonal Transformation: Cayley-Hamilton Theorem (without proof), Eigenvalues\n— Eigen vectors and their properties — Diagonalization of a matrix.\n\nQuadratic Forms and Nature of the Quadratic Forms — Reduction of a Quadratic Form to Canonical Form by\nOrthogonal Transformation.\n\nUNIT-III: Single Variable Calculus 10 Hrs\n\nLimits and Continuity of Functions and Their Properties. Mean Value Theorems: Rolle’s Theorem, Lagrange’s\nMean Value Theorem with Applications, Cauchy's Mean Value Theorem, Taylor’s Series, Maclaurin’s Series\n(All the theorems without proof).\n\nCurve Tracing: Curve tracing in Cartesian coordinates.\n\nUNIT-IV: Multivariable Calculus (Partial Differentiation and applications) 10 Hrs\nDefinitions of Limit and Continuity — Partial Differentiation: Total Derivative — Jacobian — Functional\nDependence & Independence.\n\nApplications: Maxima and minima of functions of three variables using the method of Lagrange multipliers.\nUNIT-V: Multivariable Calculus (Integration) 10 Hrs\nEvaluation of Double Integrals (Cartesian and polar coordinates) — change of order of integration (only\n\nCartesian form) — Change of variables for double integrals (Cartesian to polar). Evaluation of Triple Integrals\nApplications: Areas by double integrals and volumes by triple integrals.",
+       "textbooks": "1. B.S. Grewal, Higher Engineering Mathematics, Khanna Publishers, 36th Edition, 2010.\n\n2. R.K. Jain and S.R.K. lyengar, Advanced Engineering Mathematics, Narosa Publications, 5\"Edition,\n2016.",
+       "referenceBooks": "1. Erwin Kreyszig, Advanced Engineering Mathematics, 9th Edition, John Wiley & Sons, 2006.\n2. G.B. Thomas and R.L. Finney, Calculus and Analytic Geometry, 9th Edition, Pearson, Reprint, 2002.\n3. N.P. Bali and Manish Goyal, A textbook of Engineering Mathematics, Laxmi Publications, Reprint,\n2008.\n4. H.K. Dass and Er. Rajnish Verma, Higher Engineering Mathematics, S Chand and Company Limited,\nNew Delhi.",
+       "outcomes": "After learning the contents of this paper, the student must be able to\n\nCO-1. Write the matrix representation of a set of linear equations and analyze the solution of the system of\nequations\n\nCO-2. Find the eigenvalues and Eigen vectors. Reduce the quadratic form to canonical form using\northogonal transformations.\n\nCO-3. Solve the applications of the mean value theorems.\n\nCO-4. Find the extreme values of functions of three variables with/ without constraints.\n\nCO-5. Evaluate the multiple integrals and apply the concept to find areas and volumes."
+      },
+      {
+       "code": "2599102",
+       "name": "Engineering Chemistry",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Course Objectives:\n\n• To develop adaptability to new advances in Engineering Chemistry and acquire the essential skills to\nbecome a competent engineering professional.\n\n• To understand the industrial significance of water treatment, fundamental principles of battery\nchemistry, and the impact of corrosion, along with its control methods for structural protection.\n\n• To impart foundational knowledge of various energy sources and their practical applications in\nengineering.\n\n• To equip students with an understanding of smart materials, biosensors, and analytical techniques\napplicable in engineering, industrial, environmental, and biomedical fields.\n\n• To acquire the required knowledge about engineering materials like cement, UV-Visible, IR\nspectroscopy\n\nUNIT-I: Water and its treatment: 12 Hrs\n\nIntroduction- Hardness, types, degree of hardness and units. Estimation of hardness of water by\ncomplexometric method - Numerical problems for Temporary and permanent hardness. Potable water and its\nspecifications - Steps involved in the treatment of potable water - Disinfection of potable water by chlorination\nand break-point chlorination. Defluorination- Nalgonda technique.\n\nBoiler Troubles: Scales, Sludges, and Caustic Embrittlement. Internal treatment of boiler feed water - Calgon\nconditioning, Phosphate conditioning, Colloidal conditioning. External treatment methods - Softening of water\nby ion- exchange processes. Desalination of brackish water — Reverse osmosis.\n\nUNIT-II: Electrochemistry and Corrosion: 13Hrs\n\nIntroduction- Electrode potential, standard electrode potential, Nernst equation (no derivation),\nelectrochemical cell - Galvanic cell, cell representation, EMF of cell - Numerical problems. Types of\nelectrodes, reference electrodes - Primary reference electrode - Standard Hydrogen Electrode (SHE),\nSecondary reference electrode - Calomel electrode. Construction, working and determination of pH of\nunknown solution using SHE and Calomel electrode.\n\nCorrosion: Introduction - Definition, causes, and effects of corrosion. Theories of corrosion include chemical\nand electrochemical theories. Types of corrosion include galvanic, water-line, and pitting corrosion. Factors\naffecting rate of corrosion - Nature of the metal (Position of metal in galvanic series, Purity of metal, Nature of\ncorrosion product), Nature of the corroding environment (Temperature, Humidity, and pH). Corrosion control\nmethods - Cathodic protection Methods - Sacrificial anode and impressed current methods.\n\nUNIT-III: Energy Sources: 13Hrs\n\nBatteries: Introduction — Classification of batteries - Primary, secondary and reserve batteries with examples.\nConstruction, Working, and Applications of Zn-Air and Lithium-lon Batteries. Fuel Cells — Differences between\na battery and a fuel cell, Construction and applications of Direct Methanol Fuel Cell (DMFC).\n\nFuels: Introduction and characteristics of a good fuel, Calorific value — Units- HCV, LCV- Dulongs formula-\nNumerical problems.\n\nFossil Fuels: Introduction, Classification, Petroleum Refining of Crude Oil, Cracking - Types of Cracking -\nMoving Bed Catalytic Cracking. LPG and CNG composition and uses.\n\nSynthetic Fuels: Fischer-Tropsch Process, Introduction, and Applications of Hythane and Green Hydrogen.\n\nUNIT - IV: Polymers: 13Hrs\n\nDefinition - Classification of polymers: Based on origin and tacticity with examples — Types of polymerization -\nAddition and condensation polymerization.\n\nPlastics, Elastomers and Fibers: Definition and applications (PVC, Buna-S, Nylon-6,6),preparation, properties\nand applications of Bakelite. Differences between themoplastics and thermosetting plastics\n\nConducting polymers: Definition and Classification with examples - Mechanism of conduction in\ntrans-poly-acetylene and applications of conducting polymers.\n\nBiodegradable polymers: Polylactic acid and its applications.\nUNIT-V- Advanced Functional Materials: 10Hrs\n\nCement: Portland cement, its composition, setting and hardening.\n\nBiosensor - Definition, Amperometric Glucose monitor sensor.\n\nInterpretative spectroscopic applications of UV-Visible spectroscopy for Analysis of pollutants in dye industry,\nIR spectroscopy in night vision-security, Pollution Under Control- CO sensor (Passive Infrared detection).",
+       "textbooks": "1. Engineering Chemistry by P.C. Jain and M. Jain, Dhanpatrai Publishing Company, 2010.\n2. Engineering Chemistry by Rama Devi,Dr.P.Aparna and Rath, Cengage learning, 2025.",
+       "referenceBooks": "1. Engineering Chemistry: by Thirumala Chary Laxminarayana& Shashikala, Pearson\nPublications (2020)\n\n2. Engineering Chemistry by Shashi Chawla, Dhanpatrai and Company (P) Ltd. Delhi 2011.\n\n3. Engineering Chemistry by Shikha Agarwal, Cambridge University Press, Delhi 2015.\n\n4. Engineering Analysis of Smart Material Systems by Donald J. Leo, Wiley, 2007.\n\n5. Challenges and Opportunities in Green Hydrogen by Editors: Paramvir Singh, Avinash Kumar\nAgarwal, Anupma Thakur, R.K Sinha.\n\n6. Raman Spectroscopy in Human Health and Biomedicine, https://Mwww.worldscientific.com/\ndoi/epdf/10.1142/13094\n\n7. €E-Content- https://doi.org/10.1142/13094 | October 2023\n\n8. E-books: https://archive.org/details/EngineeringChemistryByShashiChawla/page/n11/mode/2u",
+       "outcomes": "After completion of the course, the student should be able to\n\nCO-1. Students will be able to understand the fundamental properties of water and its applications in both\ndomestic and industrial purposes.\n\nCO-2. Students will gain basic knowledge of electrochemical processes and their relevance to corrosion and\nits control methods.\n\nCO-3. Students will comprehend the significance and practical applications of batteries and various energy\nsources, enhancing their potential as future engineers and entrepreneurs\n\nCO-4. Students will learn the basic concepts and properties of polymers and other engineering materials\n\nCO-5. Students will be able to apply the principles of UV-Visible, IR spectroscopy in analyzing pollutants in\ndye industries and biomedical applications."
+      },
+      {
+       "code": "2599103",
+       "name": "English for Skill Enhancement",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Course Objectives:\n• Improve their vocabulary.\n• Use appropriate sentence structures in their oral and written communication.\n• Develop their reading and study skills.\n• Equip students to write paragraphs, essays, précis and draft letters.\n• Acquire skills for technical report writing.\n\nUNIT -I 12hrs\n\nTheme: Perspectives\nLesson on ‘The Generation Gap’ by Benjamin M. Spock from the prescribed textbook\ntitled English for the Young in the Digital World published by Orient Black Swan Pvt.\nLtd.\n\nVocabulary: The Concept of Word Formation -The Use of Prefixes and Suffixes - Words Often Misspelt -\nSynonyms and Antonyms\n\nGrammar: Identifying Common Errors in Writing with Reference to Parts of Speech, particularly Articles\nand Prepositions — Degrees of Comparison\n\nReading: Reading and Its Importance- Sub Skills of Reading — Skimming and Scanning.\n\nWriting: Sentence Structures and Types -Use of Phrases and Clauses in Sentences- Importance of\n\nProper Punctuation- Techniques for Writing Precisely -Nature and Style of Formal Writing.\nUNIT -II 12hrs\n\nTheme: Digital Transformation\nLesson on ‘Emerging Technologies’ from the prescribed textbook titled English for the\nYoung in the Digital World published by Orient BlackSwan Pvt. Ltd.\n\nVocabulary: Homophones, Homonyms and Homographs\n\nGrammar: Identifying Common Errors in Writing with Reference to Noun-pronoun Agreement and\nSubject-verb Agreement.\n\nReading: Reading Strategies-Guessing Meaning from Context — Identifying Main Ideas —\nExercises for Practice\n\nWriting: Paragraph Writing — Types, Structures and Features of a Paragraph - Creating Coherence —\n\nLinkers and Connectives - Organizing Principles in a Paragraph — Defining- Describing\nPeople, Objects, Places and Events — Classifying- Providing Examples or Evidence - Essay\nWriting - Writing Introduction and Conclusion.\n\nUNIT —lll 13hrs\n\nTheme: Attitude and Gratitude\nPoems on ‘Leisure’ by William Henry Davies and ‘Be Thankful’ - Unknown Author\nfrom the prescribed textbook titled English for the Young in the Digital World published\nby Orient Black Swan Pvt. Ltd.\n\nVocabulary: Words Often Confused - Words from Foreign Languages and their Use in English.\n\nGrammar: Identifying Common Errors in Writing with Reference to Misplaced Modifiers and Tenses.\n\nReading: Sub-Skills of Reading — Identifying Topic Sentence and Providing Supporting Ideas -\nExercises for Practice.\n\nWriting: Format of a Formal Letter-Writing Formal Letters E.g.., Letter of Complaint, Letter of\n\nRequisition, Job Application with CV/Resume —Difference between Writing a Letter and an\nEmail - Email Etiquette.\n\nUNIT -IV 12hrs\nTheme: Entrepreneurship\n\nLesson on ‘Why a Start-Up Needs to Find its Customers First by Pranav Jain from the\nprescribed textbook titled English for the Young in the Digital World published by\n\nOrient Black Swan Pvt. Ltd.\nVocabulary: Standard Abbreviations in English — Inferring Meanings of Words through Context — Phrasal\nVerbs — Idioms.\n\nGrammar: Redundancies and Clichés in Written Communication — Converting Passive to Active Voice\nand Vice-Versa.\n\nReading: Prompt Engineering Techniques— Comprehending and Generating Appropriate Prompts -\nExercises for Practice\n\nWriting: Writing Practices- Note Making-Précis Writing.\n\nUNIT -V 12hrs\n\nTheme: Integrity and Professionalism\n\nLesson on ‘Professional Ethics’ from the prescribed textbook titled English for the\nYoung in the Digital World, published by Orient BlackSwan Pvt. Ltd.\nVocabulary: Technical Vocabulary and their Usage— One Word Substitutes — Collocations.\n\nGrammar: Direct and Indirect Speech - Common Errors in English (Covering all the other aspects of\ngrammar which were not covered in the previous units)\n\nReading: Survey, Question, Read, Recite and Review (SQ3R Method) — Inferring the Meaning and\nEvaluating a Text- Exercises for Practice\n\nWriting: Report Writing - Technical Reports- Introduction — Characteristics of a Report —\n\nCategories of Reports Formats- Structure of Reports (Manuscript Format) -Types of\nReports - Writing a Technical Report.",
+       "textbooks": "1. Board of Editors. 2025. English for the Young in the Digital World. Orient Black Swan Pvt. Ltd.",
+       "referenceBooks": "1. Swan, Michael. (2016). Practical English Usage. Oxford University Press. New Edition.\n\n2. Karal, Rajeevan. 2023. English Grammar Just for You. Oxford University Press. New Delhi\n\n3. 2024. Empowering with Language: Communicative English for Undergraduates. Cengage Learning\nIndia Pvt. Ltd. New Delhi\n\n4. Sanjay Kumar &Pushp Lata. 2022. Communication Skills — A Workbook. Oxford University Press.\nNew Delhi\n\n5. Wood,F.T. (2007). Remedial English Grammar. Macmillan.\n\n6. Vishwamohan, Aysha. (2013). English for Technical Communication for Engineering Students,\nMcGraw-Hill Education India Pvt. Ltd.",
+       "outcomes": "Students will be able to:\n\nCO-1. Choose appropriate vocabulary in their oral and written communication.\n\nCO-2. Demonstrate their understanding of the rules of functional grammar and sentence structures.\nCO-3. Develop comprehension skills from known and unknown passages.\n\nCO-4. Write paragraphs, essays, précis and draft letters.\n\nCO-5. Write abstracts and reports in various contexts."
+      },
+      {
+       "code": "2503101",
+       "name": "Computer Aided Engineering Graphics",
+       "l": 2,
+       "t": 0,
+       "p": 2,
+       "credits": 3,
+       "syllabus": "Course Objectives\n• To introduce the fundamentals of engineering drawing and projection systems.\n• To develop skills in constructing orthographic, isometric, and sectional views.\n• To train students in interpreting and creating technical drawings using CAD tools.\n• To familiarize students with dimensioning standards and drafting conventions.\n• To bridge manual drafting techniques with computer-aided drafting practices.\n\nUNIT-I: 13Hrs\n\nIntroduction to Engineering Graphics (Conventional):\n\nPrinciples of Engineering Graphics and their Significance, Geometrical Constructions, Scales, Plain and\nDiagonal, Conic Sections, including the Rectangular Hyperbola, General method only. Cycloid, Epicycloids\nand Hypocycloid.\n\nUNIT-II: 12Hrs\n\nOrthographic Projections (Conventional and Computer Aided)\n\nPrinciples of Orthographic Projections, Conventions, Projections of Points and Lines, Projections of Plane\nregular geometric figures. Computer aided orthographic projections, points, lines and planes. Introduction to\nComputer-Aided Drafting, views, commands and conics.\n\nUNIT-III: 12Hrs\n\nProjections of Regular Solids (Conventional and Computer Aided)\nSections or Sectional views of Right Regular Solids, Prism, Cylinder, Pyramid, Cone, and Computer aided\nprojections of solids, sectional views\n\nUNIT-IV: 10Hrs\n\nDevelopment of Surfaces (Conventional)\nPrism, Cylinder, Pyramid and Cone.\n\nUNIT-V: 13Hrs\n\nIsometric Projections (Conventional and Computer Aided)\n\nPrinciples of Isometric Projection, Isometric Scale, Isometric Views, Conventions, Isometric Views of Lines,\nPlane Figures, Simple and Compound Solids, Isometric Projection of objects having non-isometric lines.\nConversion of Isometric Views to Orthographic Views and Vice Versa, Conventions. Conversion of\northographic projection into an isometric view.",
+       "textbooks": "1. Engineering Drawing, N.D.Bhatt, Charotar,54th Edition, 2023.\n2. Engineering Drawing and graphics Using AutoCAD, T. Jeyapoovan and Vikas, S. Chand and\nCompany Ltd., 3rdEdition,2010.\n\nReferences Books:\n1. Engineering Drawing, Basant Agrawal and C.M.Agrawal, McGraw Hill,3rdEdition,2019.\n2. Engineering Graphics and Design, WILEY, John Wiley and Sons Inc,3rdEdition, 2020.\n3. Engineering Drawing, M.B.Shah and B.C.Rane,Pearson,2ndEdition, 2009.\n4. Engineering Drawing, N.S.Parthasarathy and Vela Murali, Oxford,1st Edition,2015.\n5. Computer Aided Engineering Drawing, K.Balaveera Reddy, CBS Publishers, 2nd Edition,2015.",
+       "referenceBooks": "",
+       "outcomes": "After completion of the course, the student should be able to\n\nCO-1. Understand and apply the principles of orthographic and isometric projections.\nCO-2. Create sectional views and dimensioned drawings using BIS standards.\nCO-3. Use CAD software to generate 2D engineering drawings.\n\nCO-4. Visualize and construct solid models from 2D views.\n\nCO-5. Demonstrate drafting skills for practical and industrial applications."
+      },
+      {
+       "code": "2505101",
+       "name": "Programming for Problem Solving",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Course Objectives:\n• To learn the syntax and semantics of the C programming language.\ne = To familiarize with decision making and looping constructs along with Arrays and Strings.\n• To develop the ability to handle data using Structures, Unions and Pointers.\n• To impart the knowledge of modular programming using functions.\n• To introduce various techniques for the representation of data in the real world.\n\nUNIT -I Introduction to C Programming Language 12 Hrs\n\nIdentifiers, Data Types, Variables, Constants, Structure of a C Program, Creating and Running a Program.\nFormatting Input/Output, Operators, Precedence & Associatively, Expressions, Type conversion,\nPre-processor commands: #include, #define.\n\nUNIT - Il Selection & Repetition Statements, Arrays and Strings 12 Hrs\n\nSelection statements: if, if-else, nested if-else, if-else-if, switch-case.\n\nRepetition Statements: while, do-while, for, break, continue.\n\nArrays: One-dimensional and Two-dimensional arrays- Declaration, initialization, accessing elements in\narrays.\n\nStrings: C Strings, String Input/Output Functions, String manipulation functions (strlen(), strcat(), strcpy(),\nstremp(), strrev()), Array of strings.\n\nUNIT - Ill Structures and Pointers 12 Hrs\n\nDefining Structures, Initializing & Accessing Structures, Nested Structures, Array of Structures, Unions,\ntypedef, Enumerated Types.\n\nPointers: Pointer Declaration and Definition, Pointer Arithmetic, Pointers and Arrays, Array of pointers,\nPassing Structures through Pointers.\n\nUNIT -IV Functions: 12 Hrs\n\nFunction Definition, Function Declaration, Function Call, Actual and Formal Parameters and return statement,\nInter Function Communication (Pass by Value, Pass by Reference), Recursion, Limitations of Recursion,\nDynamic memory allocation ( malloc(), calloc(), free() ), Storage classes (auto, extern, static and register).\n\nUNIT-V Files 12 Hrs:\n\nText and Binary files, State of file, File Modes, Standard library Functions for Files: File open, File close,\nFormatting Input/Output Functions(fprintf(), fscanf()), Character Input/Output (fgetc(), fputc()), Block Input/\nOutput(fread(), fwrite()), File Status functions, Positioning Functions, Command Line arguments.\n\nSearching: Linear & Binary Search, Sorting: Bubble, Insertion & Selection Sort.",
+       "textbooks": "1. B.A. Forouzan and R.F.Gilberg, C Programming and Data Structures, Cengage Learning, (3rd Edition)\n2. Jeri R.Hanlyand Elliot B. Koffman, Problem Solving and Program Design in C, 7th Edition, Pearson.",
+       "referenceBooks": "1. Brian W. Kernighan and Dennis M.Ritchie, The C Programming Language, Prentice Hall of India\n2. E. Balagurusamy, Computer Fundamentals and C, 2nd Edition, McGraw-Hill\n\n3. Yashavant Kanetkar, LetUsC, 18th Edition, BPB\n\n4. R.G.Dromey, How to solve it by Computer, Pearson (16th Impression)\n\n5. Herbert Schildt, C: The Complete Reference, McGraw-Hill, 4th Edition",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. Understand basic Programming Concepts.\n\nCO-2. Apply decision making and looping constructs along with Arrays and Strings.\nCO-3. Demonstrate the use of Structure, Unions and Pointers.\n\nCO-4. Apply the concept of code reusability using Functions.\n\nCO-5. Implement various File handling techniques, Searching and Sorting Techniques."
+      },
+      {
+       "code": "2599104",
+       "name": "English Language and Communication Skills Laboratory",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Course Objectives\n• To enable students to develop their active listening skills\n• To equip students with the necessary training in listening, so that they can comprehend the speech of\npeople from different linguistic backgrounds\n• To improve their pronunciation and neutralize their accent\n• To enable students to express themselves fluently and appropriately\n• To practice speaking in social and professional contexts\n\nExercise - | 12 hrs\nCALL Lab:\n\nInstruction: Speech Sounds-Listening Skill - Importance — Purpose - Types- Barriers- Active Listening\nPractice: Listening to Distinguish Speech Sounds (Minimal Pairs) - Testing Exercises\n\nICS Lab:\n\n@ Diagnostic Test — Activity titled ‘Express Your View’\n\nInstruction: Spoken and Written language - Formal and Informal English - Greetings - Introducing Oneself and\nOthers\n\nPractice: Any |ce-Breaking Activity\n\nExercise - Il 12 hrs\nCALL Lab:\n\nInstruction: Listening vs. Hearing — Listening for Sequence\n\nPractice: Listening for General Information - Multiple Choice Questions - Listening Comprehension Exercises\n\nICS Lab:\n\nInstruction: Features of Good Conversation — Strategies for Effective Communication- Understanding\nNon-Verbal Communication\n\nPractice: Role Play Activity -Situational Dialogues —Expressions used in Various Situations -Making Requests\nand Seeking Permissions — Taking Leave - Telephone Etiquette- Silent Speech\n\nExercise - Ill 12 hrs\nCALL Lab:\n\nInstruction: Past Tense and Plural Markers — Tips for Neutralizing Mother Tongue Influence (MT1)\nPractice: Differences between British and American Pronunciation —Listening Comprehension Exercises\n\nICS Lab:\n\nInstruction: Describing Objects, Situations, Places, People and Events\n\nPractice: Picture Description Activity — Looking at a Picture and Describing Objects, Situations, Places,\nPeople and Events\n\nExercise — IV 12 hrs\nCALL Lab:\n\nInstruction: Techniques for Effective Listening\n\nPractice: Listening for Specific Details - Gap Fill Exercises - Past Tense and Plural Markers words-Listening\nExercise\n\nICS Lab:\nInstruction: How to Tell a Good Story - Story Star- Sequencing-Creativity\nPractice: Activity on Telling and Retelling Stories - Collage\n\nExercise - V 13 hrs\nCALL Lab:\n\nInstruction: Identifying the literal and implied meaning\n\nPractice: Listening for Evaluation - Write the Summary — Listening Comprehension Exercises\n\nICS Lab:\nInstruction: Group Discussion Skills\nPractice: Mock Group Discussions-Debates\n\n¢ Post-Assessment Test on ‘Express Your View’\n\nSelf-Practice Programs:\n\n1. Basics of English phonetics, pronunciation, stress, and intonation.\n\n2. Fundamentals of listening and speaking skills in English.\n\n3. Accent development and neutralization of mother tongue influence.\n\n4. Effective communication in formal, informal, and professional contexts.\n5. Public Speaking..\n\nMinimum Requirement of infrastructural facilities for ELCS Lab:\n1. Computer-Assisted Language Learning (CALL) Lab:\nThe Computer Assisted Language Learning Lab has to accommodate 40 students with 40 systems,\nwith one Master Console, LAN facility and English language learning software for self-study by students.\nSystem Requirement (Hardware component):\nComputer network with LAN facility (minimum 40 systems with multimedia) with the following\nspecifications:\ni) Computers with Suitable Configuration\nii) High Fidelity Headphones\n\n2. Interactive Communication Skills (ICS) Lab:\nThe Interactive Communication Skills Lab: A Spacious room with movable chairs and audio-visual aids\nwith a Public Address System, LCD etc.\n\nSuggested Software:\n• Cambridge Advanced Learners’ English Dictionary with CD.\n• Grammar Made Easy by Darling Kindersley.\n• Punctuation Made Easy by Darling Kindersley.\n• Oxford Advanced Learner’s Compass, 10\" Edition.\n• English in Mind (Series 1-4), Herbert Puchta and Jeff Stranks with Meredith Levy, Cambridge.\n• English Pronunciation in Use (Elementary, Intermediate, Advanced) Cambridge University Press.\n• English Vocabulary in Use (Elementary, Intermediate, Advanced) Cambridge University Press.\n• TOEFL & GRE (KAPLAN, AARCO & BARRONS, USA, Cracking GRE by CLIFFS).",
+       "textbooks": "",
+       "referenceBooks": "1. Shobha, KN &Rayen, J. Lourdes. (2019). Communicative English — A workbook. Cambridge\nUniversity Press\n\n2. Board of Editors. (2016). ELCS Lab Manual: A Workbook for CALL and ICS Lab Activities. Orient\nBlack Swan Pvt. Ltd.\n\n3. Mishra, Veerendra et al. (2020). English Language Skills: A Practical Approach. Cambridge University\nPress\n\n4. (2022). English Language Communication Skills — Lab Manual cum Workbook. Cengage Learning\nIndia Pvt. Ltd.\n\n5. Ur, Penny and Wright, Andrew. 2022. Five Minute Activities — A Resource Book for Language\nTeachers. Cambridge University Press.",
+       "outcomes": "Students will be able to:\n\nCO-1. Listen actively and identify important information in spoken texts\nCO-2. Interpret the speech and infer the intention of the speaker\nCO-3. Improve their accent for intelligibility\n\nCO-4. Speak fluently with clarity and confidence\n\nCO-5. Use the language in real-life situations"
+      },
+      {
+       "code": "2599105",
+       "name": "Engineering Chemistry Laboratory",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Course Description: The course includes experiments based on fundamental principles of chemistry\nessential for engineering students, aiming to develop practical skills and reinforce theoretical concepts.\n\nCourse Objectives\n\n1. Students will understand and perform experiments based on core chemical principles relevant to\nengineering applications.\n\n2. Students will learn to estimate the hardness of water to assess its suitability for drinking purposes.\n\n3. Students will acquire the ability to perform acid-base titrations using instrumental methods such as\nconductometry, potentiometry, and pH metry.\n\n4. Students will gain hands-on experience in synthesizing polymers like Bakelite and Nylon — 6, 6 in the\nlaboratory.\n\n5. Students will learn to determine the unknown concentration of potassium permanganate (KMnO4)\nusing a calibration curve.\n\nList of Experiments:\n\n1. Estimation of Hardness of water by EDTA Complexometry method\n\n2. Estimation of the concentration of a strong acid by Conductometry.\n\n3. Estimation of the concentration of strong and weak acids in an acid mixture by Conductometry.\n\n4. Estimation of concentration of Fe**ion by Potentiometry using KMnO,.\n\n5. Estimation of the concentration of a strong acid with a strong base by Potentiometry using\nquinhydrone\n\n6. Determination of an acid concentration using a pH meter.\n\n7. Preparation of Bakelite.\n\n8. Preparation Nylon — 6, 6.\n\n9. Corrosion: Determination of rate of corrosion of mild steel in the presence and absence of inhibitor.\n\n10. Verification of Lambert-Beer’s law using KMnQ,.\n\n11. Smart materials for Biomedical applications (Virtual lab)\n\n12. Functioning of solar cell and its applications. (Virtual lab)\n\nSelf-Practice Programs:\n\n1. Estimation of permanent Hardness of water by EDTA method.\n\n2. Estimation of the concentration of weak acid by Conductometry\n\n3. Determination of Weak acid strength by Strong base(potentiometer)\n4. Estimation of PH of different water samples.\n\n5. Determination of Acidity of water sample.",
+       "textbooks": "",
+       "referenceBooks": "1. Lab manual for Engineering chemistry by B. Ramadevi and P. Aparna, S Chand Publications,\nNewDelhi (2022)\n2. Vogel's text book of practical organic chemistry 5th edition\n3. Inorganic Quantitative analysis by A.I. Vogel, ELBS Publications.\n4. College Practical Chemistry by V.K. Ahluwalia, Narosa Publications Ltd. New Delhi (2007).",
+       "outcomes": "Students will be able to:\n\nCO-1. Students will develop practical skills through hands-on chemistry experiments relevant to engineering.\n\nCO-2. Students will learn to determine important parameters such as water hardness and the corrosion rate\nof mild steel under various conditions.\n\nCO-3. Students will be able to apply techniques like conductometry, potentiometry, and pH metryto\ndetermine concentrations or equivalence points in acid-base reactions.\n\nCO-4. Students will gain experience in synthesizing polymers such as Bakelite.\nCO-5. Students will understand the working principle of colorimetry and the relationship between absorbance\nand concentration (Beer-Lambert Law)."
+      },
+      {
+       "code": "2505102",
+       "name": "Programming for Problem Solving Laboratory",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Course Objectives:\n• To provide hands-on practice with C programming constructs such as variables, operators, control\nstatements, arrays, and strings.\n• To develop the ability to implement modular programming using functions, recursion, and pointers.\n• To enable students to apply structures and unions for effective data representation.\n• To impart practical skills in file handling for data storage and manipulation.\n• To train students in the implementation of searching and sorting algorithms for problem-solving.\n\nList of Experiments:\n\nWeek-1:\n1 Write the program for the simple, compound interest.\n2 Write a program for finding the max and min from the three numbers using the conditional operator.\n\nWeek-2:\n\n3 Write a program that declares a Class awarded for a given percentage of marks, where percentage of\nmarks < 40% = Failed, 40% to < 60% = Second Class, 60% to < 70% = First Class, >= 70% =\nDistinction. Read percentage from standard input.\n\n4 Write a C program which takes two integer operands and one operator from the user, performs the\noperation and then prints the result. (Consider the operators +, -, *, /, % and use the switch Statement).\n\nWeek-3:\n\n5 Write a C program to find the sum of individual digits of a positive integer and test whether the given\nnumber is a palindrome.\n\n6 Write a C program that determines if a given number is a prime number or not.\n\nWeek-4:\n\n7 Write aC program to generate the first n terms of the Fibonacci sequence.\n\n8 Write a program that prints a multiplication table for a given number and the number of rows in the\ntable. For example, for a number 5 and rows = 3, the output should be:\n\n5x1=5\n\n5x2=10\n\n§x3=15\nWeek-5:\n\n9 Write aC program to find the minimum, maximum and average in an array of integers.\n10 Write a C program to perform the following:\ni) Addition of Two Matrices ii) Multiplication of Two Matrices\n\nWeek-6:\n\n11. Write a C program to perform the following operations:\ni) To insert a sub-string into a given main string from a given position.\nii) To delete n characters from a given position in a given string.\n\n12 Write a C program to determine if the given string is a palindrome or not (Spelt the same in both\ndirections, with or without meaning, like madam, civic, noon, abcba, etc.)\n\n13. Write a C program that displays the position of a character ch in the string S or —1 if S doesn’t contain\n\nch.\nWeek-7:\n14 Write a C program to perform the following operations:\ni) Reading a complex number ii) Writing a complex number\n\niii) Addition of two complex numbers __ iv) Multiplication of two complex numbers\n(Note: represent complex number using a structure.)\n\n15 Write a program for reading elements using a pointer into an array and display the values in reverse\norder using the array.\n\nWeek-8:\n\n16 Write C programs\ni) To find the factorial of a given integer using non-recursive functions:\nli) To find the GCD (greatest common divisor) of two given integers using non-recursive functions:\niii) To swap two integers using Call by Value and Call by Reference.\n\nWeek-9:\n\n17 Write C programs that use recursive functions:\ni) To find the factorial of a given integer.\nii) To find the GCD (greatest common divisor) of two given integers.\niii) To generate the first n terms of the Fibonacci sequence.\n\nWeek-10:\n\n18 Write a C program which copies one file to another, replacing all lowercase characters with their\nuppercase equivalents.\n\n19 Write a C program to merge two files into a third file (i.e., the contents of the first file followed by those\nof the second are put in the third file).\n\nWeek-11:\n\n20 Write a C program that uses a non-recursive function to search for a Key value in a given list of\nintegers using the linear search method.\n\n21 Write a C program that uses a non-recursive function to search for a Key value in a given sorted list of\nintegers using the binary search method.\n\nWeek-12:\n22 Write a C program that implements the Bubble sort method to sort a given list of integers in ascending\norder.\n\n23 Write aC program that sorts the given array of integers using selection sort in ascending order.\n24 Write aC program that sorts the given array of integers using insertion sort in ascending order.\n\nSelf-Practice Programs:\n\n1. Finding the Roots of Quadratic Equation.\n\n2. Finding whether a given number is a perfect number or not.\n3. Create a function for generating factors of a given number.\n4. Finding number of vowels and consonants in the given file.\n5. Sort the list of given names.",
+       "textbooks": "1. B.A. Forouzan and R.F. Gilberg, C Programming and Data Structures, Cengage Learning, (3rd\nEdition).\n\n2. Jeri R. Hanly and Elliot B. Koffman, Problem Solving and Program Design in C, 7th Edition, Pearson.",
+       "referenceBooks": "1. Brian W. Kernighan and Dennis M. Ritchie, The C Programming Language, Prentice Hall of India\n2. E.Balagurusamy, Computer Fundamentals and C, 2nd Edition, McGraw-Hill\n3. Yashavant Kanetkar, Let Us C, 18th Edition, BPB\n4. R.G. Dromey, How to solve it by Computer, Pearson (16th Impression)\n5. Programming in C, Stephen G. Kochan, Fourth Edition, Pearson Education.\n6. Herbert Schildt, C: The Complete Reference, McGraw-Hill, 4th Edition\n7. Byron Gottfried, Schaum's Outline of Programming with C, McGraw-Hill",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. To exercise control statements to solve simple Computational problems.\nCO-2. Implement programs using Arrays, Strings, and User-defined data types.\nCO-3. Modularize the code with functions so that they can be reused.\n\nCO-4. Demonstrate File handling operations for data processing.\n\nCO-5. Apply various searching and sorting techniques to organize the data."
+      },
+      {
+       "code": "2503102",
+       "name": "Engineering Workshop",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Course Objectives\n\n• To introduce students to basic manufacturing processes and workshop practices.\n\n• To provide hands-on training in carpentry, fitting, welding, sheet metal, and machining\n• To develop skills in using tools and measuring instruments.\n\n• To enhance safety awareness and proper handling of workshop equipment.\n\n• To build a foundational understanding of industrial production and fabrication.\n\n1. TRADES FOR EXERCISES:\n\nAt least two exercises from each trade:\n\ni. Carpentry: (T-Lap Joint, Dovetail Joint, Mortise & Tenon Joint).\n\nii. Fitting: (V-Fit, Dovetail Fit & Semi-circular fit).\n\niii. Tin-Smithy: (Square Tin, Rectangular Tray & Conical Funnel).\n\niv. Foundry: (Preparation of Green Sand Mould using Single Piece and Split Pattern).\nV. Welding Practice: (Arc Welding & Gas Welding).\n\nvi. House-wiring: (Parallel & Series, Two-way Switch and Tube Light).\n\nvii. Black Smithy: (Round to Square, Fan Hook and S-Hook).\n\n2. TRADES FOR DEMONSTRATION & EXPOSURE:\ni. Plumbing, Machine Shop, Metal Cutting, Power tools in construction and Wood Working.\n\nSelf-Practice Programs:\n\n1.Square Fit.\n\n2.Elbow Pipe (Sheet Metal).\n\n3.Casting of Simple Aluminum Object.\n4.Calling Bell Indicator Circuit.\n5.U-Clamp Preparation.\n\n6.Wooden stool/small Table preparation.",
+       "textbooks": "1. Workshop Practice, B. L. Juneja, Cengage Learning India, 1‘ edition,2015.\n2. Workshop Manual, K.Venkata Reddy, BS Publication, 6th Edition, Rpt .2025.",
+       "referenceBooks": "1. Workshop Manual, K.Venugopal, Anuradha Publications, 2012 edition,2012.",
+       "outcomes": "After completion of the laboratory, the student should be able to\n\nCO-1. Understand the basic manufacturing processes and operations.\n\nCO-2. Use hand tools and equipment safely and efficiently.\n\nCO-3. Perform basic operations in carpentry, fitting, welding, sheet metal work and machining\nCO-4. Read and interpret workshop drawings\n\nCO-5. Develop teamwork, time management and quality awareness in a workshop environment."
+      }
+     ]
+    },
+    {
+     "semester": 2,
+     "subjects": [
+      {
+       "code": "2599201",
+       "name": "Ordinary Differential Equations and Vector Calculus",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Course Objectives:\nTo learn\n• Methods of solving the differential equations of first and higher order.\n• Concept, properties of Laplace transforms.\n• Solving ordinary differential equations using Laplace transform techniques.\n• The physical quantities involved in the engineering field related to vector-valued functions\n• The basic properties of vector-valued functions and their applications to line, surface and volume\nintegrals\n\nUNIT-I:First Order Ordinary Differential Equations 8 Hrs\n\nExact differential equations — Equations form: Homogeneous form and yf(xy)dx + xg(xy)dy = OReducible to\nexact differential equations — linear and Bernoulli’s equations. Applications: Newton’s law of cooling — Law of\nnatural growth and decay.\n\nUNIT-II:Ordinary Differential Equations of Higher Order 10 Hrs\n\nHigher order linear differential equations with constant coefficients: Non-Homogeneous terms of the type\nV(x): é, sinsin ax, cos cos ax, polynomials in x, e” V(x) and xV(x) — Method of variation of parameters.\n\nUNIT-III:Laplace Transforms 10 Hrs\nLaplace Transforms: Laplace Transform of standard functions — First shifting theorem — Second shifting\ntheorem-Laplace transforms of functions multiplied by 't' and divided by 't' — Evaluation of integrals by Laplace\ntransforms — Inverse Laplace transform by different methods, convolution theorem (without proof).\nApplications: solving Initial value problems by Laplace Transform method.\n\nUNIT-IV:Vector Differentiation 10 Hrs\n\nVector point functions and scalar point functions — Gradient — Divergence and Curl — Directional derivatives —\nAngle between two surfaces — Scalar potential functions — Solenoidal and Irrotational vectors.\n\nUNIT-V:Vector Integration 10 Hrs\n\nLine, Surface and Volume Integrals. Theorems of Green, Gauss and Stokes (without proofs) and their\napplications.",
+       "textbooks": "1. B.S. Grewal, Higher Engineering Mathematics, Khanna Publishers, 36th Edition, 2010.\n2. R.K. Jain and S.R.K. lyengar, Advanced Engineering Mathematics, Narosa Publications, 5\" Edition,\n2016.",
+       "referenceBooks": "1. Erwin Kreyszig, Advanced Engineering Mathematics, 9th Edition, John Wiley & Sons, 2006.\n2. G.B. Thomas and R.L. Finney, Calculus and Analytic Geometry, 9th Edition, Pearson, Reprint,2002\n3. N.P. Bali and Manish Goyal, A Textbook of Engineering Mathematics, Laxmi Publications,\nReprint,2008.\n4. H.K. Dass and Er. Rajnish Verma, Higher Engineering Mathematics, S Chand and Company Limited,\nNew Delhi.",
+       "outcomes": "After learning the contents of this paper, the student must be able to\n\nCO-1. Identify whether the given differential equation of first order is exact or not\n\nCO-2. Solve higher differential equations and apply the concept of differential equations to real-world\nproblems.\n\nCO-3. Use the Laplace transform techniques for solving Ordinary Differential Equations.\n\nCO-4. Analyze and solve problems involving gradient, divergence, and curl in various fields such as\nphysics and engineering\nCO-5. Evaluate the Line, Surface and Volume integrals and convert them from one to another"
+      },
+      {
+       "code": "2599202",
+       "name": "Engineering Physics",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Course Objectives:\n\n• To understand fundamental concepts of quantum mechanics and their applications in solids and\nnanomaterials.\n\n• To give students a clear understanding of how semiconductors and nanomaterials work, how they are\nmade, and how they are used in modern technology\n\n• To introduce quantum computing principles, quantum gates, and basic quantum algorithms.\n\n• To learn the properties and applications of magnetic and dielectric materials.\n\n• To explore the working and applications of lasers and fibre optics in modern technology.\n\nUNIT-I: 12Hrs\n\nQuantum Mechanics: Introduction, de-Broglie hypothesis, Davisson-Germer Experiment Heisenberg\nuncertainty principle, physical significance of wave function, postulates of quantum mechanics (Elementary\ntreatment): operators in quantum mechanics, eigen values and eigen functions, expectation value;\nSchrédinger’s time independent wave equation, particle ina 1D box.\n\nBloch’s theorem (Elementary treatment), Kronig-Penney model (Elementary treatment): E-K diagram, effective\nmass of electron (Elementary treatment), formation of energy bands, classification of solids.\n\nUNIT-II: 12 Hrs\n\nSemiconductor Physics: Intrinsic and extrinsic semiconductors, variation of Fermi energy level with\ntemperature and doping concentration (Elementary treatment), direct and indirect band gap semiconductors,\nHall Effect, construction, principle, V-I characteristics and applications of P-N Junction diode, LED and solar\ncell.\n\nNanotechnology: Introduction to nanoscience and nanotechnology, Classification of nanomaterials:\n0D,1D,2D and 3D, surface to volume ratio, quantum confinement, synthesis methods: Ball milling, sol-gel\nmethod, Characterization Techniques: X-ray diffraction (XRD) and Scanning Electron Microscopy (SEM),\napplications of nanomaterials.\n\nUNIT-IIl: 12Hrs\n\nQuantum Computing: Introduction, linear algebra for quantum computation(Elementary treatment), Dirac's\nBra and Ket notation and their properties, superposition, entanglement, Hilbert space, Bloch's sphere, concept\nof quantum computer: classical bits, Qubits, multiple Qubit system, quantum computing system for information\nprocessing (Elementary treatment), evolution of quantum systems, quantum measurements, quantum gates\n(Elementary treatment): Pauli, Hadamard, and CNOT gates, challenges and advantages of quantum\ncomputing over classical computation.\n\nUNIT-IV: 12 Hrs\n\nDielectric materials: Introduction to dielectric materials, types of polarization: electronic, ionic (Quantitative)\n& orientation (Elementary treatment); ferroelectric, piezoelectric, pyroelectric materials and their properties\nand applications\n\nMagnetic materials: Introduction to magnetic materials, origin of magnetic moment- classification of\nmagnetic materials: dia, para, ferro, anti-ferro and ferri magnetic materials. Weiss domain theory of\nferromagnetism, Hysteresis and B-H curve, soft and hard magnetic materials, applications.\n\nUNIT-V: 12Hrs\nLaser: Introduction to laser, characteristics of laser, Einstein coefficients and their relations, metastable state,\npopulation inversion, pumping, lasing action, He-Ne laser, Nd-YAG Laser, semiconductor diode laser,\n\napplications of Lasers.\nFibre Optics: Introduction to fibre optics, total internal reflection, Physical components of optical fibre,\n\nacceptance angle, numerical aperture, classification of optical fibres (based on refractive index profile), losses\nin optical fibre, applications: optical fibre for communication system, sensor for structural health monitoring.",
+       "textbooks": "1. M.N Avadhanulu, P.G Kshirsagar, T VS Arun Murthy, A Textbook of Engineering Physics, S\nChand,2019.\n2. Shatendra Sharma and Jyotsna Sharma, Engineering Physics,Pearson India Education Services Pvt.\nLtd,2018.\n\n3. Michael A. Nielsen & Isaac L. Chuang, Quantum Computation and Quantum Information, Cambridge\nUniversity Press.\n\nReferences Books:\n1. Charles Kittel, Introduction to Solid State Physics, John Wiley & Sons, Inc.\n2. Md. N. Khan, S. Panigrahi,Principles of Engineering Physics 1 & 2,Cambridge University Press, 2016\n3. Prof. A. K. Katiyar, Dr. C. K. Pandey, Engineering Physics: Theory and Practical, Wiley India Pvt. Ltd.,\nIndia,2017.\n4. Halliday, Resnick and Walker, Fundamentals of Physics, John Wiley &Sons,11th Edition, 2018.",
+       "referenceBooks": "",
+       "outcomes": "CO-1. Apply quantum mechanical principles to explain particle behaviour and energy band formation in\nsolids\n\nCO-2. Able to explain the principles, types, fabrication methods, and applications of semiconductors and\nnanomaterials in simple terms.\n\nCO-3. Understand quantum computing concepts, use quantum gates, and explain basic quantum\nalgorithms.\n\nCO-4. Classify magnetic and dielectric materials and explain their properties, synthesis, and applications.\n\nCO-5. Explain the principles of lasers and fibre optics and their applications in communication and sensing."
+      },
+      {
+       "code": "2505201",
+       "name": "Python Programming",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Course Objectives:\n• To introduce programming languages, problem-solving methods, algorithms, flowcharts, and the\nbasics of Python.\n• To understand Python data types, variables, operators, and input/output operations.\n• To apply control statements and arrays for solving computational problems.\n• To develop modular programs using functions, recursion, and scope of variables.\n• To implement exception handling and file operations for robust Python applications.\n\nUNIT -I 12 Hrs\n\nINTRODUCTION TO PROGRAMMING LANGUAGES: Computer definition, Computer system, Programming\nlanguages: Types, Uses. Program development steps, Algorithm, Flowchart, Solving simple problems.\nINTRODUCTION TO PYTHON: History of Python, Features of Python, Flavors of Python, Execution of a\nPython Program, Python Virtual Machine, Viewing the byte code, Comparisons between C and Python,\nComments in Python, Docstrings.\n\nUNIT - II 12 Hrs\n\nDATATYPES IN PYTHON: Built-in data types: None, Numeric and Boolean data types, Sequences in Python:\nstrings, bytes, bytearrays, lists, tuples, sets, frozensets, dictionaries. User-defined data types, constants in\nPython, identifiers and reserved words, and naming conventions in Python.\n\nVARIABLES AND OPERATORS: Understanding Python variables, multiple variable declarations; Operators\nin Python - Arithmetic operators, Assignment operators, Relational Operators, Logical operators, Boolean\nOperators, Bitwise operators, Membership operators, Identity operators. Operator Precedence and\nAssociativity.\n\nInput Output Statements: Output statements, Input Statements and Command Line Arguments, A word on\nIndentation.\n\nUNIT - Ill 12. Hrs\n\nCONTROL STATEMENTS: The if Statement, The if else statements, The if...elif...else statements, while\nloop, for loop, Infinite loop, Nested Loops, else suite, break, continue, pass statement, assert statement.\nARRAYS: Introduction to Arrays, Creating an Array, Types of arrays, Importing the array Module and NumPy,\nIndexing and Slicing on numpyArrays, Mathematical Operations on Arrays, Comparison of Arrays.\n\nUNIT -IV 12 Hrs\n\nFUNCTIONS: Introduction, Defining a Function, calling a function, Formal and Actual Arguments, Positional\nArguments, keyword Arguments, Default Arguments, variable length arguments, local and global variables,\nglobal keyword, nesting of functions and Recursion.\n\nUNIT-V 12. Hrs\n\nEXCEPTIONS IN PYTHON: Errors in Python Program - Compile-Time Errors, Runtime Errors, Logical Errors;\nExceptions, Exception Handling, Types of Exceptions, and Keywords in Exception Handling.\n\nFILES IN PYTHON: Types of Files in Python, Opening a File, Closing a File, Random File accessing\nmethods- seek() and tell().",
+       "textbooks": "1. R. Nageswara Rao, “Core Python Programming”, Dreamtech\n2. Fundamentals of Python First Programs, Kenneth A. Lambert, 2\"4 Edition, Cengage.",
+       "referenceBooks": "1. Allen B. Downey, “Think Python: How to Think like a Computer Scientist”, 2nd edition, Updated for\nPython 3, Shroff/O‘Reilly Publishers, 2016.\n2. Core Python Programming, W.Chun, Pearson.",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. Understand problem-solving strategies, algorithms, flowcharts, and the basics of Python\nprogramming.\n\nCO-2. Apply Python data types, variables, operators, and I/O operations to solve simple problems.\n\nCO-3. Use control structures and arrays to implement Python programs.\n\nCO-4. Develop modular solutions using functions, recursion, and scope management.\n\nCO-5. Implement exception handling and file operations for building reliable Python applications."
+      },
+      {
+       "code": "2502201",
+       "name": "Basic Electrical and Electronics Engineering",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Course Objectives:\n\nThe objective of this course is:\n• To understand and apply fundamental laws in D.C. electrical circuits.\n• To understand the magnetic circuits and the principle of operation of a transformer.\n• To acquire the required knowledge about DC machines and Induction motors.\n• To understand the characteristics of the Diode, the Transistor and their applications.\n• To analyze various configurations of the BUT, FET.\n\nUNIT-I: 12Hrs\n\nElectrical Circuits\nBasic definitions, types of elements, Ohm's Law, Kirchhoff’s Laws, resistive networks, series, parallel circuits,\nVoltage and Current division rules, Mesh analysis, Node Analysis, and Simple problems.\n\nUNIT-II: Magnetic Circuits &Transformer 12Hrs\n\nMagnetic circuits: Faraday’s laws of Electromagnetic Induction, Lenz’s Law, and Fleming’s right-hand Rule\nand left-hand Rule. Magnetic Circuits - Concept of Self-Inductance& Mutual Inductance, Coefficient of\nCoupling.\n\nTransformers: Construction, Basic Working Principle, EMF Equation, Applications, Simple Problems.\n\nUNIT-III: Electrical Machines 13Hrs\n\nDC Generators: Construction, Basic Working Principle, EMF Equation, Types of DC Generators, Applications,\nSimple Problems.\n\nDC Motors: Basic Working Principle, Types of DC Motors, Torque Equation, Speed Control of DC Shunt\nMotor, Applications, Simple Problems.\n\nSingle-phase Induction Machines:Principles of Operation of 1-phase Induction Motors, Capacitor Start\nMotors, Capacitor Start-Capacitor Run Motors, and Stepper Motors, Applications.\n\nUNIT-IV: Diode and Transistor 11Hrs\n\nDiode: p-n junction diode, V-I characteristics, Zener diode, Diode Applications, Rectifier-Half wave, Full wave\nand Bridge rectifier.\nTransistor: PNP and NPN junction transistor, Transistor as an amplifier.\n\nUNIT-V: 12Hrs\n\nBipolar Junction Transistor (BJT): Construction, Principle of Operation, Amplifying Action, Common Emitter,\nCommon Base and Common Collector configurations, Comparison of CE,CB and CC configurations.\n\nField Effect Transistor (FET): Construction, Principle of Operation, Comparison of BUT and FET, Biasing\nFET.",
+       "textbooks": "1. Principles of Electrical and Electronics Engineering -V.K.Mehta, S.Chand& Co, 12\" Edition, 2019.\n2. Basic Electrical and Electronics Engineering -D P Kothari, | J Nagrath, McGraw-Hill Education, 2\"4\nEdition, 2020",
+       "referenceBooks": "1. A Text book of Electrical Technology, Vol 2 — B.L. Thereja and A.K. Theraja, S. Chand Publications,\nreprint 2015.\n2. M.S.Sukhija, T.K.Nagsarkar, “Basic Electrical and Electronics Engineering”, paperback Edition, 2017.\n3. Electrical and Electronics Technology” — Hughes, Pearson Education, 12th Edition, 2016.",
+       "outcomes": "After the completion of the course student should be able to\nCO-1. Analyse and solve electrical circuits using network laws.\n\nCO-2. Analyse Magnetic circuits and understand working of Transformers.\nCO-3. Understand the working principles of Electrical Machines.\n\nCO-4. Identify and characterize diodes and various types of transistors.\n\nCO-5. Understand different configurations of BUT, FET."
+      },
+      {
+       "code": "2505203",
+       "name": "Data Structures",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Course Objectives:\n\n• Exploring knowledge of basic data structures and their implementations.\n\n• To understand tree data structures, their operations, and applications with emphasis on BSTs, AVL\ntrees, and Red-Black trees.\n\n• Understand multi-way search trees and also explain the need for searching algorithms.\n\n• To learn graph structures, their representations, traversals, and applications, and to understand\nefficient sorting techniques, including Radix, Heap, Merge, and Quick sort.\n\n• To understand hashing concepts, hash functions, and collision resolution techniques for efficient data\nstorage and retrieval.\n\nUNIT -I 12 Hrs\n\nIntroduction to Data Structures: Basic Terminology, Classification of Data Structures, Operations on Data\nStructures, and Abstract Data Types.\n\nLinear list — Introduction, singly linked list, Circular Single Linked Lists, Stacks- Operations, Stack algorithm,\nStack ADT, Stack applications, Queues- operations, Queue Algorithm, Queue ADT, and Queue Applications.\n\nUNIT - Il 12 Hrs\n\nTrees: Introduction, Types of Trees, creating a Binary Tree from a General Tree, traversing a Binary Tree,\nBinary Search Trees (BST), BST Operations - Searching, Insertion, and Deletion, BST ADT, BST\nApplications, AVL Trees, Red—Black Trees.\n\nUNIT - Ill 12 Hrs\n\nMulti-way Search Trees: Introduction, B Trees, B Trees ADT, B+ Trees, Heaps: Binary Heaps, Fibonacci\nHeaps, Applications.\nSearching: Introduction, Interpolation Search, Jump Search.\n\nUNIT -IV 12 Hrs\n\nGraphs: Introduction, Directed Graphs, Representation of Graphs, Graph Traversal Algorithms, Graph ADT,\nApplications of Graphs.\nSorting: Radix Sort, Heap Sort, Merge Sort. Quick Sort.\n\nUNIT-V 12. Hrs\nHashing and Collision: Introduction, Hash Tables, Hash Functions, Different Hash Functions: Division\nMethod, Multiplication Method, Mid-square Method.\n\nCollisions: Introduction, Collision Resolution by Chaining, Open addressing: Linear Probing, Quadratic\n\nProbing.",
+       "textbooks": "1. Data Structures: A Pseudocode Approach with C, 2 nd Edition, R. F. Gilberg and B. A. Forouzan,\nCengage Learning.\n2. Data Structure using C- Reema Thareja, 2nd Edition, Oxford University Press.",
+       "referenceBooks": "1. Data Structures using C — A. S. Tanenbaum, Y. Langsam, and M.J. Augenstein, PHI /Pearson\nEducation.",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. Apply fundamental data structure concepts to implement and utilize linear lists, stacks, and queues\nalong with their operations and applications.\n\nCO-2. Construct and traverse various tree structures, perform operations on BSTs, and apply balanced trees\nlike AVL and Red-Black trees in solving computational problems.\n\nCO-3. Implement multi-way search trees, B-Trees, B+ Trees, and heaps, and apply advanced searching\ntechniques such as interpolation and jump search for efficient problem solving.\n\nCO-4. Apply graph ADT in real-world applications, and implement efficient sorting techniques, including\nRadix, Heap, Merge, and Quick sort.\n\nCO-5. Design and implement hash tables using various hash functions and resolve collisions efficiently\nthrough chaining and open addressing techniques."
+      },
+      {
+       "code": "2599203",
+       "name": "Engineering Physics Laboratory",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Course Objectives:\n\n• To provide hands-on experience in studying the electrical, optical, and magnetic properties of various\nmaterials.\n\n• To understand the working principles and characteristics of semiconductor devices like PN junction\ndiodes, LEDs, and solar cells.\n\n• To explore advanced concepts in modern physics through experiments on lasers, the photoelectric\neffect, and optical fibers.\n\n• To develop experimental skills for measuring fundamental constants and material parameters.\n\n• Toimprove abilities in scientific data collection, result analysis, and technical reporting.\n\nList of experiments:\n\n1. Determination of the Energy gap of a semiconductor.\n2. |-V Characteristics of P-N junction diode.\n3. B-H curve of a ferromagnetic material.\n4. (a) V-I Characteristics of LED diode.\n(b) V-I Characteristics of a solar cell.\n5. Determination of the wavelength of a laser using a diffraction grating.\n6. Determination of Planck’s constant using the photoelectric effect.\n7. Determination of the magnetic moment of a bar magnet and the horizontal Earth's magnetic field.\n8. (a) Determine the Numerical Aperture of an Optical Fiber.\n(b) Determine the bending losses of an Optical Fiber.\n9. Determination of the dielectric constant of a given material.\n10. Determination of Hall coefficient and carrier concentration of a given semiconductor.\n\nNote: Any eight (08) experiments are to be performed.\nSelf-Practice Programs:\n\n1. Determination of Hall coefficient and carrier concentration of a given semiconductor.\n2. Determination of the dielectric constant of a given material.",
+       "textbooks": "",
+       "referenceBooks": "1. Dr. Y. Aparna & Dr. K. Venkateswara Rao, Laboratory Manual of Engineering Physics, V.G.S\nPublishers\n2. G.L. Squires — Practical Physics, Cambridge University Press, 2012.\n3. S. Balasubramanian, M.N. Srinivasan “A Text book of Practical Physics’- S Chand _ Publishers,2017",
+       "outcomes": "After completing this laboratory course, the student will be able to:\n\nCO-1. Determine key semiconductor parameters such as energy gap, Hall coefficient, and carrier\nconcentration.\n\nCO-2. Analyze the I-V characteristics of PN junction diodes, LEDs, and solar cells for different applications.\n\nCO-3. Determine key electrical, magnetic, and optical properties of semiconductors and other functional\nmaterials.\n\nCO-4. Demonstrate the working principles of lasers, optical fibers, and the photoelectric effect through\nprecise measurements.\n\nCO-5. Apply scientific methods for accurate experimentation, data analysis, and preparation of technical\nreports."
+      },
+      {
+       "code": "2505202",
+       "name": "Python Programming Laboratory",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Course Objectives:\n\n• To familiarize students with Python environment setup, syntax, operators, and basic input/output\nprograms.\n\n• To develop problem-solving skills using decision-making, control structures, and iterative constructs.\n\n• To implement and manipulate Python data structures such as lists, tuples, dictionaries, and arrays\n(including NumPy).\n\n• To design modular programs using user-defined functions and recursion.\n\n• Toimplement file handling, exception handling, and command-line arguments for robust applications.\n\nList of Experiments:\n\nWeek — 1:\n\n1. Demonstrate the installation of Python for windows\n\n2. Demonstrate the execution of Python program in Jupyter notebook and IDLE\n\n3. Demonstrate the importing of NumPy, pandas, matplotlib and mention briefly about their purpose.\n4. Write a Python program to assign a value to a variable and print the value of the variable.\n\nWeek -— 2:\n\n5. Write a Python program to assign different values to a single variable and print the value of the variable.\n6. Write a Python program to assign multiple values to multiple variables and print the value of the variable.\n7. Write a python program for printing values using format() method, % operator and format specifier.\n\n8. Write a Python program to read two numbers from the user and print their sum and difference.\n\nWeek -— 3:\n\n9. Write a Python program implementing a simple calculator using all arithmetic operators.\n\n10. Write a Python program illustrating the relation between the given two numbers using relational\noperators.\n\n11. Write a Python program illustrating all logical operators.\n\n12. Write a Python program illustrating all bitwise operators.\n\nWeek - 4:\n13. Write a Python program to perform the swapping of the given two numbers:\ni) Using a temporary variable __ ii) Without using a temporary variable\n14. Write a Python program to evaluate the following expressions:\ni) r#at+b*c-d/e _ ii) r//((atb) * ((c- d)/e))\n15. Write a Python program to calculate Simple Interest: S/ = (P x T x R) /100\n\nWeek -— 5:\n16. Write a Python program to check whether the given number is positive or negative using a simple if\nstatement.\n\n17. Write a Python program to find the largest of the given three numbers using a selection statement.\n18. Write a Python program to display the corresponding day of a given number in a week.\n19. Write a Python program to check whether the given year is a leap year or not.\n\nWeek - 6:\n\n20. Write a Python program to print natural numbers up to a given range.\n\n21. Write a Python program to print the factors of a given number.\n\n22. Write a Python program to check whether the given number is Armstrong or not.\n\nWeek - 7:\n23. Write a Python program to print numbers that are divisible by a given number up to a given range using\nunconditional statements.\n\n24. Write a Python program to create a list and print all elements of the list using the list method.\n\nWeek - 8:\n\n25. Write a Python program demonstrating the following operations on a tuple:\ni) | Create a tuple and copy the contents of the list.\nii) Delete elements from the tuple after displaying the contents.\n\n26. Write a Python program demonstrating the following operations on a dictionary:\ni) | Create a dictionary and display the contents.\nii) Create a dictionary having multiple values for the same key.\niii) | Concatenate two lists and convert them into a dictionary\n\nWeek - 9:\n27. Write a Python program to create a single-dimensional array and display its contents.\n28. Write a Python program implementing the following operations on arrays using the array module:\ni) Print the first n elements\nii) Print the elements with the given stride value\niii) Print the elements in reverse order.\niv) Copy the contents into another array.\n\nWeek — 10:\n29. Write a Python program implementing the following operations on arrays using the NumPy module:\ni) | Create a 2x3 array and add elements\nii) Convert the dimensions of the array into 3x2.\niii) Convert the dimensions of the array into 1x6.\niv) Copy the contents into another array.\n30. Write a Python program to perform Matrix addition and Matrix multiplication.\n\nWeek - 11:\n31. Write a Python program to find the sum of n natural numbers using user-defined functions.\n32. Write a Python program having a function that takes a list and returns a sorted list.\n\nWeek — 12:\n\n33. Write a Python program to print the factorial of a given number using recursive function.\n34. Write a Python program to display the Fibonacci series up to a given range using functions:\ni) Without using recursion ii) Using recursion\n\nWeek — 13:\n35. Write a Python program illustrating the occurrence of an exception.\n36. Write a Python program to create a new file and add the given text to the file.\n\nWeek — 14:\n\n37. Write a Python program demonstrating command-line arguments.\n\n38. Write a Python program to add the contents into an existing file and display the contents of a file\nfrom the specified position.\n\nSelf-Practice Programs:\n\n1. Learn PEP-8 Coding Programs.\n2. Introduction to OOP Concepts",
+       "textbooks": "1. R.Nageswara Rao, “Core Python Programming”, Dreamtech\n2. Fundamentals of Python First Programs, Kenneth A. Lambert, 2nd Edition, Cengage.",
+       "referenceBooks": "1. Allen B. Downey, “Think Python: How to Think like a Computer Scientist’, 2nd edition, Updated for\nPython 3, Shroff/O‘Reilly Publishers, 2016.\n2. Core Python Programming, W.Chun, Pearson.",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. Apply Python syntax, operators, and I/O features to write and execute programs.\nCO-2. Apply operators, control statements, and loops to solve computational problems.\n\nCO-3. Use data structures like lists, tuples, dictionaries, and arrays to develop Python programs.\nCO-4. Develop modular solutions using functions and recursion.\nCo-5. Implement file operations, exception handling, and command-line arguments in Python."
+      },
+      {
+       "code": "2502202",
+       "name": "Basic Electrical and Electronics Engineering Laboratory",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Course Objectives:\nThe objectives of this course are:\n• To analyze a given network by applying various electrical laws.\n• To understand magnetic circuits.\n• To study the performance characteristics of DC Machines.\n• To understand the Diode applications.\n• To study the input and output characteristics of BJT&FET.\n\nList of Experiments/ Demonstrations:\nPART A: ELECTRICAL (Compulsory)\n1. Verification of KVL and KCL.\n2. Measurement of Voltage, Current and Real Power in Primary and Secondary Circuits of a\nSingle-Phase Transformer.\n3. Magnetization Characteristics of DC Shunt Generator.\n4. Determination of self, mutual inductances and Coefficient of Coupling.\n5. Speed control of DC shunt Motor.\nPART B: ELECTRONICS (Compulsory)\n1. PN Junction diode characteristics.\n2. Zener diode characteristics and Zener as a voltage Regulator.\n3. Input & Output characteristics of Transistor in CB / CE configuration.\n4. Half-Wave and Full-Wave Rectifier without filters.\n5. Input and Output characteristics of FET in CS configuration.\nSelf-Practice Programs:\n\n1. Study of Voltage, Current and Power using Digital Energy Meter.\n2. Verification of Faraday’s Laws of Electromagnetic Induction.\n\n3. Load Test on DC Motor.\n\n4. Construction of AND & OR Gates using Diodes.\n\n5. Drain and Transfer Characteristics of MOSFET.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": "Upon the successful completion of this course, the student will be able to:\nCO-1. Verify the various electrical laws with DC Excitation.\n\nCO-2. Understand the Magnetic circuits.\n\nCO-3. Obtain the performance of DC Machines.\n\nCO-4. Understand the Diode applications.\n\nCO-5. Understand the input and output characteristics of BIT&FET."
+      },
+      {
+       "code": "2505204",
+       "name": "Data Structures Laboratory",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Course Objectives:\n• To develop the ability to implement and manipulate Singly and Circular Linked Lists, including\ncreation, insertion, deletion, and traversal using functions.\n• To implement different tree data structures and explore both recursive and non-recursive traversal\n\ntechniques.\n\n• To apply searching algorithms such as Interpolation Search and Jump Search for efficient data\nretrieval.\n\n• To apply sorting techniques, including Radix Sort, Heap Sort, Merge Sort, and Quick Sort, for ordering\ndatasets.\n\n• To understand and implement hash functions (Division, Multiplication, Mid-square methods) and\nhandle collisions effectively for efficient data storage and retrieval.\n\nList of Experiments:\n\n1. Write a program that uses functions to perform the following operations on Singly Linked List.\n\ni) Creation ii) Insertion iii) Deletion iv) Traversal\n2. Write a program that uses functions to perform the following operations on Circular Single Linked List.\ni) Creation ii) Insertion iii) Deletion iv) Traversal\n3. Write a program that implement Stack (its operations) using\ni) Arrays ii) ADT\n4. Write a program that implement Queue (its operations) using\ni) Arrays ii) ADT\n\n5. Write a program to implement the tree traversal methods (Recursive and Non-Recursive).\n6. Write a program to implement\n\ni) Binary Search tree ii) Binary Trees\n7. Write a program to implement\ni) Interpolation Search ii) Jump Search.\n\n8. Write a program to implement the graph traversal methods.\n9. Write a program that implements the following sorting methods to sort a given list of integers\nin ascending order\ni) Radix Sort ii) Heap sort iii) Merge Sort iv) Quick Sort.\n10. Write a program to implement the following Hash Functions:\ni) Division Method, ii) Multiplication Method iii) Mid-square Method.\n\nSelf-Practice Programs:\n\n1. Priority Queue using Binary Heap, Pattern Matching using Z-Algorithm\n2. Deque (Double Ended Queue) using Circular Array,\n\n3. Threaded Binary Tree,\n\n4. Expression Tree Construction & Evaluation\n\n5. Pattern Matching using Z-Algorithm",
+       "textbooks": "1. Fundamentals of Data Structures in C, 2nd Edition, E. Horowitz, S. Sahni and Susan\nAnderson Freed, Universities Press.\n2. Data Structures using C — A. S. Tanenbaum, Y. Langsam, and M. J. Augenstein, PHI/Pearson\nEducation",
+       "referenceBooks": "",
+       "outcomes": "After completion of the Course, the student should be able to\nCO-1. Implement and manipulate Singly and Circular Linked Lists using functions for creation, insertion,\ndeletion, and traversal.\nCO-2. Construct and perform operations on Binary Trees and Binary Search Trees (BST) to solve\ncomputational problems.\n\nCO-3. Apply efficient searching algorithms, including Interpolation Search and Jump Search, to retrieve data\nfrom datasets.\n\nCO-4. To apply sorting techniques, including Radix Sort, Heap Sort, Merge Sort, and Quick Sort, for ordering\ndatasets.\n\nCO-5. Implement hash functions using Division, Multiplication, and Mid-square methods, and handle\ncollisions effectively for efficient data management."
+      },
+      {
+       "code": "2505205",
+       "name": "IT Workshop",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Course Objectives:\n• Training on PC Hardware, troubleshooting\n• Training Internet & World Wide Web and\n• Training Productivity tools, including Word, Excel, PowerPoint and Publisher.\n• Training on safeguarding computer systems from viruses/worms\n• Training on Document/ Presentation preparation\n\nPC Hardware\nTask 1: Identify the peripherals of a computer, components in a CPU and its functions. Draw the block\ndiagram of the CPU along with the configuration of each peripheral and submit to your instructor.\n\nTask 2: Every student should disassemble and assemble the PC back to working condition. Lab instructors\nshould verify the work and follow it up with a Viva. Additionally, students should watch the video, which\ndemonstrates the process of assembling a PC. A video would be given as part of the course content.\n\nTask 3: Every student should individually install Microsoft Windows on their personal computer. The lab\ninstructor should verify the installation and follow it up with a Viva.\n\nTask 4: Every student should install Linux on the computer. This computer should have Windows installed.\nThe system should be configured as a dual-boot with both Windows and Linux. Lab instructors should verify\nthe installation and follow it up with a Viva\n\nInternet & World Wide Web\n\nTask1: Orientation & Connectivity Boot Camp: Students should get connected to their Local Area Network\nand access the Internet. In the process, they configure the TCP/IP settings. Finally, students should\ndemonstrate to the instructor how to access the websites and email. If there is no internet connectivity,\npreparations need to be made by the instructors to simulate the WWW on the LAN.\n\nTask 2: Web Browsers, Surfing the Web: Students customize their web browsers with the LAN proxy\nsettings, bookmarks, search toolbars and pop up blockers. Also, plug-ins like Macromedia Flash and JRE for\napplets should be configured.\n\nTask 3: Search Engines & Netiquette: Students should know what search engines are and how to use them.\nA few topics would be assigned to the students, for which they would need to conduct a Google search. This\nshould be demonstrated to the instructors by the student.\n\nTask 4: Cyber Hygiene: Students would be exposed to the various threats on the internet and would be\nasked to configure their computers to be safe on the internet. They need to customize their browsers to block\npop-ups, block ActiveX downloads to avoid viruses and/or worms.\n\nLaTeX and WORD\n\nTask 1 — Word Orientation: The mentor needs to give an overview of LaTeX and Microsoft (MS) office or\nequivalent (FOSS) tool word: Importance of LaTeX and MS office or equivalent (FOSS) tool Word as word\nProcessors, Details of the four tasks and features that would be covered in each, Using LaTeX and word —\nAccessing, overview of toolbars, saving files, Using help and resources, rulers, format painter in word.\n\nTask 2: Using LaTeX and Word to create a project certificate. Features to be covered:- Formatting Fonts in\nWord, Drop Cap in Word, Applying Text effects, Using Character Spacing, Borders and Colours, Inserting\nHeader and Footer, Using Date and Time option in both LaTeX and Word.\n\nTask 3: Creating project abstract Features to be covered:-Formatting Styles, Inserting table, Bullets and\nNumbering, Changing Text Direction, Cell alignment, Footnote, Hyperlink, Symbols, Spell Check, Track\nChanges.\n\nTask 4: Creating a Newsletter: Features to be covered include Table of Contents, Newspaper columns,\nImages from files and clip art, the Drawing toolbar and Word Art, Formatting Images, Text Boxes, Paragraphs,\nand Mail Merge in Word.\n\nExcel\n\nExcel Orientation: The mentor needs to emphasize the importance of MS Office or an equivalent (FOSS)\ntool, such as Excel, as a Spreadsheet tool. They should provide details of the four tasks and features that will\nbe covered in each. Using Excel — Accessing, overview of toolbars, saving Excel files, using help and\nresources.\n\nTask 1: Creating a Scheduler - Features to be covered: Gridlines, Format Cells, Summation, auto fill,\nFormatting Text.\n\nTask 2: Calculating GPA - Features to be covered:- Cell Referencing, Formulae in Excel — average, std.\nDeviation, Charts, Renaming and Inserting worksheets, Hyperlinking, Count function, LOOKUP/VLOOKUP.\n\nTask 3: Split cells, freeze panes, group and outline, Sorting, Boolean and logical operators, and Conditional\nformatting.\n\nPowerPoint\nTask 1: Students will be working on basic PowerPoint utilities and tools, which help them create basic\n\nPowerPoint presentations. PPT Orientation, Slide Layouts, Inserting Text, Word Art, Formatting Text, Bullets\nand Numbering, Auto Shapes, Lines and Arrows in PowerPoint.\n\nTask 2: Interactive Presentations - Hyperlinks, Inserting Images, Clip Art, Audio, Video, Objects, Tables, and\nCharts.\n\nSelf-Practice Programs:\n\n1. Advanced hardware diagnostics and networking peripherals.\n2. Professional Documentation Skills.\n\n3. Formulas & Functions.\n\n4. Presentation Mastery\n\n5. Internet & Digital Skills",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": "After completion of the Course, the student should be able to\nCO-1. Perform Hardware troubleshooting\n\nCO-2. Understand Hardware components and interdependencies\nCO-3. Safeguard computer systems from viruses/worms\n\nCO-4. Document/ Presentation preparation\n\nCO-5. Perform calculations using spreadsheets"
+      }
+     ]
+    }
+   ],
+   "note": "Anurag R25 syllabus (from R25-CSE-Syllabus.pdf)."
+  },
+  {
+   "year": 2,
+   "semesters": [
+    {
+     "semester": 1,
+     "subjects": [
+      {
+       "code": "2599301",
+       "name": "Computer Oriented Statistical Methods",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Course Objectives: To learn\n• The theory of Random variable Probability distributions of single random variables\n• The sampling theory, testing of hypotheses and making statistical inferences\n• Testing of hypotheses and making statistical inferences.\n• Tests concerning a single mean and two means.\n• The curve fitting, correlation and regression for the given data.\n\nUNIT-I: Random Variables and Probability Distributions 8 Hrs\n\nConcept of a Random Variable — Discrete Probability Distributions — Continuous Probability Distributions —\nMean of a Random Variable — Variance of a Random Variable\nDiscrete Probability Distributions: Binomial Distribution — Poisson Distribution: Mean and Variance.\n\nUNIT-II: Continuous Distributions and Sampling 10 Hrs\n\nUniform Distribution — Normal Distribution — Areas under the Normal Curve — Applications of the Normal\nDistribution — Normal Approximation to the Binomial Distributions.\n\nFundamental Sampling Distributions: Random Sampling — Some Important Statistics — Sampling\nDistributions — t, F, Chi-Square Distribution — Central Limit Theorem.\n\nUNIT-III: Estimation 10 Hrs\n\nIntroduction — Statistical Inference — Classical Methods of Estimation — Single Sample: Estimating the mean —\nStandard error of a point estimate. Two samples: Estimating the difference between two means -— Single\nsample: Estimating a proportion - Two samples: Estimating the difference between two proportions — Two\nsamples: Estimating the ratio of two variances.\n\nUNIT-IV: Tests of Hypotheses (Large and Small Samples) 10 Hrs\n\nStatistical Hypotheses: General Concepts — Testing a Statistical Hypothesis. Single sample: Tests concerning\na single mean. Two samples: Tests on two mean (Unknown for equal variance). One sample: Test on a single\nproportion. Two samples: Tests on two proportions. Two-sample tests concerning variances: F-distribution\n\nUNIT-V: Applied Statistics 10 Hrs\n\nCurve fitting by the method of least squares — Fitting of straight lines - Second degree parabolas and more\ngeneral curves — Correlation and Regression — Rank correlation.",
+       "textbooks": "1. Ronald E. Walpole, Raymond H. Myers, Sharon L. Myers, Keying Ye, Probability & Statistics for\nEngineers & Scientists, 9th Ed. Pearson Publishers.\n\n2. SC Gupta and V K Kapoor, Fundamentals of Mathematical statistics, Knanna publications.\n\n3. S.D.Sharma, Operations Research, Kedarnath and Ramnath Publishers, Meerut, Delhi.",
+       "referenceBooks": "1. T.T. Soong, Fundamentals of Probability and Statistics for Engineers, John Wiley & Sons, 2004.\n2. Sheldon M Ross, Probability and statistics for Engineers and scientists, academic press\n3. Miller and Freund’s, Probability and Statistics for Engineers, 8th Edition, Pearson Educations.",
+       "outcomes": "After completion of the course, the student should be able to\n\nCO-1. Apply the concepts of Random variable and distributions to case studies.\n\nCO-2. Formulate and solve problems involving random variables and apply statistical methods for analyzing\nexperimental data.\n\nCO-3. Apply the concept of estimation and testing of hypotheses to case studies.\n\nCO-4. Correlate the concepts of one unit to the concepts in other units.\n\nCO-5. Fit the curve, correlation and regression for the given data."
+      },
+      {
+       "code": "2505304",
+       "name": "Computer Organization and Architecture",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Course Objectives:\n\n• To introduce number systems, digital logic circuits, and basic computer organization.\n\n• To understand register transfer language, micro-operations, and basic computer organization and\ndesign.\n\n• To learn microprogrammed control and CPU organization including instruction formats, addressing\nmodes, and program control.\n\n• To explore input-output organization and memory hierarchy including cache and associative memory.\n\n• To understand the concepts of pipelines, vector processing, multiprocessors, and RISC/CISC\narchitectures.\n\nUNIT -I (The Unit is being dealt only for basic information & should be treated 12 Hrs\nas elementary)\n\nData Representation: Number Systems, Complements, Arithmetic Addition, Arithmetic Subtraction, Overflow.\nDigital Logic Circuits: Logic Gates, Boolean Algebra, Map Simplification, Combinational Circuits: Half Adder,\nFull Adder; Flip-Flops — SR, D, JK and T; Sequential Circuits: Flip-Flop Input Equations, State Table and State\nDiagram.\n\nDigital Components-Decoders, Multiplexers, Registers, Binary Counters. Digital Computers -Block diagram\nof Digital Computer, Definition of Computer Organization, Computer Design and Computer Architecture.\n\nUNIT - Il 12 Hrs\n\nRegister Transfer Language and Micro Operations: Register Transfer language, Register Transfer, Bus\nand Memory Transfers, Arithmetic Micro Operations, Logic Micro Operations, Shift Micro Operations,\nArithmetic Logic Shift Unit.\n\nBasic Computer Organization and Design: Instruction codes, Computer Registers Computer instructions,\nTiming and Control, Instruction Cycle, Memory Reference Instructions, Input — Output and Interrupt.\n\nUNIT - Ill 12 Hrs\n\nMicroprogrammed Control: Control memory, Address sequencing, Micro program example, Design of\nControl Unit.\n\nCentral Processing Unit: General Register Organization, Instruction Formats, Addressing modes, Data\nTransfer and Manipulation, Program Control.\n\nUNIT -IV 12 Hrs\n\nInput-Output Organization: Input-Output Interface, Asynchronous Data Transfer, Modes of Transfer, Priority\n\nInterrupt Direct memory Access.\n\nMemory Organization: Memory Hierarchy, Main Memory, Auxiliary memory, Associate Memory, Cache\n\nMemory.\n\nUNIT-V 12 Hrs\nPipeline and Vector Processing: Parallel Processing, Pipelining, Arithmetic Pipeline, Instruction Pipeline.\n\nMulti Processors: Characteristics of Multiprocessors, Interconnection Structures.\nCharacteristics of RISC and CISC.",
+       "textbooks": "1. Computer System Architecture — M. Morris Mano, Third Edition, Pearson/PHI.",
+       "referenceBooks": "1. Computer Organization — Carl Hamacher, ZvonksVranesic, SafeaZaky, 5th Edition, McGraw-Hill.\n2. Computer Organization and Architecture — William Stallings, Sixth Edition, Pearson/PHI.\n3. Structured Computer Organization — Andrew S. Tanenbaum, 4th Edition, PHI/Pearson.",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. Explain number systems, digital logic, flip-flops, and basic digital computer structure.\n\nCO-2. Apply register transfer language and micro-operations in designing simple computer instructions.\n\nCO-3. Demonstrate microprogrammed control, CPU organization, instruction formats, and addressing\nmodes.\n\nCO-4. Analyze I/O organization and memory hierarchy, including cache and associative memory.\n\nCO-5. Compare pipelining, multiprocessors, and RISC/CISC architectures."
+      },
+      {
+       "code": "2505305",
+       "name": "Object Oriented Programming Through Java",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Course Objectives:\n• To introduce the fundamentals of object-oriented programming, Java basics, data types, operators,\ncontrol structures, and classes.\n• To understand the principles of inheritance, polymorphism, packages, and interfaces.\n• To learn exception handling, multithreading, synchronization, and inter-thread communication.\n• To explore Java libraries, event handling, and GUI fundamentals using AWT.\n• To develop applications using Swing components with MVC architecture.\n\nUNIT -I 12 Hrs\n\nObject-oriented thinking and Java Basics- Data types, variables, scope and lifetime of variables, arrays,\noperators, expressions, control statements, type conversion and casting, concepts of classes, objects,\nconstructors, methods, access control, this keyword, garbage collection, overloading methods and\nconstructors, parameter passing, recursion, nested classes.\n\nUNIT — II 12. Hrs\n\nInheritance, Packages and Interfaces — Hierarchical abstractions, Base class object, subclass, subtype,\nsubstitutability, construction, benefits of inheritance. super keyword uses, using the final keyword with\ninheritance, polymorphism- method overriding, abstract classes, the Object class. Defining, Creating and\nAccessing a Package, Understanding CLASSPATH, importing packages, differences between classes and\ninterfaces, defining an interface, implementing interface, applying interfaces.\n\nUNIT - Ill 12 Hrs\n\nException handling and Multithreading-- exception hierarchy, usage of try, catch, throw, throws, and finally,\nbuilt-in exceptions, creating own exception subclasses. Differences between multithreading and multitasking,\nthread life cycle, creating threads, thread priorities, synchronizing threads, and inter-thread communication.\n\nUNIT -IV 12 Hrs\nExploring String class, Object class, Exploring java.io package Event Handling: Events, Event sources, Event\nclasses, Event Listeners, Delegation event model, handling mouse and keyboard events, Adapter classes.\ngraphics, layout manager — layout manager types — border, grid, flow.\n\nUNIT-V 12 Hrs\nSwing — Introduction, limitations of AWT, MVC architecture, components, containers, exploring swing- JFrame\n\nand JComponent, JLabel, Imagelcon, JTextField, JButton, JCheckBox, JRadioButton, JList, JComboBox,\nTabbed Panes, Scroll Panes.",
+       "textbooks": "1. Java the complete reference, 13th edition, Herbert schildt, Dr. Denny Coward, Mc Graw Hill.\n2. Understanding OOP with Java, updated edition, T. Budd, Pearson education.",
+       "referenceBooks": "1. An Introduction to programming and OO design using Java, J.Nino and F.A. Hosch, John Wiley &sons.\n2. An Introduction to OOP, third edition, T. Budd, Pearson Education.\n\n3. Introduction to Java programming, Y. Daniel Liang, Pearson Education.\n\n4. An introduction to Java programming and object-oriented application development, R.A. Johnson-\n\nThomson.\n\n5. Core Java 2, Vol 1, Fundamentals, Cay.S. Horstmann and Gary Cornell, eighth Edition, Pearson\nEducation.\n\n6. Core Java 2, Vol 2, Advanced Features, Cay.S. Horstmann and Gary Cornell, eighth Edition, Pearson\nEducation\n\n7. Object Oriented Programming with Java, R.Buyya, S.T.Selvi, X.Chu, TMH.\n8. Java and Object Orientation, an introduction, John Hunt, second edition, Springer.\n9. Maurach’s Beginning Java2 JDK 5, SPD.",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. Demonstrate object-oriented programming fundamentals in Java, including classes, objects, and\ncontrol structures.\n\nCO-2. Apply inheritance, polymorphism, packages, and interfaces to design Java applications.\n\nCO-3. Implement robust Java programs using exception handling and multithreading.\n\nCO-4. Analyze and apply event handling, Java I/O, and GUI programming concepts.\n\nCO-5. Design and build Java applications using Swing components with MVC design principles."
+      },
+      {
+       "code": "2505306",
+       "name": "Software Engineering",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Course Objectives:\n• Skills to analyse the problem and solution domains.\n• Skills to develop software requirements documents.\n• Skills to develop software design documents.\n• Skills to model design using CASE tools.\n• Skills to design test cases.\n\nUNIT -I 12 Hrs\n\nIntroduction to Software Engineering: The evolving role of software, changing nature of software, software\nmyths.\n\nA Generic view of process: Software engineering- a layered technology, a process framework, the capability\nmaturity model integration (CMMI).\n\nProcess models: The waterfall model, Spiral model and Agile Development.\n\nUNIT — II 12. Hrs\n\nSoftware Requirements: Functional and non-functional requirements, user requirements, system\nrequirements, interface specification, the software requirements document.\n\nRequirements engineering process: Requirements elicitation and analysis, requirements validation,\nrequirements management.\n\nUNIT - Ill 12 Hrs\n\nDesign Engineering: Design process and design quality, design concepts, the design model.\nCreating an architectural design: software architecture, data design, architectural design, conceptual model\nof UML, use case diagrams, class diagrams, sequence diagrams, activity diagrams.\n\nUNIT -IV 12 Hrs\n\nTesting Strategies: A strategic approach to software testing, test strategies for conventional software,\nblack-box and white-box testing, validation testing, and system testing.\nMetrics for Process and Products: Software measurement, metrics for software quality.\n\nUNIT-V 12 Hrs\nRisk management: Reactive Vs proactive risk strategies, software risks, RMMM.\n\nQuality Management: Quality concepts, software quality assurance, software reviews, formal technical\nreviews, statistical software quality assurance, software reliability, the ISO 9000 quality standards.",
+       "textbooks": "1. Software Engineering, A Practitioner’s Approach- Roger S. Pressman, 6th edition, McGraw-Hill\nInternational Edition.\n\n2. Software Engineering- Sommerville, 7th edition, Pearson Education.\n\n3. The unified modeling language user guide, Grady Booch, James Rumbaugh, Ivar Jacobson, Pearson\nEducation.",
+       "referenceBooks": "1. Software Engineering, an Engineering Approach- James F. Peters, Witold Pedrycz, John Wiley.\n2. Software Engineering principles and practice- Waman S Jawadekar, The McGraw-Hill Companies.\n3. Fundamentals of object-oriented design using UML Meiler page-Jones: Pearson Education.\n4. Fundamentals of Software Engineering-Rajib Mall, PHI.",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. Able to understand the software engineering principles, practices and process models.\nCO-2. Able to elicit, analyze and specify software requirements from the project stakeholders.\nCO-3. Able to analyze and translate the specifications into software designs and model the designs.\nCO-4. Able to apply different test strategies to perform testing and metrics to assess the software.\nCO-5. Able to identify and manage software risks and maintain the quality of the software."
+      },
+      {
+       "code": "2505307",
+       "name": "Database Management Systems",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Course Objectives:\n• To understand the basic concepts of database systems and the ER Model.\n• To analyze and apply the concepts of relational model and normalization.\n• To master the basics of SQL and construct queries using SQL\n• To understand the basics of transaction processing and concurrency control\n• To know the concepts of database storage structures and access techniques.\n\nUNIT -I 12 Hrs\nDatabase System Applications: File Systems versus a DBMS, the Data Model, Levels of Abstraction in a\nDBMS, Data Independence, Structure of a DBMS.\n\nIntroduction to Database Design: Database Design and ER Diagrams, Entities, Attributes, and Entity Sets,\nRelationships and Relationship Sets, Conceptual Design with the ER Model\n\nUNIT - Il 12 Hrs\n\nIntroduction to the Relational Model: Integrity constraint over relations, enforcing integrity constraints,\nquerying relational data, introduction to views, destroying/altering tables and views. Relational Algebra, Tuple\nRelational Calculus, Domain Relational Calculus.\n\nUNIT - Ill 12 Hrs\n\nSQL: QUERIES, CONSTRAINTS, TRIGGERS:Forms of Basic SQL Query, UNION, INTERSECT, and\nEXCEPT, Nested Queries, Aggregation Operators, NULL Values, Complex Integrity Constraints in SQL,\nTriggers.\n\nSchema Refinement: Problems caused by redundancy, decompositions, problems related to decomposition,\nreasoning about functional dependencies, First, Second, Third Normal forms, BCNF, lossless join\ndecomposition, multivalued dependencies, Fourth Normal form, Fifth Normal form.\n\nUNIT -IV 12. Hrs\n\nTransaction Concept, Transaction State, Implementation of Atomicity and Durability, Concurrent Executions,\nSerializability, Recoverability, Implementation of Isolation, Testing for serializability, Lock-Based Protocols,\nTimestamp-Based Protocols, Recovery and Atomicity, Log—Based Recovery, Recovery with Concurrent\nTransactions\n\nUNIT-V 12 Hrs\n\nData on External Storage, File Organization and Indexing, Primary and Secondary Indexes, Index data\nStructures, Hash-Based Indexing, Tree-based Indexing, Indexes- Indexed Sequential Access Methods\n(ISAM).",
+       "textbooks": "1. Database System Concepts, Silberschatz, Korth, McGraw hill, V edition.\n2. Database Management Systems, Raghurama Krishnan, Johannes Gehrke, Tata McGraw Hill, 3rd\nEdition",
+       "referenceBooks": "1. Database Systems Design, Implementation, and Management, Peter Rob & Carlos Coronel, 7th\nEdition.\n2. Fundamentals of Database Systems, Elmasri, Navratil, Pearson Education\n3. Introduction to Database Systems, C. J. Date, Pearson Education\n4. Oracle for Professionals, The X Team, S.Shah and V. Shah, SPD.\n5. Database Systems Using Oracle: A Simplified guide to SQL and PL/SQL, Shah, PHI.\n6. Fundamentals of Database Management Systems, M. L. Gillenson, Wiley Student Edition.",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. Gain knowledge of the fundamentals of DBMS and ER Model.\n\nCO-2. Able to apply the knowledge of relational models.\n\nCO-3. Apply the basics of SQL for the retrieval and management of data and design an efficient database\nusing normalization.\n\nCO-4. Be acquainted with the basics of transaction processing and concurrency control.\n\nCO-5. Gain knowledge on database storage structures and access techniques."
+      },
+      {
+       "code": "2588301",
+       "name": "Innovation and Entrepreneurship",
+       "l": 2,
+       "t": 0,
+       "p": 0,
+       "credits": 2,
+       "syllabus": "Course Objectives:\n• To familiarize on the basic concepts of innovation, entrepreneurship and its importance.\n• To identify and analyze the process of problem-opportunity identification, market segmentation, and\nidea generation techniques.\n• To initiate prototype development and understand the minimum viable product.\n• To develop initial Business and financial planning and Go-to-Market strategies\n• To impart knowledge on establishing startups, venture pitching and IPR\n\nUnit |: Fundamentals of Innovation and Entrepreneurship 12 Hrs\n\nInnovation: Introduction, need for innovation, Features, Types of innovations, innovations in manufacturing\nand service sectors, fostering a culture of innovation, planning for innovation.\n\nEntrepreneurship: Introduction, types of entrepreneurship attributes, mindset of entrepreneurial and\nintrapreneurial leadership, Role of entrepreneurs in economic development. Women Entrepreneurship, the\nImportance of on-campus startups. Understanding to build entrepreneurial mindset attributes and networks\nindividuals while on campus.\n\nCore Teaching Tool: Simulation, Game, Industry Case Studies (Personalized for students — 16 industries to\nchoose from), Venture Activity.\n\nUnit Il: Problem and Customer Identification 12 Hrs\n\nIdentification of gap, problem, analyzing the problem from an industry perspective, real-world problems,\nmarket and customer segmentation, validation of customer problem fit, Iterating problem-customer fit,\nCompetition and Industry trends mapping and assessing initial opportunity, Porter's Five Force Model.\n\nIdea generation, Ideation techniques: Brainstorming, Brain writing, Round robin, and SCAMPER, Design\nthinking principles, Mapping of solution to problem.\n\nCore Teaching Tool: Several types of activities including: Class, game, Gen Al, ‘Get out of the Building’ and\nVenture Activity.\n\nUnit Ill: Opportunity assessment and Prototype development 12 Hrs\n\nIdentify and map global competitors, review industry trends, and understand market sizing: TAM, SAM, and\nSOM. Assessing scope and potential scale for the opportunity.\n\nUnderstanding prototyping and Minimum Viable Product (MVP). Developing a prototype: Testing, and\nvalidation.\n\nCore Teaching Tool: Venture Activity, no-code Innovation tools, Class activity\n\nUnit IV: Business & Financial Models 12 Hrs\n\nIntroduction to Business Model and types, Lean Canvas Approach: 9-block lean canvas model, building a\nlean canvas for your startup. Business planning: components of Business plan- Sales plan, People plan and\nfinancial plan, Financial Planning: Types of costs, preparing a financial plan for profitability using a financial\ntemplate, understanding the basics of Unit economics, Economies of Scale and analyzing financial\nperformance. Go-To-Market (GTM) approach — Selecting the Right Channel, creating digital presence, and\nbuilding a customer acquisition strategy.\n\nCore Teaching Tool: Founder Case Studies - Sama and Securely Share; Class activity anddiscussions;\nVenture Activities.\n\nUnit V: Startups and IPR 12 Hrs\nStartup requirements, building founding team members and mentors, pitch preparation, start-up registration\n\nprocess, funding opportunities and schemes, institutional support to entrepreneurs, startup lifecycle,\ndocumentation, legal aspects in startup, venture pitching readiness, National Innovation Startup Policy\n\n(NISP) and its features.\n\nPatents, Designs, Patentability, Procedure for grants of patents. Indian Scenario of Patenting, International\nScenario: International cooperation on Intellectual Property. Patent Rights: Scope of Patent Rights.\nCopyright, trademark, and GI. Licensing and transfer of technology.\n\nCore Teaching Tool: Expert talks; Cases; Class activity and discussions; Venture Activities.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. Understand entrepreneurship and the entrepreneurial process and its significance in economic\ndevelopment.\n\nCO-2. Assess the problem from an industry perspective and generate solutions using the design thinking\nprinciples.\n\nCO-3. Assess market competition, estimate market size, and develop a prototype.\n\nCO-4. Analyze Business and financial planning models and Go-to-Market strategies.\n\nCO-5. Able to build a start-up, register IP and identify funding opportunities."
+      },
+      {
+       "code": "2505308",
+       "name": "Object Oriented Programming Through Java Laboratory",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Course Objectives:\n\n• To set up a Java development environment, familiarize with IDEs (Eclipse/NetBeans), debugging, and\nbasic syntax/program execution.\n\n• To implement and apply object-oriented principles such as classes, inheritance, polymorphism,\nabstract classes, and interfaces.\n\n• To develop robust programs using exception handling, multithreading, and_ inter-thread\ncommunication.\n\n• To design event-driven GUI applications using AWT and Swing components.\n\n• To integrate file handling, hash tables, and directory/file operations for application development.\n\nList of Experiments\n\n1. Use the Eclipse or NetBeans platform and acquaint yourself with the various menus. Create a test\nproject, add a test class, and run it. See how you can use auto-suggestions and auto-fill. Try code\nformatter and code refactoring, like renaming variables, methods, and classes. Try debugging step by\nstep with a small program of about 10 to 15 lines, which contains at least one if-else condition and a\nfor loop.\n\n2. Write a Java program for the following: Create a doubly linked list of elements. Delete a given element\nfrom the above list. Display the contents of the list after deletion.\n\n3. Write a Java program to create an abstract class named Shape that contains two integers and an\nempty method named print_Area (). Provide three classes named Rectangle, Triangle, and Circle\nsuch that each one of the classes extends the class Shape. Each one of the classes contains only the\nmethod print Area () that prints the area of the given shape.\n\n4. Write a Java program that implements a multi-thread application that has three threads. First thread\ngenerates a random integer every 1 second, and if the value is even, the second thread computes the\nsquare of the number and prints. If the value is odd, the third thread will print the cube of the number.\n\n5. Write a Java program that correctly implements the producer-consumer problem using the concept of\ninter-thread communication.\n\n6. Write a Java program that works as a simple calculator. Use a grid layout to arrange buttons for the\ndigits and for the +, -,*, % operations. Add a text field to display the result. Handle any possible\nexceptions like divided by zero.\n\n7. A) Develop a Swing application todisplay a simple message.\n\nB) Develop a Swing application to receive an integer in one text field, compute its factorial Value\nand return it in another text field, when the button named “Compute” is clicked.\n\n8. Write a Java program that handles all mouse events and shows the event name at the center of the\nwindow when a mouse event is fired (Use Adapter classes).\n\n9. Write a Java program that creates a user interface to perform integer divisions. The user enters two\nnumbers in the text fields, Num1 and Num2. The division of Num1 and Num 2 is displayed in the\nResult field when the Divide button is clicked. If Num1 or Num2 were not an integer, the program\nwould throw a Number Format Exception. If Num2 were Zero, the program would throw an Arithmetic\nException. Display the exception in a message dialog box.\n\n10. Write a Java program that simulates a traffic light. The program lets the user select one of three lights:\nred, yellow, or green with radio buttons. When a button is selected, an appropriate message with\n“Stop,” “Ready,” or “Go” should appear above the buttons in the chosen color. Initially, there is no\nmessage shown.\n\n11. Suppose that a table named Table.txt is stored in a text file. The first line in the file is the header, and\nthe remaining lines correspond to rows in the table. The elements are separated by commas. Write a\nJava program to display the table using Labels in a Grid Layout.\n\n12. Write a Java program that loads names and phone numbers from a text file where the data is\norganized as one line per record and each field in a record is separated by a tab (\\\\t). It takes a name\nor phone number as input and prints the corresponding other value from the hash table (hint: use\nhash tables).\n\n13. Write a Java program to list all the files in a directory, including the files present in all its\nsubdirectories.\n\nSelf-Practice Programs:\n\n1. Write a Java console program for a Student Record Manager that allows add/search/update/\ndelete student details (RolINo, Name, Branch, CGPA) using a HashMap, and saves/loads the\ndata from a text file.\n\n2. Write a Java Swing program for a To-Do List where the user can add tasks, mark tasks\nas completed, delete tasks, and (optional) save the task list to a file when closing the application.",
+       "textbooks": "1. Java for Programmers, P. J. Deitel and H. M. Deitel, 10th Edition, Pearson Education.\n2. Thinking in Java, Bruce Eckel, Pearson Education.",
+       "referenceBooks": "1. Java Programming, D. S. Malik and P. S. Nair, Cengage Learning.\n2. Core Java, Volume 1, 9th edition, Cay S. Horstmann and G Cornell, Pearson.",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. Apply Java environment, IDE tools, debugging, and basic program constructs to develop working\nprograms.\n\nCO-2. Implement object-oriented principles (inheritance, polymorphism, abstraction, interfaces) in program\ndevelopment.\n\nCO-3. Develop multithreaded programs with exception handling and inter-thread communication for\nconcurrent execution.\n\nCO-4. Design interactive GUI applications using AWT/Swing with event handling.\n\nCO-5. Create real-world applications using file handling, hash tables, and directory management."
+      },
+      {
+       "code": "2505309",
+       "name": "Software Engineering Laboratory",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Course Objectives:\n• Skills to analyse the problem and solution domains.\n• Skills to develop software requirements documents.\n• Skills to develop software design documents.\n• Skills to model design using CASE tools.\n• Skills to design test cases.\n\nList of Experiments\n\nDo the following seven exercises for any two projects given in the list of sample projects or any other Projects:\n1. Development of problem statements.\n2. Preparation of Software Requirement Specification Document, Design Documents and Testing Phase\nrelated documents.\n3. Preparation of Software Configuration Management and Risk Management related documents.\n4. Study and usage of any Design phase CASE tool\n5. Performing the Design by using any Design phase CASE tools.\n6. Develop test cases for unit testing and integration testing\n7. Develop testcases for various white box and black box testing techniques.\n\nSample Projects:\n1. Passport Automation System\n2. Book Bank\n3. Online Exam Registration\n4. Stock Maintenance System\n5. Online course reservation system\n6. E-ticketing\n7. Software Personnel Management System\n8. Credit Card Processing\n9. E-book management System.\n10. Recruitment system\n\nSelf-Practice Programs:\n\n1. Agile Documentation-User stories instead of long SRS Continuous testing.",
+       "textbooks": "1. Software Engineering, A practitioner’s Approach- Roger S. Pressman, 6th edition, McGraw Hill\nInternational Edition.\n2. Software Engineering- Sommerville, 7th edition, Pearson Education.\n3. The Unified Modeling Language User Guide, Grady Booch, James Rumbaugh, Ivar Jacobson,\nPearson Education.",
+       "referenceBooks": "1. Software Engineering, an Engineering Approach- James F. Peters, Witold Pedrycz, John Wiley.\n2. Software Engineering principles and practice- Waman S Jawadekar, The McGraw-Hill.",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. Understand and analyse problem domain of the applications\n\nCO-2. Create software requirements documents for the applications to be developed\nCO-3. Define software design documents for applications to be developed\n\nCO-4. Build various models to represent software design using modelling tools\nCO-5. Design different types of test cases to test the applications."
+      },
+      {
+       "code": "2505310",
+       "name": "Database Management Systems Laboratory",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Course Objectives:\n• To introduce ER data model and Relational data model\n• To design database schema for a given application and apply normalization.\n• To gain knowledge of SQL commands for data definition and data manipulation\n• To understand the basics of Querying\n• To develop solutions for database applications using procedures, cursors and triggers\n\nList of Experiments\n\n1. Concept design with E-R Model\n\n2. Relational Model\n\n3. Normalization\n\n4. Practicing DDL commands\n\n5. Practicing DML commands\n\n6. A. Querying (using ANY, ALL, UNION, INTERSECT, JOIN, Constraints etc.)\nB. Nested, Correlated Subqueries\n\n7. Queries using Aggregate functions, GROUP BY, HAVING, and Creation and dropping of Views.\n\n8. Usage of Cursors\n\n9. Triggers (Creation of insert trigger, delete trigger, update trigger)\n\n10. Procedures\n\nSelf-Practice Programs:\n\n1.Enhanced ER (EER) modeling with specialization, generalization, and aggregation,\n\nMapping complex real-world scenarios to ER diagrams\n2.Normalization in NoSQL databases, Automated functional dependency discovery tools\n3.Database security concepts: roles, privileges, and fine-grained access control,Materialized views\n4.Recursive queries using WITH RECURSIVE, Event-driven programming with triggers\n5.Procedures with IN, OUT, and INOUT parameters, Parameterized cursors",
+       "textbooks": "1. Database Management Systems, Raghurama Krishnan, Johannes Gehrke, Tata Mc Graw Hill,\n3rd Edition\n\n2. Database System Concepts, Silberschatz, Korth, McGraw-Hill, 5\" edition",
+       "referenceBooks": "1. Database Systems Design, Implementation, and Management, Peter Rob & Carlos Coronel, 7th\nEdition.\n2. Fundamentals of Database Systems, Elmasri Navate, Pearson Education.\n3. Introduction to Database Systems, C.J. Date, Pearson Education.\n4. Oracle for Professionals, The X Team, S. Shah and V. Shah, SPD.\n5. Database Systems Using Oracle: A Simplified guide to SQL and PL/SQL, Shah, PHI.\n6. Fundamentals of Database Management Systems, M. L. Gillenson, Wiley Student Edition.",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. Develop ER data models and Relational data model for a database\n\nCO-2. Design database schema for a given application and apply normalization\n\nCO-3. Apply SQL commands for data definition and data manipulation\n\nCO-4. Apply the basics of SQL for retrieval and management of data\n\nCO-5. Develop solutions for database applications using procedures, cursors and triggers"
+      },
+      {
+       "code": "2505311",
+       "name": "Skill Development Course - 1 (Node.js / ReactJS/Django)",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Course Objectives:\n• Implement static and dynamic web pages using HTML, CSS, and Bootstrap, and perform client-side\nvalidation using JavaScript.\n• To develop an end-to-end application using a full-stack Java.\n• Introduce server-side programming using Node.js and Express.\n• Design and interact with databases using Java and MongoDB.\n• Explore single-page application (SPA) development using React.\n\nList of Experiments\n\n1. Build a responsive web application for a shopping cart with registration, login, catalog, and cart pages\nusing CSS3 features, flex, and grid.\n\n2. Make the above web application responsive using the Bootstrap framework.\n\n3. Use JavaScript for client-side validation of the pages implemented in exercises 1 and 2.\n\n4. Explore the features of ES6 like arrow functions, callbacks, promises, and async/await. Implement an\napplication to read weather information from openweathermap.org and display it as a graph on the\nweb page using Chart.js.\n\n5. Develop a Java standalone application that connects with the database (Oracle / MySQL) and\nperforms the CRUD operation on the database tables.\n\n6. Create an XML for the bookstore. Validate the same using both DTD and XSD.\n\n7. Create a custom server using the http module and explore other Node.js modules like OS, path, and\nevent.\n\n8. Develop an Express web application that connects to a MySQL database and performs CRUD\noperations on database tables. (Use Postman to test)\n\n9. Explore session tracking mechanisms (Cookies, HTTP Session) in Node.js using express-session and\ncookie-parser.\n\n10. For the above application, create authorized endpoints using JWT (JSON Web Token).\n\n11. Create a React application for the student management system,having registration, login, contact, and\nabout pages, and implement routing to navigate through these pages.\n\n12. Create a TODO application in Django with necessary components and deploy it to GitHub.\n\nSelf-Practice Programs:\n\n1. Progressive Web Apps development, Advanced CSS animations and transitions\n\n2. Modular JavaScript using ES modules and Webpack/Babel toolchain, Real-time web\ncommunication using WebSockets\n\n3.Server-side rendering (SSR) with Next.js for React apps, Component testing with Jest and\nReact Testing Library\n\n4.Integrating MongoDB / NoSQL databases alongside relational databases\n\n5.HTTPS, SSL certificates, and secure cookie handling, Integration of APIs for live data updates\n(stock, weather, news)",
+       "textbooks": "",
+       "referenceBooks": "1. Jon Duckett, HTML & CSS: Design and Build Websites, Wiley, 2011. (Updated, no XHTML)\n2. Ethan Brown, Learning Node.js Development, O’Reilly Media, 2019.\n3. Vasan Subramanian, Pro MERN Stack: Full Stack Web App Development with Mongo, Express,\nReact, and Node, 2nd Edition, APress, 2019.",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. Build responsive web pages using HTML, CSS, Bootstrap, and basic JavaScript validation.\nCO-2. Apply advanced JavaScript concepts for dynamic client-side functionality.\n\nCO-3. Develop server-side applications using Node.js and Express.\n\nCO-4. Develop server-side applications using Node.js and Express.\nCO-5. Design and develop a Single Page Application (SPA) using React."
+      },
+      {
+       "code": "2599304",
+       "name": "Environmental Science / Indian Knowledge System",
+       "l": 1,
+       "t": 0,
+       "p": 0,
+       "credits": 1,
+       "syllabus": "ENVIRONMENTAL SCIENCE\nCourse Objectives:\n• To introduce ecosystems, their structure, functions, and ecological significance.\n• To understand environmental pollution, control technologies, and international efforts for sustainability.\n• To provide knowledge of Indian Knowledge Systems, Vedic traditions, wellness, and aesthetics.\n• To understand Indian contributions to education, science, and technology.\n• To recognize the relevance of Indian Knowledge traditions in contemporary contexts.\n\nUNIT -1\n\nEcosystems & Natural Resources: Definition, Scope, and Importance of Ecosystems. Classification, structure,\nand function of an ecosystem, Food chains, food webs, and ecological pyramids. Flow of energy,\nBioaccumulation, ecosystem value.\n\nClassification of Resources: Living and Non-Living resources, water resources: use and over utilization of\nsurface and ground water, floods and droughts, Dams: benefits and problems. Mineral resources: use and\nexploitation, environmental effects of extracting and using mineral resources, Land resources: Forest\nresources, Energy resources: growing energy needs, renewable and non-renewable energy sources, use of\nalternate energy sources.\n\nUNIT - Il\n\nEnvironmental Pollution and Control Technologies: Environmental Pollution: Classification of pollution,\nAmbient air quality standards.\n\nOverview of Air Pollution Control Technologies and Concepts of Bioremediation. Global Environmental Issues\nand Global Efforts: Climate Change and Its Impacts on the Human Environment. Ozone depletion and\nozone-depleting substances (ODS). Deforestation and desertification. International conventions / Protocols:\nEarth Summit, Kyoto Protocol, and Montréal Protocol. NAPCC-Gol Initiatives. Sustainable development goals\n(SDGs), global environmental challenges, and environmental policies and international agreements.",
+       "textbooks": "1. Introduction to Environmental Science by Y. Anjaneyulu, BS. Publications.\n2. Textbook of Environmental Studies for Undergraduate Courses by Erach Bharucha for the University\nGrants Commission.\n3. Environmental Studies by R. Rajagopalan, Oxford University Press.",
+       "referenceBooks": "1. Environmental Science: towards a sustainable future by Richard T. Wright. 2008 PHL Learning Private\nLtd., New Delhi.\n\n2. Environmental Engineering and Science by Gilbert M. Masters and Wendell P. Ela. 2008 PHI Learning\nPvt. Ltd.\n\n3. Environmental Science by Daniel B. Botkin & Edward A. Keller, Wiley INDIA edition.\n\n4. Environmental Studies by Anubha Kaushik, 4th Edition, New Age International Publishers.\n\n5. Textbook of Environmental Science and Technology - Dr M. Anji Reddy, 2007, BS Publications.\n\nSDG’S Mappin\n[4 S : ae\n\nINDIAN KNOWLEDGE SYSTEM\n\nUNIT -I\n\nIntroduction to Indian Knowledge Systems\n\nMeaning, Nature, Scope and Salient Aspects of Bharatiya Jnana Parampara - Introduction to Vedas,\nUpanishads, Vidya, Kala, Jnana, Shastra - Practices and Continuity of Tradition.\n\nConcept of Wellness — Yoga System - Ayurveda System - Ancient Indian Aesthetics\n\nUNIT - Il\n\nOverview of the History of Indian Education and Scientific Literature\nGurukul System - Role of Sanskrit in Natural Language Processing - Scientific Literature — Vedic Literature -\nAvailable Scientific Treatises - Interlinking’s\n\nUNIT - Ill\n\nDevelopment of Science & Technology in India.\n1. Science and technology heritage of India\n2. Science and technology heritage: Literary Sources\n3. Science and technology heritage: Physical structures\n4. Science and technology heritage: Temples\n5. Science and technology heritage: Watershed management\n6. Dyes, arts and perfume production.\n7. Shipbuilding\n8. Status of Indigenous S & T\n\nSuggested Readings:\n\n1. B.Mahadevan, Bhat Vinayak and Nagendra Pavan R.N., (2022) ‘Introduction to Indian\n\n2. Knowledge Systems: Concepts and Applications’ PHI learning PVT, New Delhi\n\n3. Dharmapal (1971) ‘Indian Science and Technology in the Eighteenth Century’. Other India\n\n4. Press, Goa.\n\n5. Kapil Kapoor, Singh Avdhesh Kumar, (2005) 'Indian Knowledge Systems' D.K. Printworld (P)Ltd.\n\n6. Chakradeo, Ujwala, Temples of Bharat, Aayu Publications, New Delhi, 2024.\n\n7. D.N. Bose, S.N. Sen and B. V. Subbarayappa, A Concise History of Science in India, Indian National\nScience Academy, New Delhi, 2009.\n\n8. Datta B. and A. N. Singh, History of Hindu Mathematics: Parts | and Il, Asia Publishing House,\nBombay, 1962.\n\n9. Kapoor, K. (2021), Indian Knowledge System: Nature, Philosophy, Character in Indian\n\n10. Knowledge System, vol. 1, Pub. Indian Institute of Advanced Studies, Shimla\n\n11. Mahadevan, B., Bhat, V.R., Pavana, N. (2022), Philosophical Systems, in Introduction to Indian\nKnowledge System, Pub. PHI Learning, New Delhi.\n\n12. Mahadevan, B., Bhat, V.R., Pavana, N. (2022), Knowledge: Framework and Classification, in\nIntroduction to Indian Knowledge System, Pub. PHI Learning, New Delhi.\n\nNote: Environmental Science and Indian Knowledge System will be conducted on alternate weeks.",
+       "outcomes": "CO-1. Recall and explain the structure, functions, and importance of ecosystems and natural resources.\nCO-2. Describe environmental pollution, control methods, and international conventions for sustainability.\nCO-3. Explain the salient aspects of Bharatiya Jnana Parampara, Vedas, Upanishads, Yoga, and Ayurveda.\nCO-4. Recall the history of Indian education and scientific contributions through literature and Sanskrit.\nCO-5. Recognize India’s heritage in science &technology, and relate it to present-day challenges."
+      }
+     ]
+    },
+    {
+     "semester": 2,
+     "subjects": [
+      {
+       "code": "2599405",
+       "name": "Discrete Mathematics",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Course Objectives:\n• Topics include formal logic notation, methods of proof\n• Focus on Set theory\n• Deals with Algebraic structures\n• Explores Elementary combinatorics, permutations and combinations, counting principles\n• Involves graph theory, Trees and spanning Trees\n\nUNIT-I: 10Hrs\n\nMathematical logic: Introduction, Statements and Notation, Connectives, Normal Forms, Theory of Inference\nfor the Statement Calculus, The Predicate Calculus: Quantifiers.\n\nUNIT-I: 10 Hrs\n\nSet theory: Introduction, Basic Concepts of Set Theory, Representation of Discrete Structures, Relations,\nFunctions.\n\nUNIT-III: 10 Hrs\n\nAlgebraic Structures: Introduction, Algebraic Systems, Semi-groups and Monoids, Ordering, Lattices as\nPartially Ordered Sets.\n\nUNIT-IV: 10 Hrs\n\nElementary Combinatorics: Basics of Counting, Combinations and Permutations, Enumeration of\nCombinations and Permutations, Enumerating Combinations and Permutations with Repetitions, Enumerating\nPermutations with Constrained Repetitions, Binomial Coefficient, The Binomial and Multinomial Theorems,\nThe Principle of Exclusion.\n\nUNIT-V: 10 Hrs\nGraph Theory: Basic Concepts, Isomorphism and Subgraphs, Multi-graphs and Euler Circuits, Hamiltonian\n\nGraphs, Chromatic Numbers, The Four-Color Problem.\nTrees and their Properties, Spanning Trees by BFS, DFS Algorithms, Binary Trees.",
+       "textbooks": "1. Discrete Mathematical Structures with Applications to Computer Science: J.P. Tremblay, R.Manohar,\nMcGraw-Hill, 1st ed.\n\n2. Discrete Mathematics for Computer Scientists & Mathematicians: Joe |. Mott, Abraham\nKandel, Teodore P. Baker, Prentis Hall of India, 2nd ed.",
+       "referenceBooks": "1. Discrete and Combinatorial Mathematics - an applied introduction: Ralph. P. Grimald, Pearson\neducation, 5th edition.\n2. Discrete Mathematical Structures: Thomas Kosy, Tata McGraw Hill Publishing co.",
+       "outcomes": "After learning the contents of this paper, the student must be able to\n\nCO-1. Understand and construct precise mathematical proofs\n\nCO-2. Apply logic and set theory to formulate precise statements\n\nCO-3. Analyze and solve counting problems on finite and discrete structures\nCO-4. Describe and manipulate sequences\n\nCO-5. Apply graph theory in solving computing problems"
+      },
+      {
+       "code": "2505401",
+       "name": "Operating Systems",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Course Objectives:\n\n• To understand the structure of operating systems, system components, services, and process\nconcepts.\n\n• To study CPU scheduling algorithms, process management, and synchronization mechanisms.\n\n• To learn inter-process communication, deadlocks, and methods of prevention, avoidance, and\nrecovery.\n\n• To understand memory management techniques and virtual memory concepts.\n\n• To analyze file system interface, operations, and system calls for file management.\n\nUNIT -I 12. Hrs\n\nOperating System - Introduction, Structures - Simple Batch, Multi-programmed, Time-shared, Personal\nComputer, Parallel, Distributed Systems, Real-Time Systems, System components, Operating System\nservices.\n\nProcess - Process concepts and scheduling, Operations on processes, System Calls: fork, exit, wait, waitpid,\nexec.\n\nUNIT — II 12. Hrs\n\nCPU Scheduling - Scheduling Criteria, Scheduling Algorithms: First Come First Serve (FCFS), Shortest Job\nFirst(SJF),Round-Robin, Priority Scheduling Algorithm.\n\nProcess Management and Synchronization-The Critical Section Problem, Semaphores, and Classical\nProblems of Synchronization: Producer-Consumer Problem, Dining-Philosophers Problem, Readers-Writers\nProblem.\n\nUNIT - Ill 12 Hrs\n\nInterprocess Communication Mechanisms: IPC between processes on a single computer system, IPC\nbetween processes on different systems, using pipes, FIFOs, message queues, shared memory.\n\nDeadlocks - System Model, Deadlocks Characterization, Methods for Handling Deadlocks, Deadlock\nPrevention, Deadlock Avoidance, Deadlock Detection, and Recovery from Deadlock.\n\nUNIT -IV 12 Hrs\nMemory Management and Virtual Memory - Logical versus Physical Address Space, Swapping, Contiguous\nAllocation, Paging, Segmentation, Demand Paging, Page Replacement, Page Replacement Algorithms: First\nIn First Out (FIFO), Least Recently Used (LRU), Optimal Page replacement algorithm.\n\nUNIT-V 12 Hrs\n\nFileSystem Interface and Operations-Access methods, Directory Structure, Protection, File System\nStructure, Allocation methods, Free-space Management. Usage of open, create, read, write, close, Iseek, stat,\nioctl system calls.",
+       "textbooks": "1. Operating System Principles- Abraham Silberchatz, Peter B. Galvin, Greg Gagne 7th Edition, John\nWiley\n\n2. Advanced programming in the UNIX environment, W.R. Stevens, Pearson Education",
+       "referenceBooks": "1. Operating Systems- Internals and Design Principles, William Stallings, Fifth Edition—2005, Pearson\nEducation/PHI\n2. Operating System A Design Approach- Crowley, TMH.\n3. Modern Operating Systems, Andrew S. Tanenbaum, 2nd edition, Pearson/PHI\n4. UNIX programming environment, Kernighan and Pike, PHI/ Pearson Education\n5. UNIX Internals -The New Frontiers, U. Vahalia, Pearson Education",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. Explain OS structures, services, and process concepts.\n\nCO-2. Apply CPU scheduling algorithms and process synchronization techniques.\n\nCO-3. Analyze inter-process communication methods and evaluate deadlock handling strategies.\nCO-4. Apply memory management and page replacement algorithms.\n\nCO-5. Demonstrate knowledge of file system operations and system calls."
+      },
+      {
+       "code": "2505402",
+       "name": "Design and Analysis of Algorithms",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Course Objectives:\n\n• To understand algorithm design, analyze their performance using time and space complexities with\nasymptotic notations, and apply the divide-and-conquer strategy to solve problems.\n\n• To understand and implement disjoint set operations, apply the greedy method to optimization\nproblems, and construct minimum spanning trees using Prim’s and Kruskal’s algorithms.\n\n• To understand the dynamic programming paradigm and apply it to solve optimization problems.\n\n• Apply the backtracking method to solve combinatorial problems such as 8-queens, sum of subsets,\nand graph coloring.\n\n• To understand the branch and bound technique for solving optimization problems and grasp the\nfundamentals of NP-Hard and NP-Complete problems.\n\nUNIT -I 12 Hrs\n\nIntroduction: Algorithm, Performance Analysis-Space complexity, Time complexity, Asymptotic notations- Big\noh notation, Omega notation, Theta notation, and Little oh notation.\n\nDivide and Conquer: General method, applications-Binary search, Merge sort, Quick sort, Strassen’s\nmatrix multiplication.\n\nUNIT - Il 12. Hrs\nDisjoint Sets: Disjoint set operations, union and find algorithms.\n\nGreedy method: General method, applications- Job sequencing with deadlines, knapsack problem,\nMinimum spanning trees: Prim’s Algorithm, Kruskal’s Algorithm.\n\nUNIT - Ill 12 Hrs\n\nDynamic Programming: General method, applications- Optimal binary search tree, 0/1 knapsack problem,\nAll pairs shortest path problem, Traveling salesperson problem.\n\nUNIT -IV 12 Hrs\n\nBasic Traversal and Search Techniques: Connected components, Biconnected components.\nBacktracking: General method, applications, 8-queens problem, sum of subsets problem, Graph Coloring.\n\nUNIT-V 12. Hrs\n\nBranch and Bound: General method, applications - 0/1 knapsack problem - LC Branch and Bound solution,\nFIFO Branch and Bound solution.\n\nNP-Hard and NP-Complete problems: Basic concepts, Deterministic and Non-deterministic algorithms, NP -\nHard and NP-Complete classes, Cook’s theorem.",
+       "textbooks": "1. Fundamentals of Computer Algorithms, Ellis Horowitz, Satraj Sahni, and Rajasekaran, University\n\nPress.",
+       "referenceBooks": "1. Design and Analysis of algorithms, Aho, Ullman, and Hopcroft, Pearson education.\n2. Introduction to Algorithms, second edition, T. H. Cormen, C.E. Leiserson, R. L. Rivest, and C.Stein, PHI\nPvt. Ltd./ Pearson Education.\n3. Algorithm Design: Foundations, Analysis and Internet Examples, M.T. Goodrich and R.Tamassia, John\nWiley and Sons.",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. Implement divide-and-conquer algorithms such as binary search, merge sort, quick sort, and\nStrassen’s matrix multiplication.\n\nCO-2. Implement disjoint set operations, apply the greedy method to optimization problems, and construct\nminimum spanning trees using Prim’s and Kruskal’s algorithms.\n\nCO-3. Apply dynamic programming techniques to solve optimization problems such as 0/1 knapsack,\noptimal binary search tree, all-pairs shortest path, and the traveling salesperson problem.\n\nCO-4. Perform graph traversal to identify connected and biconnected components and apply backtracking\ntechniques to solve combinatorial problems like 8-queens, sum of subsets, and graph coloring.\n\nCO-5. Apply the branch and bound technique to solve optimization problems and understand the concepts,\nclassification, and implications of NP-Hard and NP-Complete problems."
+      },
+      {
+       "code": "2505403",
+       "name": "Computer Networks",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Course Objectives:\n• Compare OSI & TCP/IP models\n• Understand error detection, correction codes and farming methods\n• Explain Multiple Access Protocols and the concepts of noise and noiseless protocols\n• Discuss the concepts of LANs and WLANs and different routing protocols\n• Outline the concepts of logical addressing and Outline Application Layer\n\nUNIT -I 12 Hrs\n\nNetwork hardware, Network software, OSI and TCP/IP Reference models, Example Networks: Internet -\nARPANET.\n\nPhysical Layer - Guided Transmission media: Twisted Pairs, Coaxial Cable, Fiber Optics, Wireless\nTransmission.\n\nUNIT - II 12. Hrs\n\nData link layer: Design issues, framing, Error detection and correction. Elementary data link protocols: simplex\nprotocol, A simplex stop and wait protocol for an error-free channel, A simplex stop and wait protocol for noisy\nchannel. Sliding Window protocols: A one-bit sliding window protocol, A protocol using Go-Back-N, A protocol\nusing Selective Repeat.\n\nMedium Access Control Sublayer: The channel allocation problem, Multiple access protocols: ALOHA, Carrier\nSense Multiple Access Protocols, Wireless LANs.\n\nUNIT - Ill 12. Hrs\n\nNetwork Layer: Design Issues, Routing algorithms: shortest path routing, Flooding, Hierarchical routing,\nBroadcast, Multicast, Distance Vector Routing, Congestion Control Algorithms; Quality of Service: Application\nRequirements, Traffic Shaping, Packet Scheduling, Admission Control; Internetworking, The Network layer in\nthe internet-IPV4, IPV6.\n\nUNIT -IV 12 Hrs\n\nTransport Layer: Transport Service, Elements of Transport protocols — Introduction, Addressing, Connection\nestablishment Connection Release, Error Control and Flow Control; Internet Transport Protocols: UDP;\nInternet Transport Protocols: TCP - Introduction to TCP, The TCP Service Model, The TCP Protocol, The TCP\nSegment Header, TCP Connection Establishment, TCP Connection Release, TCP Connection Management\nModeling.\n\nUNIT-V 12 Hrs\n\nApplication Layer: DNS-Domain Name System, Electronic Mail; The World Wide Web - HTTP, Streaming\nAudio and Video — Audio Compression, Video Compression, JPEG Standard Format (Elementary), MPEG\nStandard Format (Elementary).",
+       "textbooks": "1. Computer Networks -- Andrew S Tanenbaum, David. J. Wetherall, 5th Edition. Pearson\nEducation/PHI",
+       "referenceBooks": "1. An Engineering Approach to Computer Networks-S. Keshav, 2nd Edition, Pearson Education\n2. Data Communications and Networking—Behrouz A. Forouzan. Third Edition TMH.",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. Analyze TCP/IP and OSI models and various protocols and various error handling mechanisms\nCO-2. Use of various devices in connecting different types of LANs\n\nCO-3. Analyze different routing protocols and IP Addresses\n\nCO-4. Discuss the various services offered by transport layer\n\nCO-5. Describes the working of various networked applications such as DNS, Mail, WWW and HTTP"
+      },
+      {
+       "code": "2505404",
+       "name": "Machine Learning",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Course Objectives:\n• To explain the basic concepts, types, and process of machine learning\n• To elaborate feature selection, dimensionality reduction algorithms and Classification algorithms\n• To introduce regression algorithms, Bayes classification\n• To enable students to explore unsupervised learning algorithms\n• Tounderstand the fundamentals of Perceptron Learning and ANN\n\nUNIT -I 12 Hrs\n\nIntroduction to Machine Learning: Types of Human learning, machine learning process, Well-posed\nlearning problem, Types of machine learning and comparison, applications of machine learning.\n\nModelling and Evaluation: selecting a model, predictive and descriptive models, supervised learning model\ntraining, cross-validation and boot strapping, lazy vs eager learner, interpreting the model- underfitting,\noverfitting, bias-variance trade-off. Parameter for evaluating performance of classification, regression, and\nclustering model. Improving the performance of a model.\n\nUNIT - II 12. Hrs\n\nFeature Engineering: Feature transformation - feature construction, feature extraction by PCA, SVD, LDA.\nFeature subset selection -feature relevancyand redundancy measures. Feature selection process and\napproaches.\n\nSupervised Learning - Classification: Introduction, Classification model, learning steps, Classification\nalgorithms: k-Nearest Neighbor (KNN), Decision tree, RandomForest, Support vector machines, Kernel trick.\n\nUNIT - Ill 12. Hrs\n\nRegression: Introduction of regression, Regression algorithms: Simple linear regression, Multiple linear\nregression, Polynomial regression model, Logistic regression, Maximum likelihood estimation.\n\nBayesian Learning: Bayes Theorem, Baye’s Theorem and ConceptLearning, Bayes Optimal classifier,\nNaive Bayes classifier, Bayesian belief network.\n\nUNIT -IV 12 Hrs\nUnsupervised Learning: Introduction to unsupervised learning, Unsupervised vs supervised learning,\nApplication of unsupervised learning, Clustering and its types, Partitioning method: k-Means and K- Medoids,\nHierarchical clustering, Density-based methods - DBSCAN\n\nUNIT-V 12. Hrs\n\nArtificial Neural Network: Biological neuron, Artificial neuron, Activation functions, neural network\narchitecture, perceptron, learning process in ANN, Back propagation.",
+       "textbooks": "1. Saikat Dutt, S. Chandramouli, Das — Machine Learning, First Edition, Pearson, 2018.\n2. MN Murty, Anathanarayana V S — Machine Learning, First Edition, University Press, 2024\n3. Tom M Mitchell, —Machine Learning, First Edition, McGraw Hill Education, 2013.",
+       "referenceBooks": "1. Stephen Marsland, —Machine Learning — An Algorithmic Perspective, Second Edition, 2014.\n2. Chapman and Hall/CRC Machine Learning and Pattern Recognition Series, 2014.",
+       "outcomes": "After completion of the Course, the student will be able to\n\nCO-1. Choose an appropriate machine learning model and evaluate a model for a given task\n\nCO-2. Apply feature selection methods, dimensionality reduction methods and classification techniques\nCO-3. Implement regression algorithms and Bayes classification\n\nCO-4. Implement unsupervised machine learning algorithms\n\nCO-5. Design, train and evaluate Perceptron models"
+      },
+      {
+       "code": "2599403",
+       "name": "Computational Mathematics Laboratory",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Course Objectives: To learn\n• Solve problems of eigenvalues and Eigen Vectors using Python/MATLAB.\n• Solution of Algebraic and Transcendental Equations using Python/MATLAB\n• Solve problems of Linear systems of equations\n• Solve problems of First-Order ODEs, Higher order linear differential equations with constant coefficients\n• Visualize all solutions graphically through programmes\n\nUNIT-I: Eigenvalues and Eigenvectors: 6P\n\nPrograms:\n• Finding real and complex Eigen values.\n• Finding Eigen vectors\n\nUNIT-II: Solution of Algebraic and Transcendental Equations : 6P\n\nBisection method, Newton Raphson Method\nPrograms:\n• Root of a given equation using Bisection method.\n• Root of a given equation Newton Raphson Method.\n\nUNIT-III: Linear system of equations 6P\n\nJacobi’s iteration method and Gauss-Seidel iteration method\nPrograms:\n• Solution of the given system of linear equations using Jacobi’s method\n• Solution of the given system of linear equations using Gauss-Seidel method\n\nUNIT-IV: First-Order ODEs 8P\n\nExact and non-exact equations, Applications: exponential growth/decay, Newton's law of cooling.\nPrograms:\n\n• Solving exact and non-exact equations\n\n• Solving exponential growth/decay and Newton's law of cooling problems\n\nUNIT-V: Higher order linear differential equations with constant coefficients: 6P\nPrograms:\n• Solving homogeneous ODEs\n\n• Solving non-homogeneous ODEs\n\nSelf-Practice Programs:\n\n1. Iterative eigenvalue methods\n2. Fixed point convergence\n\n3. Matrix Splitting\n4. Discrete Approximation of Continuous Systems\n5. System Reduction",
+       "textbooks": "1. MATLAB and its Applications in Engineering, Rajkumar Basal, Ashok Kumar Geo, Manoj Kumar\nSharma, Pearson publication.\n\n2. Kenneth A. Lambert, The fundamentals of Python: First Programs, 2011, Cengage Learning.\n\n3. Think Python First Edition, by Allen B. Downey, O'Reilly Publishing.\n\n4. Introduction to Python Programming, William Mitchell, Povel Solin, Martin Novak et al., NC Lab Public\nComputing, 2012.\n\n5. Introduction to Python Programming, ©Jacob Fredslund, 2007.",
+       "referenceBooks": "1. An Introduction to Python, John C. Lusth, The University of Alabama, 2011.\n2. Introduction to Python, ©Dave Kuhlman, 2008.",
+       "outcomes": "After learning the contents of this paper, the student must be able to\nCO-1. Develop the code to find the eigenvalues and Eigen Vectors using Python/MATLAB.\nCO-2. Develop the code to find solutions of Algebraic and Transcendental Equations and Linear systems\nof equations using Python/MATLAB\nCO-3. Write the code to find the system of linear equations using Jacobi’s method and the Gauss-Seidel\nmethod.\nCO-4. Write the code to solve problems of First-Order ODEs equations with constant coefficients\nCO-5. Write the code to solve problems of homogeneous & non-homogeneous ODEs"
+      },
+      {
+       "code": "2505405",
+       "name": "Operating Systems Laboratory",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Course Objectives:\n• To understand the basic concepts and functionalities of operating systems.\n• To apply UNIX/Linux system calls for process, file, and memory management.\n• To simulate CPU scheduling and understand its effect on performance.\n• Toimplement synchronization problems using semaphores and IPC mechanisms.\n• To analyze and simulate memory management techniques and page replacement policies.\n\nList of Experiments\n\n1. Write programs using the I/O system calls of UNIX/LINUX operating system (open, read, write, close,\nIseek, stat, fork, exit) .\n2. Write C programs to simulate the following CPU Scheduling algorithms\na) FCFS b) SJF .\n3. Write C programs to simulate the following CPU Scheduling algorithms\na)Round Robin b) priority .\n4. Write a C program to implement the Producer — Consumer problem using semaphores\nusing UNIX/LINUX system calls.\n5. Write C programs to illustrate the following IPC mechanisms\na) Pipes b) FIFOs.\n6. Write C programs to illustrate the following IPC mechanisms\na) Message Queues b) Shared Memory.\n7. Write a C program to simulate Bankers Algorithm for Deadlock Avoidance.\n8. Write C programs to simulate the following memory management techniques\na) Paging b) Segmentation .\n9. Write C programs to simulate Page replacement policy FIFO.\n10. Write C programs to simulate Page replacement policy LRU.\n\nSelf-Practice Programs:\n\n1. Scheduling simulation using Gantt charts,\n2. Deadlock detection algorithm implementation,\n3. Demand paging strategies.",
+       "textbooks": "1. Operating System Principles- Abraham Silberchatz, Peter B. Galvin, Greg Gagne 7th Edition, John\nWiley.\n\n2. Advanced programming in the Unix environment, W. R. Stevens, Pearson education.",
+       "referenceBooks": "1. Operating Systems — Internals and Design Principles, William Stallings, Fifth Edition—005, Pearson\nEducation/PHI.\n2. Operating System - A Design Approach-Crowley, TMH.\n3. Modern Operating Systems, Andrew S Tanenbaum, 2nd edition, Pearson/PHI.\n4. UNIX Programming Environment, Kernighan and Pike, PHI/Pearson Education.\n5. UNIX Internals: The New Frontiers, U. Vahalia, Pearson Education.",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. Use Linux system calls for low-level file and process management.\n\nCO-2. Implement and analyze CPU scheduling algorithms (FCFS, SJF, Round Robin, Priority).\n\nCO-3. Implement deadlock-avoidance algorithms such as the Banker’s algorithm.\n\nCO-4. Apply synchronization mechanisms to solve Producer-Consumer and IPC problems.\n\nCO-5. Simulate memory management techniques (Paging, Segmentation) and page replacement policies\n(FIFO, LRU)."
+      },
+      {
+       "code": "2505406",
+       "name": "Computer Networks Laboratory",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Course Objectives:\n• To understand the working principle of various communication protocols\n• To understand the network simulator environment and visualize a network topology and observe its\nperformance\n• To analyze the traffic flow and the contents of protocol frames\n• To analyze data encryption and decryption algorithms\n• To acquire the knowledge on Wireshark to capture and display real-time details of network traffic\n\nList of Experiments\n\n1. Implement the data link layer framing methods such as character, character-stuffing, and bit-stuffing.\n2. Write a program to compute CRC code for the polynomials CRC-12, CRC-16, and CRC-CCIP.\n3. Develop a simple data link layer that performs flow control using the sliding window protocol, and loss\nrecovery using the Go-Back-N mechanism.\n4. Implement Dijkstra’s algorithm to compute the shortest path through a network.\n5. Take an example subnet of hosts and obtain a broadcast tree for the subnet.\n6. Implement distance vector routing algorithm for obtaining routing tables at each node.\n7. Implement data encryption and data decryption.\n8. Write a program for congestion control using Leaky bucket algorithm.\n9. Write a program for frame sorting techniques used in buffers.\n10. Wireshark\ni. Packet Capture Using Wireshark\nii, Starting Wireshark\niii. Viewing Captured Traffic\niv. Analysis and Statistics & Filters\nv. How to run Nmap scan\nvi. Operating System Detection using Nmap\n11. Do the following using NS2 Simulator:\ni. NS2 Simulator - Introduction\nii. Simulate to Find the Number of Packets Dropped\niii. Simulate to Find the Number of Packets Dropped by TCP/UDP\niv. Simulate to Find the Number of Packets Dropped due to Congestion\nv. Simulate to Compare Data Rate & Throughput\nvi. Simulate to Plot Congestion for Different Source/Destination\nvii. Simulate to Determine the Performance with respect to the Transmission of Packets\n\nSelf-Practice Programs:\n\n1.Link State routing\n2. Ad hoc on Demand Distance Vector routing",
+       "textbooks": "1. Computer Networks, Andrew S Tanenbaum, David.|.Wetherall,5\" Edition, Pearson Education/PHI",
+       "referenceBooks": "1. An Engineering Approach to Computer Networks, S.Keshav, 2\" Edition, Pearson Education, Data\nCommunications and Networking—Behrouz A. Forouzan.3™ Edition, TMH",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. Implement data link layer farming methods\n\nCO-2. Analyze error detection and error correction codes\n\nCO-3. Implement and analyze routing and congestion issues in network design.\n\nCO-4. Implement Encoding and Decoding techniques used in presentation layer\nCO-5. To be able to work with different network tools"
+      },
+      {
+       "code": "2505407",
+       "name": "Machine Learning Laboratory",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Course Objectives:\n• To present an overview implementation of machine learning techniques using python\n• To introduce implementation of various Classification algorithms using python\n• To implement various regression Algorithms using python\n• To implement unsupervised learning algorithms using python\n• To explore the Performance analysis of Classification algorithms\n\nList of Experiments\n\n1. Write a Python program to compute Central Tendency Measures: Mean, Median, Mode Measure of\nDispersion: Variance, Standard Deviation\n\n2. Write a Python program to implement Simple Linear Regression\n\n3. Implementation of Multiple Linear Regression for House Price Prediction using sklearn\n\n4. Implementation of Logistic Regression using sklearn\n\n5. Implementation of Decision tree using sklearn and its parameter tuning\n\n6. Implementation of KNN using sklearn\n\n7. Implementation of SVM algorithm with kernel trick.\n\n8. Implementation Naive-Bayes algorithm\n\n9. Implementation of K-Means Clustering\n\n10. Performance analysis of Classification Algorithms on a specific dataset (Mini Project)\n\nSelf-Practice Programs:\n\n1. Data Leakage Detection & Prevention in ML Pipelines.\n2. Confusion Matrix Interpretation for Multi-Class Problems.\n3. Residual Analysis for Regression Models, ROC Curve.\n4. AUC and Precision-Recall Analysis\n\n5. _Initialization Sensitivity in K-Means Clustering",
+       "textbooks": "1. Machine Learning — Tom M. Mitchell, - MGH.",
+       "referenceBooks": "1. Machine Learning: An Algorithmic Perspective, Stephen Marshland, Taylor & Francis Online Resources",
+       "outcomes": "After completion of the Course, the student should be able to\nCO-1. Compute and interpret descriptive statistics using Python\nCO-2. Implement, evaluate and interpret core classification algorithms\nCO-3. Build and evaluate regression models\nCO-4. Apply K-Means for exploratory analysis\n\nCO-5. Conduct a comparative performance study on a chosen dataset by designing an end-to-end ML\npipeline."
+      },
+      {
+       "code": "2505408",
+       "name": "Skill Development Course - 2 (Data Visualization - R / Power Bi)",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Course Objectives:\n• To enable effective use of Business Intelligence (Bl) technology (Power BI) for data visualization.\n• To discern patterns and relationships in datasets.\n• To design and develop interactive Dashboards and Reports.\n• To communicate insights clearly and concisely using visual tools.\n• To work with multiple data formats and sources within Power Bl\n\nList of Experiments\n\n1. Understanding Data: What is data, where to find data, foundations for building data visualizations,\ncreating your first visualization in Power BI.\n\n2. Getting started with Power BI: Understanding data file formats, connecting your data to Power BI,\ncreating basic charts (line, bar charts, tree maps), and using the visualization pane.\n\n3. Power BI Calculations: Overview of SUM, AVERAGE, and aggregate functions, creating custom\ncalculations and fields using DAX (Data Analysis Expressions).\n\n4. Applying new calculations to your visualizations: Formatting visualizations, using formatting tools and\nmenus, and formatting specific parts of the visual.\n\n5. Editing and formatting axes, transforming data in Power Query, pivoting/unpivoting data.\n\n6. Structuring your data: Sorting and filtering in Power BI, managing relationships between tables.\n\n7. Advanced Visualization Tools: Using filters, the Details pane, the Size well, customizing filters,\ntooltips, and applying conditional formatting with colors.\n\n8. Creating Dashboards & Storytelling: Building your first dashboard and report, designing for different\ndisplay sizes, adding interactivity, and publishing your reports to Power BI Service.\n\n9. Power BI file types, sharing your reports and dashboards, exporting to PDF or PowerPoint, and\nprinting visuals.\n\n10. Creating custom visuals, working with time-series data, dual-axis charts, and advanced chart types\navailable in Power BI.\n\nSelf-Practice Programs:\n\n1. Advanced DAX Functions\nCompare multiple data sets using DAX.\n2. Power BI Advanced Analytics\nPerform statistical analysis using Power BI (e.g., correlation, regression, percentiles).\n3. Real-time Data Visualization\nConnect Power BI to real-time streaming datasets (loT sensors, Twitter feeds, APIs).\n4. Row-level Security (RLS)\nImplement security at the data row level based on user roles.\n5. Advanced Custom Visuals\nUse custom visuals from Microsoft AppSource or develop your own using R or Python scripts.",
+       "textbooks": "",
+       "referenceBooks": "1. Microsoft Power BI Cookbook — Brett Powell, 2nd Edition, Packt Publishing.\n2. Mastering Microsoft Power BI — Brett Powell, Packt Publishing.\n3. Collect, Combine, and Transform Data Using Power Query in Excel and Power BI — Gil Raviv,\nMicrosoft Press.\n4. R Programming for Data Science — Roger D. Peng.\n5. The Art of R Programming — Norman Matloff, Cengage Learning India.",
+       "outcomes": "After completion of the Course, the student should be able to\n\nCO-1. Import and connect various types of data sources into Power BI.\n\nCO-2. Understand Power BI concepts such as Fields, Tables, Relationships, and Data Models.\nCO-3. Develop measures and calculated columns using DAX (Data Analysis Expressions).\nCO-4. Create interactive and visually appealing dashboards linking multiple visuals.\n\nCO-5. Use Power BI’s GU! features to solve real-world data problems."
+      },
+      {
+       "code": "2599404",
+       "name": "Value Ethics and Gender Sensitization",
+       "l": 1,
+       "t": 0,
+       "p": 0,
+       "credits": 1,
+       "syllabus": "Course Objectives:\n\n• To enable the student to understand the core values that shapethe ethical behaviour. And the Student\nwill be able to realize the significance of ethical human conduct and self-development\n\n• Students will be able to inculcate positive thinking, dignity of labour and religious tolerance.\n\n• The students will learn the rights and responsibilities as an employee and a team member.\n\n• Students will attain a finger grasp of how gender discrimination works in our society and how to\ncounter it.\n\n• Students will develop a better understanding of issues related to gender and be empowered to\nunderstand and respond to gender violence.\n\nUNIT -I\n\nVALUES AND SELF-DEVELOPMENT:Social values and individual attitudes, Importance of cultivation of\nvalues, Sense of duty, Devotion, Self-reliance, Confidence, Concentration, Truthfulness, Cleanliness, Honesty,\nHumanity, Power of faith, National unity, Patriotism, Love for nature, Discipline.\n\nUNIT - II\n\nPERSONALITY AND BEHAVIOUR DEVELOPMENT: Positive thinking, punctuality, avoiding fault-finding,\nFree from anger, Dignity of labour, religious tolerance, Aware of self-destructive habits.\n\nUNIT - Ill\n\nINTRODUCTION TO PROFESSIONAL ETHICS: Basic Concepts, Governing Ethics, Personal & Professional\nEthics, Ethical Dilemmas, Life Skills, Emotional Intelligence, Thoughts of Ethics, Value Education, Dimensions\nof Ethics, Profession and professionalism, Professional Associations, Professional Risks, Professional 90\nAccountabilities, Professional Success, Ethics and Profession.\n\nUNIT -IV\n\nINTRODUCTION TO GENDER: Definition of Gender, Basic Gender Concepts and Terminology, Attitudes\ntowards Gender, Social Construction of Gender.\n\nUNIT-V\n\nGENDER-BASED VIOLENCE: The concept of violence, Types of Gender-based violence, the relationship\nbetween gender, development and violence, and Gender-based violence from a human rights perspective.",
+       "textbooks": "1. Professional Ethics Includes Human Values (2nd Edition) By R Subramanian, Oxford University\nPress, 2017.\n\n2. Ethics in Engineering Practice & Research, Caroline Whit beck, 2e, Cambridge University Press 2015.\n\n3. A Bilingual Textbook on Gender” written by A. Suneetha, Uma Bhrugubanda, Duggirala Vasanta,\nRama Melkote, Vasudha Nagaraj, Asma Rasheed, Gogu Shyamala, Deepa Sreenivas and Susie\nTharu and published by Telugu Akademi, Hyderabad, Telangana State in the year 2015.",
+       "referenceBooks": "1. Menon, Nivedita. Seeing like a Feminist. New Delhi: Zubaan-Penguin Books, 2012\n2. Abdulali Sohaila. “I Fought For My Life...and Won.”’Available online at:\nhttp://www. thealternative in/lifestyle/i-fought-for-my-lifeand-won-sohaila-abdulal/\n3. Engineering Ethics, Concepts Cases: Charles E Harris Jr., Michael S Pritchard, Michael J Rabins, 4e,\nCengage learning, 2015.\n\n4. Business Ethics concepts & Cases: Manuel G Velasquez, 6e, PHI, 2008",
+       "outcomes": "CO-1. Recall and explain core human values, social values, and their significance in self-development.\nCO-2. Demonstrate positive thinking, dignity of labour, and religious tolerance in behaviour development.\nCO-3. Explain the concepts of professional ethics, ethical dilemmas, and responsibilities of engineers.\nCO-4. Identify basic gender concepts, definitions, and attitudes shaping gender perspectives.\nCO-5. Recognize forms of gender-based violence and understand rights-based approaches to address\nthem."
+      }
+     ]
+    }
+   ],
+   "note": "Anurag R25 syllabus (from R25-CSE-Syllabus.pdf)."
+  },
+  {
+   "year": 3,
+   "note": "Course structure from the JNTUH R22 CSE syllabus (JNTU Hyderabad). Anurag's own Year 3 and Year 4 syllabus was not in the files provided, so this may differ from what Anurag teaches.",
+   "semesters": [
+    {
+     "semester": 1,
+     "subjects": [
+      {
+       "code": "CS501PC",
+       "name": "Design and Analysis of Algorithms",
+       "l": 3,
+       "t": 1,
+       "p": 0,
+       "credits": 4,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "CS502PC",
+       "name": "Computer Networks",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "CS503PC",
+       "name": "DevOps",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "",
+       "name": "Professional Elective I",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Choose one of:\nCS511PE  Quantum Computing\nCS512PE  Advanced Computer Architecture\nCS513PE  Data Analytics\nCS514PE  Image Processing\nCS515PE  Principles of Programming Languages\n\nDetailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "",
+       "name": "Professional Elective II",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Choose one of:\nCS521PE  Computer Graphics\nCS522PE  Embedded Systems\nCS523PE  Information Retrieval Systems\nCS524PE  Distributed Databases\nCS525PE  Natural Language Processing\n\nDetailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "CS504PC",
+       "name": "Computer Networks Lab",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "CS505PC",
+       "name": "DevOps Lab",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "EN508HS",
+       "name": "Advanced English Communication Skills Lab",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "CS506PC",
+       "name": "UI Design - Flutter",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "MC510",
+       "name": "Intellectual Property Rights",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 0,
+       "syllabus": "Mandatory course (satisfactory / unsatisfactory, no credits).\n\nDetailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      }
+     ]
+    },
+    {
+     "semester": 2,
+     "subjects": [
+      {
+       "code": "CS601PC",
+       "name": "Machine Learning",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "CS602PC",
+       "name": "Formal Languages and Automata Theory",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "CS603PC",
+       "name": "Artificial Intelligence",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "",
+       "name": "Professional Elective III",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Choose one of:\nCS631PE  Full Stack Development\nCS632PE  Internet of Things\nCS633PE  Scripting Languages\nCS634PE  Mobile Application Development\nCS635PE  Software Testing Methodologies\n\nDetailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "",
+       "name": "Open Elective I",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Choose one of:\nCS611OE  Data Structures\nCS612OE  Database Management Systems\n\nDetailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "CS604PC",
+       "name": "Machine Learning Lab",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "CS605PC",
+       "name": "Artificial Intelligence Laboratory",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "",
+       "name": "Professional Elective III Lab",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Pairs one-to-one with the Professional Elective III course you take.\n\nDetailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "CS606PC",
+       "name": "Industrial Oriented Mini Project / Internship / Skill Development Course (Big data - Spark)",
+       "l": 0,
+       "t": 0,
+       "p": 4,
+       "credits": 2,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "MC609",
+       "name": "Environmental Science",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 0,
+       "syllabus": "Mandatory course (satisfactory / unsatisfactory, no credits). Registered by lateral entry students only.\n\nDetailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "year": 4,
+   "note": "Course structure from the JNTUH R22 CSE syllabus (JNTU Hyderabad). Anurag's own Year 3 and Year 4 syllabus was not in the files provided, so this may differ from what Anurag teaches.",
+   "semesters": [
+    {
+     "semester": 1,
+     "subjects": [
+      {
+       "code": "CS701PC",
+       "name": "Cryptography and Network Security",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "CS702PC",
+       "name": "Compiler Design",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "",
+       "name": "Professional Elective IV",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Choose one of:\nCS741PE  Graph Theory\nCS742PE  Cyber Security\nCS743PE  Soft Computing\nCS744PE  Cloud Computing\nCS745PE  Ad hoc & Sensor Networks\n\nDetailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "",
+       "name": "Professional Elective V",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Choose one of:\nCS751PE  Advanced Algorithms\nCS752PE  Agile Methodology\nCS753PE  Robotic Process Automation\nCS754PE  Blockchain Technology\nCS755PE  Software Process & Project Management\n\nDetailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "",
+       "name": "Open Elective II",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Choose one of:\nCS721OE  Operating Systems\nCS722OE  Software Engineering\n\nDetailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "CS703PC",
+       "name": "Cryptography and Network Security Lab",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "CS704PC",
+       "name": "Compiler Design Lab",
+       "l": 0,
+       "t": 0,
+       "p": 2,
+       "credits": 1,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "CS705PC",
+       "name": "Project Stage - I",
+       "l": 0,
+       "t": 0,
+       "p": 6,
+       "credits": 3,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      }
+     ]
+    },
+    {
+     "semester": 2,
+     "subjects": [
+      {
+       "code": "CS801PC",
+       "name": "Organizational Behavior",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "",
+       "name": "Professional Elective VI",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Choose one of:\nCS861PE  Computational Complexity\nCS862PE  Distributed Systems\nCS863PE  Deep Learning\nCS864PE  Human Computer Interaction\nCS865PE  Cyber Forensics\n\nDetailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "",
+       "name": "Open Elective III",
+       "l": 3,
+       "t": 0,
+       "p": 0,
+       "credits": 3,
+       "syllabus": "Choose one of:\nCS831OE  Algorithms Design and Analysis\nCS832OE  Introduction to Computer Networks\n\nDetailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      },
+      {
+       "code": "",
+       "name": "Project Stage - II including Seminar",
+       "l": 0,
+       "t": 0,
+       "p": 22,
+       "credits": 11,
+       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "textbooks": "",
+       "referenceBooks": "",
+       "outcomes": ""
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

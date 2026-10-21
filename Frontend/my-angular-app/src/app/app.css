@@ -328,3 +328,25 @@ pre {
     }
   }
 }
+
+/* ---------- backend messages ---------- */
+.error {
+  max-width: 46ch;
+  margin: 0;
+  padding: 10px 16px;
+  font-size: 0.95rem;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 8px;
+  text-shadow: none;
+}
+.error code {
+  padding: 1px 6px;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 4px;
+}
+.ynote {
+  margin: -6px 0 14px;
+  max-width: 70ch;
+  font-size: 0.9rem;
+  color: var(--muted);
+}

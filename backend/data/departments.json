@@ -1,0 +1,46 @@
+{
+  "commonSource": "CSE",
+  "home": {
+    "title": "Anurag University",
+    "subtitle": "Pick a department to see its syllabus.",
+    "image": "campus-hero.jpg",
+    "color": "#27282a"
+  },
+  "departments": [
+    {
+      "id": "CSE",
+      "name": "Computer Science and Engineering",
+      "about": "Add 2-3 lines about this department here (backend/data/departments.json).",
+      "image": "cse.png",
+      "color": "#1f2932"
+    },
+    {
+      "id": "ECE",
+      "name": "Electronics and Communication Engineering",
+      "about": "Add 2-3 lines about this department here (backend/data/departments.json).",
+      "image": "ECE.png",
+      "color": "#22262e"
+    },
+    {
+      "id": "EEE",
+      "name": "Electrical and Electronics Engineering",
+      "about": "Add 2-3 lines about this department here (backend/data/departments.json).",
+      "image": "EEE.png",
+      "color": "#33281e"
+    },
+    {
+      "id": "MBA",
+      "name": "Master of Business Administration",
+      "about": "Add 2-3 lines about this department here (backend/data/departments.json).",
+      "image": "MBA.jpg",
+      "color": "#1f2e32"
+    },
+    {
+      "id": "ME",
+      "name": "Mechanical Engineering",
+      "about": "Add 2-3 lines about this department here (backend/data/departments.json).",
+      "image": "ME.jpg",
+      "color": "#192a38"
+    }
+  ]
+}

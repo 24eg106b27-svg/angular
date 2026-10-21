@@ -2,15 +2,15 @@
   <!-- HERO: campus photo by default, department photo after picking -->
   <section class="hero" [style.background-image]="heroBg()">
     @if (picked()) {
-      <span class="wordmark">Anurag University</span>
+      <span class="wordmark">{{ home().title }}</span>
     }
 
     <div class="hero-inner">
       @if (pickedDept(); as d) {
         <h1>{{ d.name }}</h1>
       } @else {
-        <h1>Anurag University</h1>
-        <p class="sub">Pick a department to see its syllabus.</p>
+        <h1>{{ home().title }}</h1>
+        <p class="sub">{{ home().subtitle }}</p>
       }
 
       <div class="dropdown">
@@ -24,7 +24,7 @@
             <li>
               <button class="item" style="animation-delay: 0ms" (click)="pick(null)">Campus home</button>
             </li>
-            @for (d of departments; track d.id; let i = $index) {
+            @for (d of departments(); track d.id; let i = $index) {
               <li>
                 <button class="item" [style.animation-delay]="(i + 1) * 30 + 'ms'" (click)="pick(d.id)">
                   {{ d.id }}
@@ -34,6 +34,13 @@
           </ul>
         }
       </div>
+
+      @if (error()) {
+        <p class="error">
+          Can't reach the server. Open a terminal, run <code>cd backend</code> then <code>npm start</code>, and open
+          the menu again.
+        </p>
+      }
 
       @if (pickedDept() && chosen() !== picked()) {
         <button class="choose" (click)="choose()">Choose this course</button>
@@ -57,13 +64,13 @@
       <div class="intro">
         <h2>Year 1 and Year 2</h2>
         <p>
-          These are the first four semesters of CSE (R25). Pick a department above and choose it to see its own
-          syllabus.
+          These are the first four semesters of {{ commonSource() }}. Pick a department above and choose it to see its
+          own syllabus.
         </p>
       </div>
     }
 
-    @if (shown(); as years) {
+    @if (shownYears(); as years) {
       <p class="facts">
         {{ stats().courses }} courses across {{ stats().semesters }} semesters, {{ stats().credits }} credits in total.
         Click a course to open its syllabus.
@@ -71,6 +78,9 @@
 
       @for (y of years; track y.year) {
         <h3>Year {{ y.year }}</h3>
+        @if (y.note) {
+          <p class="ynote">{{ y.note }}</p>
+        }
 
         @for (s of y.semesters; track s.semester) {
           <div class="tablewrap">
@@ -89,18 +99,19 @@
                 </tr>
               </thead>
               <tbody>
-                @for (b of s.subjects; track b.code) {
-                  <tr class="row" [class.open]="openRow() === b.code" (click)="toggleRow(b.code)">
-                    <td class="code">{{ b.code }}</td>
+                @for (b of s.subjects; track b.name) {
+                  @let key = y.year + '-' + s.semester + '-' + b.name;
+                  <tr class="row" [class.open]="openRow() === key" (click)="toggleRow(key)">
+                    <td class="code">{{ b.code || '-' }}</td>
                     <td>
-                      <button class="name" [attr.aria-expanded]="openRow() === b.code">{{ b.name }}</button>
+                      <button class="name" [attr.aria-expanded]="openRow() === key">{{ b.name }}</button>
                     </td>
                     <td class="n">{{ b.l }}</td>
                     <td class="n">{{ b.t }}</td>
                     <td class="n">{{ b.p }}</td>
                     <td class="n cr">{{ b.credits }}</td>
                   </tr>
-                  @if (openRow() === b.code) {
+                  @if (openRow() === key) {
                     <tr class="detail">
                       <td colspan="6">
                         <div class="syl">
@@ -138,6 +149,8 @@
         }
       }
       <p class="legend">L, T, P = lecture, tutorial and practical hours per week.</p>
+    } @else if (shownYears() === undefined) {
+      <p class="empty">{{ error() ? 'Waiting for the server.' : 'Loading the syllabus...' }}</p>
     } @else {
       <p class="empty">The {{ chosen() }} syllabus has not been added yet.</p>
     }
