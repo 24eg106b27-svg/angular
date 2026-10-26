@@ -55,7 +55,7 @@ export class App {
     const chosen = this.chosen();
     const c = this.curricula()[chosen ?? this.commonSource()];
     if (!c) return c;
-    return chosen ? c.years : c.years.filter((y) => y.year <= 2);
+    return c.years;
   });
 
   stats = computed(() => {
@@ -111,6 +111,7 @@ export class App {
     this.chosen.set(null);
     this.openRow.set(null);
     this.open.set(false);
+    if (id) this.loadCurriculum(id);
   }
 
   choose() {
