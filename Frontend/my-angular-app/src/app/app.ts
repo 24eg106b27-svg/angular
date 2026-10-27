@@ -40,11 +40,11 @@ export class App {
       `linear-gradient(to bottom, rgba(0,0,0,.42) 0%, rgba(0,0,0,.3) 50%, ${this.color()} 100%), url(${this.bg().image})`
   );
 
-  // Show syllabus ONLY after a department is chosen
+  // Show the selected department's syllabus while it is being previewed.
   shownYears = computed(() => {
-    const chosen = this.chosen();
-    if (!chosen) return undefined; // nothing chosen: hide syllabus on home page
-    const c = this.curricula()[chosen];
+    const picked = this.picked();
+    if (!picked) return undefined;
+    const c = this.curricula()[picked];
     if (!c) return c;
     return c.years;
   });

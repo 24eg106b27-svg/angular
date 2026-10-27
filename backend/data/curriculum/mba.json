@@ -1,0 +1,229 @@
+{
+  "department": "Master of Business Administration",
+  "regulation": "R25 (Two-Year MBA Program)",
+  "years": [
+    {
+      "year": 1,
+      "semesters": [
+        {
+          "semester": 1,
+          "subjects": [
+            {
+              "code": "MBA101",
+              "name": "Management and Organizational Behaviour",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Covers management functions, leadership, motivation, organizational culture, and group behavior.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "MBA102",
+              "name": "Managerial Economics",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Examines demand, production, pricing, cost analysis, and economic decision making for managers.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "MBA103",
+              "name": "Financial Accounting and Analysis",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Introduces accounting principles, financial statements, ratio analysis, and business reporting.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "MBA104",
+              "name": "Business Communication",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Develops written, verbal, and professional communication skills required in business settings.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "MBA105",
+              "name": "Marketing Management",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Studies customer behavior, segmentation, branding, pricing, promotion, and strategic marketing.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            {
+              "code": "MBA201",
+              "name": "Business Research Methods",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Focuses on research design, hypothesis testing, data collection, and interpretation for business decisions.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "MBA202",
+              "name": "Financial Management",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Covers capital budgeting, working capital, financing, valuation, and investment decisions.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "MBA203",
+              "name": "Human Resource Management",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Introduces recruitment, training, performance management, compensation, and employee relations.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "MBA204",
+              "name": "Operations Management",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Examines process design, productivity, quality, supply chains, and operational planning.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "MBA205",
+              "name": "Corporate Strategy",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Covers competitive analysis, strategic direction, strategy implementation, and growth considerations.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semesters": [
+        {
+          "semester": 1,
+          "subjects": [
+            {
+              "code": "MBA301",
+              "name": "Entrepreneurship and Innovation",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Explores opportunity recognition, start-up planning, innovation management, and venture creation.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "MBA302",
+              "name": "Business Analytics",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Introduces data-driven decision making, dashboards, forecasting, and data interpretation in business.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "MBA303",
+              "name": "Consumer Behaviour",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Studies perception, motivation, buying behavior, segmentation, and strategic marketing decisions.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "MBA304",
+              "name": "Summer Internship",
+              "l": 0,
+              "t": 0,
+              "p": 0,
+              "credits": 2,
+              "syllabus": "Applies management theory in a live organization setting with report and presentation requirements.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            {
+              "code": "MBA401",
+              "name": "Strategic Management",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Focuses on competitive strategy, environmental analysis, and strategic implementation decisions.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "MBA402",
+              "name": "Project Work and Viva Voce",
+              "l": 0,
+              "t": 0,
+              "p": 0,
+              "credits": 6,
+              "syllabus": "Students complete a supervised management or business project and defend it through viva voce.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "note": "Updated to reflect the official two-year MBA structure from the curriculum PDF while keeping only the valid website-supported program content."
+}

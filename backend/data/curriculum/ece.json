@@ -1,0 +1,463 @@
+{
+  "department": "Electronics and Communication Engineering",
+  "regulation": "R25 (Years 1-4 course structure)",
+  "years": [
+    {
+      "year": 1,
+      "semesters": [
+        {
+          "semester": 1,
+          "subjects": [
+            {
+              "code": "2599101",
+              "name": "Matrices and Calculus",
+              "l": 3,
+              "t": 1,
+              "p": 0,
+              "credits": 4,
+              "syllabus": "Covers matrix algebra, eigenvalues, multivariable calculus, and applications to engineering problem solving.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2599106",
+              "name": "Engineering Physics",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Introduces modern physics, semiconductors, wave optics, and practical applications in electronics.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2505103",
+              "name": "C Programming and Data Structures",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Builds foundational programming, arrays, functions, recursion, and data structure concepts for engineering work.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2503101",
+              "name": "Computer Aided Engineering Graphics",
+              "l": 2,
+              "t": 0,
+              "p": 2,
+              "credits": 3,
+              "syllabus": "Covers projections, geometric construction, drafting, and CAD skills for engineering communication.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2502201",
+              "name": "Basic Electrical and Electronics Engineering",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Provides fundamentals of electrical circuits, machines, semiconductors, and basic electronics application.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2599107",
+              "name": "Engineering Physics Laboratory",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Practical experiments on optics, semiconductor properties, and measurement techniques.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2505104",
+              "name": "C Programming and Data Structures Laboratory",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Hands-on coding exercises on arrays, strings, functions, recursion, queues, stacks, and linked lists.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2502202",
+              "name": "Basic Electrical and Electronics Engineering Laboratory",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Lab verification of circuits, machines, electronics, and measurement procedures.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            {
+              "code": "2599201",
+              "name": "Ordinary Differential Equations and Vector Calculus",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Covers ODEs, Laplace transforms, vector calculus, and their use in engineering models.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2599204",
+              "name": "Engineering Chemistry",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Introduces water chemistry, electrochemistry, corrosion, polymers, and materials relevant to engineering practice.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2599205",
+              "name": "English for Skill Enhancement",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Builds communication, grammar, reading, and professional writing skills for engineering careers.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2505201",
+              "name": "Python Programming",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Introduces Python syntax, control flow, data handling, functions, and engineering problem solving.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2505202",
+              "name": "Python Programming Laboratory",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Hands-on Python problem solving with loops, lists, functions, handling of data and output.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2502301",
+              "name": "Electronic Devices and Circuits",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Introduces semiconductor devices, diode and transistor behavior, biasing, and basic amplifier design.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2502302",
+              "name": "Network Analysis",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Covers network theorems, transient response, resonance, and analysis of electrical circuits.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2502303",
+              "name": "Signals and Systems",
+              "l": 3,
+              "t": 1,
+              "p": 0,
+              "credits": 4,
+              "syllabus": "Focuses on continuous and discrete-time signals, LTI systems, transforms, and signal processing fundamentals.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semesters": [
+        {
+          "semester": 1,
+          "subjects": [
+            {
+              "code": "EC201PC",
+              "name": "Probability Theory and Stochastic Processes",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Develops the basics of probability, random variables, distributions, correlation, and stochastic processes.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "EC202PC",
+              "name": "Analog Circuits",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Deals with transistor amplifiers, feedback, oscillators, and analog electronics design.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "EC203PC",
+              "name": "Digital Logic Design",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Introduces Boolean algebra, logic gates, combinational logic, sequentials, and digital design principles.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "EC204PC",
+              "name": "Electromagnetic Waves and Transmission Lines",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Covers Maxwell equations, wave propagation, transmission lines, and field behavior in communication systems.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "EC205PC",
+              "name": "Microprocessors and Microcontrollers",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Covers architecture, instruction sets, interfacing, interrupts, timers, and embedded-system basics.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "EC206PC",
+              "name": "Electronic Devices Laboratory",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Experiments on diode and transistor characteristics, rectifiers, and amplifier behavior.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "EC207PC",
+              "name": "Digital Design Laboratory",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Practical work with logic circuits, counters, flip-flops, and basic digital system design.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            {
+              "code": "EC208PC",
+              "name": "Analog and Digital Communication",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Covers modulation, demodulation, noise, bandwidth, digital signaling, and communication theory.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "EC209PC",
+              "name": "Antenna Design and Wave Propagation",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Introduces antenna principles, radiation mechanisms, propagation models, and wireless system behavior.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "EC210PC",
+              "name": "IoT Architectures and Protocols",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Introduces IoT architecture, sensor networking, communication protocols, and embedded wireless systems.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "EC211PC",
+              "name": "CMOS VLSI Design",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Teaches CMOS inverter design, logic design, fabrication principles, and low-power VLSI considerations.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "EC212PC",
+              "name": "Digital Signal Processing",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Covers transforms, z-transform, FFT, FIR and IIR filters, and real-world signal processing.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "EC213PC",
+              "name": "Communication Lab",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Practical experiments in modulation, filters, signal measurement, and communication system testing.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "EC214PC",
+              "name": "IoT and Embedded Lab",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Applies embedded programming, sensing, interfacing, and IoT protocol testing in the laboratory.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "note": "Official R25 Year 3 course structure from the supplied ECE PDF. Detailed course syllabi are not included for these years in that document.",
+      "semesters": [
+        {
+          "semester": 1,
+          "subjects": [
+            { "code": "", "name": "Digital Signal Processing", "l": 3, "t": 0, "p": 0, "credits": 3, "syllabus": "Listed in the official R25 ECE Year 3 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "RISC and Microcontroller Architectures", "l": 3, "t": 0, "p": 0, "credits": 3, "syllabus": "Listed in the official R25 ECE Year 3 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "CMOS VLSI Design", "l": 3, "t": 0, "p": 0, "credits": 3, "syllabus": "Listed in the official R25 ECE Year 3 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Professional Elective-I", "l": 3, "t": 0, "p": 0, "credits": 3, "syllabus": "Listed in the official R25 ECE Year 3 course structure; elective options and detailed syllabus are not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Open Elective-I", "l": 2, "t": 0, "p": 0, "credits": 2, "syllabus": "Listed in the official R25 ECE Year 3 course structure; elective options and detailed syllabus are not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "RISC and Microcontroller Interfacing Laboratory", "l": 0, "t": 0, "p": 2, "credits": 1, "syllabus": "Listed in the official R25 ECE Year 3 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "CMOS VLSI Design Laboratory", "l": 0, "t": 0, "p": 2, "credits": 1, "syllabus": "Listed in the official R25 ECE Year 3 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Digital Signal Processing Laboratory", "l": 0, "t": 0, "p": 2, "credits": 1, "syllabus": "Listed in the official R25 ECE Year 3 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Field-based Research Project", "l": 0, "t": 0, "p": 4, "credits": 2, "syllabus": "Listed in the official R25 ECE Year 3 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "FPGA-based System Design Lab", "l": 0, "t": 0, "p": 2, "credits": 1, "syllabus": "Listed in the official R25 ECE Year 3 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Intellectual Property Rights", "l": 1, "t": 0, "p": 0, "credits": 1, "syllabus": "Listed in the official R25 ECE Year 3 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" }
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            { "code": "", "name": "Antenna Design and Wave Propagation", "l": 3, "t": 0, "p": 0, "credits": 3, "syllabus": "Listed in the official R25 ECE Year 3 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "IoT Architectures and Protocols", "l": 3, "t": 0, "p": 0, "credits": 3, "syllabus": "Listed in the official R25 ECE Year 3 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Business Economics and Financial Analysis", "l": 3, "t": 0, "p": 0, "credits": 3, "syllabus": "Listed in the official R25 ECE Year 3 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Professional Elective-II", "l": 3, "t": 0, "p": 0, "credits": 3, "syllabus": "Listed in the official R25 ECE Year 3 course structure; elective options and detailed syllabus are not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Open Elective-II", "l": 2, "t": 0, "p": 0, "credits": 2, "syllabus": "Listed in the official R25 ECE Year 3 course structure; elective options and detailed syllabus are not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Advanced Communications Lab", "l": 0, "t": 0, "p": 2, "credits": 1, "syllabus": "Listed in the official R25 ECE Year 3 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "IoT Architectures and Protocols Laboratory", "l": 0, "t": 0, "p": 2, "credits": 1, "syllabus": "Listed in the official R25 ECE Year 3 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "VLSI Design Verification Laboratory", "l": 0, "t": 0, "p": 2, "credits": 1, "syllabus": "Listed in the official R25 ECE Year 3 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Advanced English Communication Skills Laboratory", "l": 0, "t": 0, "p": 2, "credits": 1, "syllabus": "Listed in the official R25 ECE Year 3 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "5G Practical Lab / Robotic Lab / Drone Lab", "l": 0, "t": 0, "p": 2, "credits": 1, "syllabus": "Listed in the official R25 ECE Year 3 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Gender Sensitization Lab / Human Values and Professional Ethics Lab", "l": 1, "t": 0, "p": 0, "credits": 1, "syllabus": "Listed in the official R25 ECE Year 3 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "note": "Official R25 Year 4 course structure from the supplied ECE PDF. Detailed course syllabi are not included for these years in that document.",
+      "semesters": [
+        {
+          "semester": 1,
+          "subjects": [
+            { "code": "", "name": "Microwave and Optical Communications", "l": 3, "t": 0, "p": 0, "credits": 3, "syllabus": "Listed in the official R25 ECE Year 4 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Embedded System Design", "l": 3, "t": 0, "p": 0, "credits": 3, "syllabus": "Listed in the official R25 ECE Year 4 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Fundamentals of Management for Engineers", "l": 3, "t": 0, "p": 0, "credits": 3, "syllabus": "Listed in the official R25 ECE Year 4 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Professional Elective-III", "l": 3, "t": 0, "p": 0, "credits": 3, "syllabus": "Listed in the official R25 ECE Year 4 course structure; elective options and detailed syllabus are not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Professional Elective-IV", "l": 3, "t": 0, "p": 0, "credits": 3, "syllabus": "Listed in the official R25 ECE Year 4 course structure; elective options and detailed syllabus are not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Open Elective-III", "l": 2, "t": 0, "p": 0, "credits": 2, "syllabus": "Listed in the official R25 ECE Year 4 course structure; elective options and detailed syllabus are not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Microwave and Optical Communications Laboratory", "l": 0, "t": 0, "p": 2, "credits": 1, "syllabus": "Listed in the official R25 ECE Year 4 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Embedded System Design Lab", "l": 0, "t": 0, "p": 2, "credits": 1, "syllabus": "Listed in the official R25 ECE Year 4 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Industry Oriented Mini Project / Internship", "l": 0, "t": 0, "p": 4, "credits": 2, "syllabus": "Listed in the official R25 ECE Year 4 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" }
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            { "code": "", "name": "Professional Elective-V", "l": 3, "t": 0, "p": 0, "credits": 3, "syllabus": "Listed in the official R25 ECE Year 4 course structure; elective options and detailed syllabus are not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Professional Elective-VI", "l": 3, "t": 0, "p": 0, "credits": 3, "syllabus": "Listed in the official R25 ECE Year 4 course structure; elective options and detailed syllabus are not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" },
+            { "code": "", "name": "Project Work", "l": 0, "t": 0, "p": 28, "credits": 14, "syllabus": "Listed in the official R25 ECE Year 4 course structure; detailed syllabus not included in the supplied PDF.", "textbooks": "", "referenceBooks": "", "outcomes": "" }
+          ]
+        }
+      ]
+    }
+  ],
+  "note": "Years 1-4 follow the supplied R25 ECE document. Years 3-4 include the official course structure; detailed subject syllabi are not present in the supplied document."
+}

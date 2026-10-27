@@ -1,0 +1,433 @@
+{
+  "department": "Electrical and Electronics Engineering",
+  "regulation": "R25 (Years 1-2)",
+  "years": [
+    {
+      "year": 1,
+      "semesters": [
+        {
+          "semester": 1,
+          "subjects": [
+            {
+              "code": "2599101",
+              "name": "Matrices and Calculus",
+              "l": 3,
+              "t": 1,
+              "p": 0,
+              "credits": 4,
+              "syllabus": "Matrix algebra, eigenvalues, calculus, optimization, and applications to engineering problems.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2599106",
+              "name": "Engineering Physics",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Modern physics, semiconductors, optics, and practical applications in electrical engineering.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2505103",
+              "name": "C Programming and Data Structures",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Foundations of C programming, recursion, arrays, functions, stacks, queues, and linked structures.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2503101",
+              "name": "Computer Aided Engineering Graphics",
+              "l": 2,
+              "t": 0,
+              "p": 2,
+              "credits": 3,
+              "syllabus": "Engineering drawing, projections, CAD-based drafting, and visualization techniques.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2502101",
+              "name": "Electrical Circuits - I",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Circuit laws, network theorems, DC analysis, and basic electrical behavior.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2599107",
+              "name": "Engineering Physics Laboratory",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Experiments on optics, semiconductors, and measurement of physical properties.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2505104",
+              "name": "C Programming and Data Structures Laboratory",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Programming lab covering arrays, strings, functions, operations on stacks and queues.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2502102",
+              "name": "Electrical Circuits - I Laboratory",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Lab verification of KCL, KVL, network theorems, AC and DC measurements.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            {
+              "code": "2599201",
+              "name": "Ordinary Differential Equations and Vector Calculus",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Differential equations, Laplace transforms, and vector calculus for engineering solutions.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2599204",
+              "name": "Engineering Chemistry",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Water chemistry, electrochemistry, corrosion, polymers, and material science applications.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2599205",
+              "name": "English for Skill Enhancement",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Develops technical communication, grammar, reading, writing, and public speaking.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2505201",
+              "name": "Python Programming",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Python basics, loops, functions, data handling, and engineering problem solving.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2502203",
+              "name": "Electrical Circuits - II",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "AC circuits, resonance, transient response, power measurement, and alternate current analysis.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2599206",
+              "name": "Engineering Chemistry Laboratory",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Experiments in pH, electrical conductivity, corrosion, and material testing.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2505202",
+              "name": "Python Programming Laboratory",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Practical Python coding with loops, functions, and data-driven computations.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2502204",
+              "name": "Electrical Circuits - II Laboratory",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Lab practicals on AC circuits, resonance, transient response, and measurement techniques.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2599207",
+              "name": "English Language and Communication Skills Laboratory",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Listening, speaking, pronunciation, presentation, and professional communication activities.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semesters": [
+        {
+          "semester": 1,
+          "subjects": [
+            {
+              "code": "2502301",
+              "name": "Electromagnetic Fields",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Electrostatics, magnetostatics, Maxwell equations, and field theory applications to electrical engineering.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2502302",
+              "name": "Electrical Machines - I",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Transformers, DC machines, electromechanical energy conversion, and machine performance analysis.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2504301",
+              "name": "Electronic Devices and Circuits",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Semiconductor devices, diode and transistor behavior, biasing, and analog amplifier design.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2502303",
+              "name": "Power Systems - I",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Generation, transmission, distribution, line modeling, and power system fundamentals.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2502304",
+              "name": "Electrical Measurements and Sensors",
+              "l": 2,
+              "t": 0,
+              "p": 0,
+              "credits": 2,
+              "syllabus": "Measurement systems, sensors, transducers, instrumentation, and calibration concepts.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2588301",
+              "name": "Innovation and Entrepreneurship",
+              "l": 2,
+              "t": 0,
+              "p": 0,
+              "credits": 2,
+              "syllabus": "Innovation, venture thinking, entrepreneurship, and business model fundamentals.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2502305",
+              "name": "Electrical Machines - I Laboratory",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Transformer and DC machine testing, efficiency, and characteristic measurement.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2502306",
+              "name": "Electrical Measurements and Sensors Laboratory",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Experiments with measuring instruments, sensors, transducers, and calibration practice.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "subjects": [
+            {
+              "code": "2599402",
+              "name": "Numerical Methods and Complex Variables",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Numerical methods, complex variables, and solution techniques for engineering computations.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2502401",
+              "name": "Electrical Machines - II",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Induction motors, synchronous machines, alternators, performance analysis, and practical applications.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2502402",
+              "name": "Power Systems - II",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Transmission analysis, faults, stability, and distribution system fundamentals.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2504401",
+              "name": "Digital Electronics",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Digital logic, combinational and sequential circuits, logic families, and memory devices.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2502403",
+              "name": "Control Systems",
+              "l": 3,
+              "t": 0,
+              "p": 0,
+              "credits": 3,
+              "syllabus": "Transfer function modeling, stability, time response, frequency response, and basic control design.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2502404",
+              "name": "Electrical Machines - II Laboratory",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Experimental study of induction motor and synchronous machine characteristics.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2502405",
+              "name": "Control Systems Laboratory",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Response analysis, stability checks, and controller behavior in control system experiments.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            },
+            {
+              "code": "2504402",
+              "name": "Digital Electronics Laboratory",
+              "l": 0,
+              "t": 0,
+              "p": 2,
+              "credits": 1,
+              "syllabus": "Logic design testing, gate verification, and digital circuit experiments.",
+              "textbooks": "",
+              "referenceBooks": "",
+              "outcomes": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "note": "Updated using the official EEE syllabus document in the curriculum folder and kept to the valid website-supported program structure."
+}

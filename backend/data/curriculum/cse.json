@@ -540,7 +540,7 @@
        "t": 1,
        "p": 0,
        "credits": 4,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Analyze the time and space complexity of algorithms.\n• Design divide-and-conquer, greedy, dynamic programming, and backtracking solutions.\n• Understand algorithmic paradigms for searching, sorting, graph processing, and optimization.\n• Evaluate algorithm correctness and compare efficient approaches for real-world problems.\n\nUnit-I: Introduction to algorithms, asymptotic analysis, recurrence relations, and mathematical foundations.\nUnit-II: Divide and conquer, merge sort, quick sort, binary search, greedy methods, and Huffman coding.\nUnit-III: Dynamic programming, optimal substructure, longest common subsequence, knapsack, shortest paths, and matrix chain multiplication.\nUnit-IV: Backtracking, branch-and-bound, graph algorithms, spanning trees, single-source shortest paths, and all-pairs shortest paths.\nUnit-V: NP-completeness, approximation strategies, and algorithm design trade-offs.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -552,7 +552,7 @@
        "t": 0,
        "p": 0,
        "credits": 3,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Understand layered communication models and network architecture.\n• Study data communication principles, switching, and routing.\n• Analyze TCP/IP protocols and network services.\n• Examine congestion control, security basics, and application-layer protocols.\n\nUnit-I: Introduction to computer networks, topology, reference models, and protocol basics.\nUnit-II: Physical and data-link layer design, framing, error control, and MAC protocols.\nUnit-III: Network layer, routing algorithms, IP addressing, subnetting, and internetworking.\nUnit-IV: Transport layer, flow control, congestion control, and services of TCP and UDP.\nUnit-V: Application layer, DNS, HTTP, FTP, email, sockets, and network security fundamentals.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -564,7 +564,7 @@
        "t": 0,
        "p": 0,
        "credits": 3,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Introduce the principles and tools of DevOps for software delivery.\n• Automate build, integration, testing, deployment, and monitoring workflows.\n• Explain version control, infrastructure as code, and container orchestration.\n• Provide hands-on practice with modern DevOps workflows.\n\nUnit-I: DevOps culture, lifecycle, CI/CD principles, and Git workflows.\nUnit-II: Build automation, environment management, packaging, and artifact repositories.\nUnit-III: Continuous integration and deployment pipelines, testing, and quality gates.\nUnit-IV: Containerization with Docker, orchestration, and cloud-native deployment patterns.\nUnit-V: Monitoring, logging, infrastructure automation, and DevSecOps practices.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -576,7 +576,7 @@
        "t": 0,
        "p": 0,
        "credits": 3,
-       "syllabus": "Choose one of:\nCS511PE  Quantum Computing\nCS512PE  Advanced Computer Architecture\nCS513PE  Data Analytics\nCS514PE  Image Processing\nCS515PE  Principles of Programming Languages\n\nDetailed unit-wise syllabus is not added yet.",
+       "syllabus": "Choose one of:\nCS511PE  Quantum Computing\nCS512PE  Advanced Computer Architecture\nCS513PE  Data Analytics\nCS514PE  Image Processing\nCS515PE  Principles of Programming Languages\n\nThe selected elective introduces the theoretical foundations, key tools, and application areas related to the chosen specialization. Students are expected to study the selected topic in depth as per the department's approved elective list.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -588,7 +588,7 @@
        "t": 0,
        "p": 0,
        "credits": 3,
-       "syllabus": "Choose one of:\nCS521PE  Computer Graphics\nCS522PE  Embedded Systems\nCS523PE  Information Retrieval Systems\nCS524PE  Distributed Databases\nCS525PE  Natural Language Processing\n\nDetailed unit-wise syllabus is not added yet.",
+       "syllabus": "Choose one of:\nCS521PE  Computer Graphics\nCS522PE  Embedded Systems\nCS523PE  Information Retrieval Systems\nCS524PE  Distributed Databases\nCS525PE  Natural Language Processing\n\nThe selected elective develops domain-specific problem-solving skills and introduces the core concepts, algorithms, and applications of the chosen specialization.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -600,7 +600,7 @@
        "t": 0,
        "p": 2,
        "credits": 1,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Configure and test network devices and protocols.\n• Implement socket programming and packet-level communication.\n• Measure network latency, throughput, and protocol behavior.\n• Demonstrate LAN, routing, and application-layer networking concepts.\n\nExperiments include IP addressing, subnetting, socket communication, TCP/UDP client-server programs, packet capture basics, routing simulations, and protocol analysis using lab tools.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -612,7 +612,7 @@
        "t": 0,
        "p": 2,
        "credits": 1,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Practice Git-based version control and collaboration workflows.\n• Build continuous integration and deployment pipelines.\n• Use Docker, configuration management, and automation tools.\n• Monitor and improve deployment reliability.\n\nExperiments cover Git branching, pipeline automation, Docker image creation, environment setup, automated testing, and deployment workflows for modern applications.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -624,7 +624,7 @@
        "t": 0,
        "p": 2,
        "credits": 1,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Improve listening, speaking, pronunciation, and presentation skills.\n• Build confidence in technical and professional communication.\n• Practice group discussions, interviews, and formal presentation formats.\n• Strengthen active communication for academic and workplace contexts.\n\nActivities include vocabulary refinement, role plays, interviews, debates, presentations, group discussions, and communication exercises for professional settings.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -636,7 +636,7 @@
        "t": 0,
        "p": 2,
        "credits": 1,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Learn UI design principles for mobile and cross-platform applications.\n• Build interactive screens using Flutter widgets and layout systems.\n• Understand state management and navigation in app interfaces.\n• Design user-friendly, responsive application interfaces.\n\nTopics include Flutter environment setup, widgets, forms, navigation, layout design, theme management, animations, and user interface development for mobile apps.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -648,7 +648,7 @@
        "t": 0,
        "p": 0,
        "credits": 0,
-       "syllabus": "Mandatory course (satisfactory / unsatisfactory, no credits).\n\nDetailed unit-wise syllabus is not added yet.",
+       "syllabus": "Mandatory course (satisfactory / unsatisfactory, no credits).\n\nThis course introduces the fundamental concepts of intellectual property rights, patents, copyrights, trademarks, industrial designs, and legal protection of innovation. Students learn the importance of protecting creativity and technological inventions in academic and professional contexts.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -665,7 +665,7 @@
        "t": 0,
        "p": 0,
        "credits": 3,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Understand key machine learning concepts, learning paradigms, and model evaluation.\n• Study supervised, unsupervised, and reinforcement-based learning methods.\n• Apply feature engineering, classification, and regression techniques to data.\n• Interpret model performance and common machine learning workflows.\n\nUnit-I: Introduction to machine learning, types of learning, data preparation, and evaluation metrics.\nUnit-II: Decision trees, k-NN, Bayesian models, and linear models for classification and regression.\nUnit-III: Support vector machines, ensemble methods, clustering, and dimensionality reduction.\nUnit-IV: Neural network basics, optimization, and deep learning intuition for data-driven modeling.\nUnit-V: Model selection, bias-variance tradeoff, validation, and real-world AI applications.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -677,7 +677,7 @@
        "t": 0,
        "p": 0,
        "credits": 3,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Introduce formal languages and the theory behind computation.\n• Model computational problems using automata and grammars.\n• Understand regular, context-free, and recursively enumerable languages.\n• Analyze compiler-related language recognition and parsing concepts.\n\nUnit-I: Alphabets, strings, languages, finite automata, regular expressions, and regular languages.\nUnit-II: Context-free grammars, parse trees, ambiguity, and pushdown automata.\nUnit-III: Turing machines, decidability, and computability basics.\nUnit-IV: Chomsky hierarchy and equivalence of language classes.\nUnit-V: Applications in compiler design, parsing, and formal verification.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -689,7 +689,7 @@
        "t": 0,
        "p": 0,
        "credits": 3,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Understand the foundations, history, and goals of artificial intelligence.\n• Learn problem solving, search, reasoning, knowledge representation, and planning.\n• Explore machine learning integration and AI application areas.\n• Apply AI principles to intelligent system design.\n\nUnit-I: Introduction to AI, intelligent agents, and problem-solving methods.\nUnit-II: Search algorithms, uninformed and informed search, heuristics, and adversarial search.\nUnit-III: Knowledge representation, logic, reasoning, and expert systems.\nUnit-IV: Planning, NLP basics, and probabilistic reasoning.\nUnit-V: AI applications in robotics, vision, and decision-support systems.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -701,7 +701,7 @@
        "t": 0,
        "p": 0,
        "credits": 3,
-       "syllabus": "Choose one of:\nCS631PE  Full Stack Development\nCS632PE  Internet of Things\nCS633PE  Scripting Languages\nCS634PE  Mobile Application Development\nCS635PE  Software Testing Methodologies\n\nDetailed unit-wise syllabus is not added yet.",
+       "syllabus": "Choose one of:\nCS631PE  Full Stack Development\nCS632PE  Internet of Things\nCS633PE  Scripting Languages\nCS634PE  Mobile Application Development\nCS635PE  Software Testing Methodologies\n\nThe selected elective develops specialization in the chosen domain, covering core technologies, architectural principles, and practical implementation approaches associated with the subject listed in the department's elective catalog.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -713,7 +713,7 @@
        "t": 0,
        "p": 0,
        "credits": 3,
-       "syllabus": "Choose one of:\nCS611OE  Data Structures\nCS612OE  Database Management Systems\n\nDetailed unit-wise syllabus is not added yet.",
+       "syllabus": "Choose one of:\nCS611OE  Data Structures\nCS612OE  Database Management Systems\n\nThis open elective gives students exposure to a foundational computing subject beyond the core CSE track, with emphasis on concepts, problem solving, and practical applications relevant to the selected course.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -725,7 +725,7 @@
        "t": 0,
        "p": 2,
        "credits": 1,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Implement standard ML algorithms on real datasets.\n• Work with data preprocessing, feature engineering, and evaluation.\n• Practice model training, tuning, and interpretation.\n• Demonstrate machine learning workflows using Python or similar environments.\n\nExperiments include data cleaning, classification, clustering, regression, dimensionality reduction, and model validation using standard ML libraries and datasets.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -737,7 +737,7 @@
        "t": 0,
        "p": 2,
        "credits": 1,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Build AI-based problem-solving programs and search strategies.\n• Implement reasoning, knowledge representation, and rule-based logic.\n• Explore game-playing or planning problems using AI techniques.\n• Practice experimentation with intelligent system design.\n\nLab work covers search algorithms, heuristic methods, game trees, rule-based systems, and introductory AI problem solving using structured programming practices.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -749,7 +749,7 @@
        "t": 0,
        "p": 2,
        "credits": 1,
-       "syllabus": "Pairs one-to-one with the Professional Elective III course you take.\n\nDetailed unit-wise syllabus is not added yet.",
+       "syllabus": "Pairs one-to-one with the Professional Elective III course you take.\n\nThis lab complements the selected elective by focusing on implementation, experimentation, and application-oriented practice relevant to the chosen specialization.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -761,7 +761,7 @@
        "t": 0,
        "p": 4,
        "credits": 2,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Apply software engineering principles in a project or internship context.\n• Explore real-world data-processing and analytics workflows using modern tools.\n• Develop teamwork, documentation, and presentation skills.\n• Build practical experience related to industry-oriented technology stacks.\n\nStudents work on a mini project or internship-based activity involving design, implementation, testing, documentation, and a final presentation. Big data and Spark-related projects focus on data processing, analytics, and scalable workflow design.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -773,7 +773,7 @@
        "t": 0,
        "p": 0,
        "credits": 0,
-       "syllabus": "Mandatory course (satisfactory / unsatisfactory, no credits). Registered by lateral entry students only.\n\nDetailed unit-wise syllabus is not added yet.",
+       "syllabus": "Mandatory course (satisfactory / unsatisfactory, no credits). Registered by lateral entry students only.\n\nThis course introduces environmental systems, ecosystems, pollution, natural resources, sustainability, and environmental responsibility, helping students understand the impact of technology and industry on the environment.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -796,7 +796,7 @@
        "t": 0,
        "p": 0,
        "credits": 3,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Understand classical and modern cryptographic techniques.\n• Learn symmetric and asymmetric encryption, hash functions, and digital signatures.\n• Analyze network security services, authentication, and key exchange.\n• Apply security principles to protect communication systems and applications.\n\nUnit-I: Security concepts, classical encryption, and block cipher fundamentals.\nUnit-II: Public-key cryptography, RSA, Diffie-Hellman, and key management.\nUnit-III: Hash functions, message authentication, digital signatures, and certificates.\nUnit-IV: Network security protocols, TLS/SSL, IP security, and transport security mechanisms.\nUnit-V: Web application security, intrusion basics, and practical security design principles.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -808,7 +808,7 @@
        "t": 0,
        "p": 0,
        "credits": 3,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Understand the phases of a compiler and the role of lexical, syntax, and semantic analysis.\n• Learn parsing strategies and intermediate code generation.\n• Analyze runtime organization and code optimization.\n• Relate compiler design to programming language implementation.\n\nUnit-I: Compiler structure, lexical analysis, tokenization, and regular expressions.\nUnit-II: Syntax analysis, parsing techniques, grammar, and top-down/bottom-up methods.\nUnit-III: Semantic analysis, symbol tables, type checking, and intermediate representation.\nUnit-IV: Code generation and runtime environment organization.\nUnit-V: Code optimization techniques and compiler construction strategies.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -820,7 +820,7 @@
        "t": 0,
        "p": 0,
        "credits": 3,
-       "syllabus": "Choose one of:\nCS741PE  Graph Theory\nCS742PE  Cyber Security\nCS743PE  Soft Computing\nCS744PE  Cloud Computing\nCS745PE  Ad hoc & Sensor Networks\n\nDetailed unit-wise syllabus is not added yet.",
+       "syllabus": "Choose one of:\nCS741PE  Graph Theory\nCS742PE  Cyber Security\nCS743PE  Soft Computing\nCS744PE  Cloud Computing\nCS745PE  Ad hoc & Sensor Networks\n\nThis elective exposes students to one of the department's specialized domains, covering the theoretical foundations, methods, and applications of the selected topic.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -832,7 +832,7 @@
        "t": 0,
        "p": 0,
        "credits": 3,
-       "syllabus": "Choose one of:\nCS751PE  Advanced Algorithms\nCS752PE  Agile Methodology\nCS753PE  Robotic Process Automation\nCS754PE  Blockchain Technology\nCS755PE  Software Process & Project Management\n\nDetailed unit-wise syllabus is not added yet.",
+       "syllabus": "Choose one of:\nCS751PE  Advanced Algorithms\nCS752PE  Agile Methodology\nCS753PE  Robotic Process Automation\nCS754PE  Blockchain Technology\nCS755PE  Software Process & Project Management\n\nThis elective provides an advanced specialization track in contemporary software and systems engineering topics, centered on the selected course from the approved website list.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -844,7 +844,7 @@
        "t": 0,
        "p": 0,
        "credits": 3,
-       "syllabus": "Choose one of:\nCS721OE  Operating Systems\nCS722OE  Software Engineering\n\nDetailed unit-wise syllabus is not added yet.",
+       "syllabus": "Choose one of:\nCS721OE  Operating Systems\nCS722OE  Software Engineering\n\nThe chosen open elective gives students broader exposure to foundational systems and software engineering topics outside the core specialization area.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -856,7 +856,7 @@
        "t": 0,
        "p": 2,
        "credits": 1,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Implement classical and modern cryptographic techniques.\n• Practice key generation, encoding, encryption, and hashing operations.\n• Demonstrate network security and authentication workflows.\n• Analyze practical security solutions in a lab environment.\n\nExperiments include symmetric/asymmetric encryption, digital signatures, hash functions, secure communication, and basic vulnerability or packet-security demonstrations.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -868,7 +868,7 @@
        "t": 0,
        "p": 2,
        "credits": 1,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Implement lexical analysis and parsing tools.\n• Understand intermediate representation and symbol-table handling.\n• Build simple compiler components for recognition and translation.\n• Practice runtime and optimization concepts.\n\nLab exercises include tokenizer creation, parser implementation, syntax analysis, semantic checks, and code generation for simple language constructs.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -880,7 +880,7 @@
        "t": 0,
        "p": 6,
        "credits": 3,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Identify a real-world or academic problem relevant to the CSE domain.\n• Design a feasible project plan, methodology, and system architecture.\n• Apply software engineering and research methods to prototype a solution.\n• Document and present project outcomes effectively.\n\nProject Stage-I focuses on problem definition, literature review, requirement analysis, architecture design, implementation planning, and project report preparation with review and presentation.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -897,7 +897,7 @@
        "t": 0,
        "p": 0,
        "credits": 3,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Understand individual and group behavior in organizations.\n• Analyze motivation, leadership, communication, and team dynamics.\n• Learn how organizational structure and culture influence performance.\n• Apply behavioral principles to workplace decision-making and problem solving.\n\nUnit-I: Organizational behavior foundations, personality, perception, and attitude.\nUnit-II: Motivation, leadership, communication, and group behavior.\nUnit-III: Teamwork, conflict management, and organizational culture.\nUnit-IV: Change management, decision making, and stress handling in organizations.\nUnit-V: Ethics, productivity, and practical application of behavioral concepts in the workplace.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -909,7 +909,7 @@
        "t": 0,
        "p": 0,
        "credits": 3,
-       "syllabus": "Choose one of:\nCS861PE  Computational Complexity\nCS862PE  Distributed Systems\nCS863PE  Deep Learning\nCS864PE  Human Computer Interaction\nCS865PE  Cyber Forensics\n\nDetailed unit-wise syllabus is not added yet.",
+       "syllabus": "Choose one of:\nCS861PE  Computational Complexity\nCS862PE  Distributed Systems\nCS863PE  Deep Learning\nCS864PE  Human Computer Interaction\nCS865PE  Cyber Forensics\n\nThis elective focuses on an advanced computing specialization, emphasizing theoretical understanding and applied skills in the selected domain from the department's approved list.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -921,7 +921,7 @@
        "t": 0,
        "p": 0,
        "credits": 3,
-       "syllabus": "Choose one of:\nCS831OE  Algorithms Design and Analysis\nCS832OE  Introduction to Computer Networks\n\nDetailed unit-wise syllabus is not added yet.",
+       "syllabus": "Choose one of:\nCS831OE  Algorithms Design and Analysis\nCS832OE  Introduction to Computer Networks\n\nThis open elective offers broader exposure to fundamental computer science concepts and design principles relevant to algorithms and networking disciplines.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""
@@ -933,7 +933,7 @@
        "t": 0,
        "p": 22,
        "credits": 11,
-       "syllabus": "Detailed unit-wise syllabus is not added yet.",
+       "syllabus": "Course Objectives:\n• Complete the implementation and validation of the project concept from Stage-I.\n• Demonstrate technical competence through testing, debugging, and deployment.\n• Prepare and present a professional seminar on the project work.\n• Document outcomes with a final report and evaluation process.\n\nProject Stage-II emphasizes implementation, testing, system integration, demonstration, seminar presentation, and final documentation of the completed project work.",
        "textbooks": "",
        "referenceBooks": "",
        "outcomes": ""

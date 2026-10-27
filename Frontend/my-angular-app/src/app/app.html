@@ -50,15 +50,15 @@
       }
     </div>
 
-    @if (chosen()) {
+    @if (picked()) {
       <a class="cue" href="#details">Scroll down <span class="arrow">↓</span></a>
     }
   </section>
 
-  <!-- DETAILS: shown only after a department is chosen -->
-  @if (chosen()) {
+  <!-- DETAILS: shown while a department is selected -->
+  @if (picked()) {
     <section class="details" id="details">
-      @if (chosenDept(); as d) {
+      @if (pickedDept(); as d) {
         <div class="intro">
           <h2>{{ d.name }}</h2>
           <p>{{ d.about }}</p>
@@ -154,7 +154,7 @@
       } @else if (shownYears() === undefined) {
         <p class="empty">{{ error() ? 'Waiting for the server.' : 'Loading the syllabus...' }}</p>
       } @else {
-        <p class="empty">The {{ chosen() }} syllabus has not been added yet.</p>
+        <p class="empty">The {{ picked() }} syllabus has not been added yet.</p>
       }
     </section>
   }
