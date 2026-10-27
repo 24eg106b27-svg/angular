@@ -350,3 +350,27 @@ pre {
   font-size: 0.9rem;
   color: var(--muted);
 }
+
+/* ── year navbar ── */
+.year-nav {
+  display: flex;
+  gap: .6rem;
+  flex-wrap: wrap;
+  margin: 1.2rem 0 1.8rem;
+}
+
+.year-btn {
+  background: rgba(255,255,255,.1);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,.25);
+  border-radius: 2rem;
+  padding: .4rem 1.2rem;
+  font-size: .85rem;
+  cursor: pointer;
+  transition: background .18s, border-color .18s;
+}
+
+.year-btn:hover {
+  background: rgba(255,255,255,.22);
+  border-color: rgba(255,255,255,.5);
+}

@@ -1,5 +1,5 @@
 <main class="page" [style.background-color]="color()">
-  <!-- HERO: campus photo by default, department photo after picking -->
+  <!-- HERO -->
   <section class="hero" [style.background-image]="heroBg()">
     @if (picked()) {
       <span class="wordmark">{{ home().title }}</span>
@@ -50,109 +50,112 @@
       }
     </div>
 
-    <a class="cue" href="#details">Scroll down <span class="arrow">↓</span></a>
+    @if (chosen()) {
+      <a class="cue" href="#details">Scroll down <span class="arrow">↓</span></a>
+    }
   </section>
 
-  <!-- DETAILS: common curriculum by default, chosen department after the button -->
-  <section class="details" id="details">
-    @if (chosenDept(); as d) {
-      <div class="intro">
-        <h2>{{ d.name }}</h2>
-        <p>{{ d.about }}</p>
-      </div>
-    } @else {
-      <div class="intro">
-        <h2>Year 1 and Year 2</h2>
-        <p>
-          These are the first four semesters of {{ commonSource() }}. Pick a department above and choose it to see its
-          own syllabus.
-        </p>
-      </div>
-    }
-
-    @if (shownYears(); as years) {
-      <p class="facts">
-        {{ stats().courses }} courses across {{ stats().semesters }} semesters, {{ stats().credits }} credits in total.
-        Click a course to open its syllabus.
-      </p>
-
-      @for (y of years; track y.year) {
-        <h3>Year {{ y.year }}</h3>
-        @if (y.note) {
-          <p class="ynote">{{ y.note }}</p>
-        }
-
-        @for (s of y.semesters; track s.semester) {
-          <div class="tablewrap">
-            <table>
-              <caption>
-                Semester {{ s.semester }}
-              </caption>
-              <thead>
-                <tr>
-                  <th>Code</th>
-                  <th>Course</th>
-                  <th class="n" title="Lecture hours per week">L</th>
-                  <th class="n" title="Tutorial hours per week">T</th>
-                  <th class="n" title="Practical hours per week">P</th>
-                  <th class="n">Credits</th>
-                </tr>
-              </thead>
-              <tbody>
-                @for (b of s.subjects; track b.name) {
-                  @let key = y.year + '-' + s.semester + '-' + b.name;
-                  <tr class="row" [class.open]="openRow() === key" (click)="toggleRow(key)">
-                    <td class="code">{{ b.code || '-' }}</td>
-                    <td>
-                      <button class="name" [attr.aria-expanded]="openRow() === key">{{ b.name }}</button>
-                    </td>
-                    <td class="n">{{ b.l }}</td>
-                    <td class="n">{{ b.t }}</td>
-                    <td class="n">{{ b.p }}</td>
-                    <td class="n cr">{{ b.credits }}</td>
-                  </tr>
-                  @if (openRow() === key) {
-                    <tr class="detail">
-                      <td colspan="6">
-                        <div class="syl">
-                          <h4>Syllabus</h4>
-                          <pre>{{ b.syllabus }}</pre>
-                          @if (b.textbooks) {
-                            <h4>Textbooks</h4>
-                            <pre>{{ b.textbooks }}</pre>
-                          }
-                          @if (b.referenceBooks) {
-                            <h4>Reference books</h4>
-                            <pre>{{ b.referenceBooks }}</pre>
-                          }
-                          @if (b.outcomes) {
-                            <h4>Course outcomes</h4>
-                            <pre>{{ b.outcomes }}</pre>
-                          }
-                        </div>
-                      </td>
-                    </tr>
-                  }
-                }
-              </tbody>
-              <tfoot>
-                <tr>
-                  <td colspan="2">Semester total</td>
-                  <td class="n">{{ sum(s, 'l') }}</td>
-                  <td class="n">{{ sum(s, 't') }}</td>
-                  <td class="n">{{ sum(s, 'p') }}</td>
-                  <td class="n cr">{{ sum(s, 'credits') }}</td>
-                </tr>
-              </tfoot>
-            </table>
-          </div>
-        }
+  <!-- DETAILS: shown only after a department is chosen -->
+  @if (chosen()) {
+    <section class="details" id="details">
+      @if (chosenDept(); as d) {
+        <div class="intro">
+          <h2>{{ d.name }}</h2>
+          <p>{{ d.about }}</p>
+        </div>
       }
-      <p class="legend">L, T, P = lecture, tutorial and practical hours per week.</p>
-    } @else if (shownYears() === undefined) {
-      <p class="empty">{{ error() ? 'Waiting for the server.' : 'Loading the syllabus...' }}</p>
-    } @else {
-      <p class="empty">The {{ chosen() }} syllabus has not been added yet.</p>
-    }
-  </section>
+
+      <!-- YEAR NAVBAR -->
+      @if (yearList().length > 0) {
+        <nav class="year-nav">
+          @for (y of yearList(); track y) {
+            <button class="year-btn" (click)="scrollToYear(y)">Year {{ y }}</button>
+          }
+        </nav>
+      }
+
+      @if (shownYears(); as years) {
+        <p class="facts">
+          {{ stats().courses }} courses across {{ stats().semesters }} semesters, {{ stats().credits }} credits in total.
+          Click a course to open its syllabus.
+        </p>
+
+        @for (y of years; track y.year) {
+          <h3 [id]="'year-' + y.year">Year {{ y.year }}</h3>
+          @if (y.note) {
+            <p class="ynote">{{ y.note }}</p>
+          }
+
+          @for (s of y.semesters; track s.semester) {
+            <div class="tablewrap">
+              <table>
+                <caption>Semester {{ s.semester }}</caption>
+                <thead>
+                  <tr>
+                    <th>Code</th>
+                    <th>Course</th>
+                    <th class="n" title="Lecture hours per week">L</th>
+                    <th class="n" title="Tutorial hours per week">T</th>
+                    <th class="n" title="Practical hours per week">P</th>
+                    <th class="n">Credits</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  @for (b of s.subjects; track b.name) {
+                    @let key = y.year + '-' + s.semester + '-' + b.name;
+                    <tr class="row" [class.open]="openRow() === key" (click)="toggleRow(key)">
+                      <td class="code">{{ b.code || '-' }}</td>
+                      <td>
+                        <button class="name" [attr.aria-expanded]="openRow() === key">{{ b.name }}</button>
+                      </td>
+                      <td class="n">{{ b.l }}</td>
+                      <td class="n">{{ b.t }}</td>
+                      <td class="n">{{ b.p }}</td>
+                      <td class="n cr">{{ b.credits }}</td>
+                    </tr>
+                    @if (openRow() === key) {
+                      <tr class="detail">
+                        <td colspan="6">
+                          <div class="syl">
+                            <h4>Syllabus</h4>
+                            <pre>{{ b.syllabus }}</pre>
+                            @if (b.textbooks) {
+                              <h4>Textbooks</h4>
+                              <pre>{{ b.textbooks }}</pre>
+                            }
+                            @if (b.referenceBooks) {
+                              <h4>Reference books</h4>
+                              <pre>{{ b.referenceBooks }}</pre>
+                            }
+                            @if (b.outcomes) {
+                              <h4>Course outcomes</h4>
+                              <pre>{{ b.outcomes }}</pre>
+                            }
+                          </div>
+                        </td>
+                      </tr>
+                    }
+                  }
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="2">Semester total</td>
+                    <td class="n">{{ sum(s, 'l') }}</td>
+                    <td class="n">{{ sum(s, 't') }}</td>
+                    <td class="n">{{ sum(s, 'p') }}</td>
+                    <td class="n cr">{{ sum(s, 'credits') }}</td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+          }
+        }
+        <p class="legend">L, T, P = lecture, tutorial and practical hours per week.</p>
+      } @else if (shownYears() === undefined) {
+        <p class="empty">{{ error() ? 'Waiting for the server.' : 'Loading the syllabus...' }}</p>
+      } @else {
+        <p class="empty">The {{ chosen() }} syllabus has not been added yet.</p>
+      }
+    </section>
+  }
 </main>
